@@ -1,0 +1,6 @@
+framework module Pods_EFMarkdown_Example {
+  umbrella header "Pods-EFMarkdown_Example-umbrella.h"
+
+  export *
+  module * { export * }
+}

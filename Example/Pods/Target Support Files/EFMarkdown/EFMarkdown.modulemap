@@ -1,0 +1,6 @@
+framework module EFMarkdown {
+  umbrella header "EFMarkdown-umbrella.h"
+
+  export *
+  module * { export * }
+}

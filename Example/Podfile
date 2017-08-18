@@ -3,6 +3,8 @@ use_frameworks!
 target 'EFMarkdown_Example' do
   pod 'EFMarkdown', :path => '../'
 
+  pod 'EFCMark'
+
   target 'EFMarkdown_Tests' do
     inherit! :search_paths
 

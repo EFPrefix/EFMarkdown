@@ -1,0 +1,20 @@
+PODS:
+  - EFCMark (0.0.1)
+  - EFMarkdown (0.0.1):
+    - EFCMark
+
+DEPENDENCIES:
+  - EFCMark
+  - EFMarkdown (from `../`)
+
+EXTERNAL SOURCES:
+  EFMarkdown:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  EFCMark: 384f782f489f104c590dc375b9de902de37ebca3
+  EFMarkdown: 4dfb31b96fcd2571cdba6094bcdc91468e52a360
+
+PODFILE CHECKSUM: baf9f7a3b9d2839563b1e75bde9539f0ab0a9dff
+
+COCOAPODS: 1.2.1

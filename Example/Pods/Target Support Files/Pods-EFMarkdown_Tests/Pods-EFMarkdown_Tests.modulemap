@@ -1,0 +1,6 @@
+framework module Pods_EFMarkdown_Tests {
+  umbrella header "Pods-EFMarkdown_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}
