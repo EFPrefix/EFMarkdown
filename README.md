@@ -31,8 +31,13 @@ pod "EFMarkdown"
 
 ```swift
 let markdown = "# Hello"
-let html = try markdownToHTML(markdown)
+var html = ""
+do {
+html = try EFMarkdown.markdownToHTML(markdown)
 print(html) // This will return "<h1>Hello</h1>\n"
+} catch let error as NSError {
+print ("Error: \(error.domain)")
+}
 ```
 
 ### Options
@@ -40,7 +45,7 @@ print(html) // This will return "<h1>Hello</h1>\n"
 You can pass different options to the underlying `cmark` library. By default `safe` is passed, but this can be explicitly done with:
 
 ```swift
-let html = try markdownToHTML(markdown, options: [.safe])
+let html = try EFMarkdown.markdownToHTML(markdown, options: [.safe])
 ```
 
 The available options are:
