@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'EFMarkdown_Example' do
+  pod 'EFMarkdown', :path => '../'
+
+  target 'EFMarkdown_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
