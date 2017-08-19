@@ -5,7 +5,7 @@
 [![License](https://img.shields.io/cocoapods/l/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
 [![Platform](https://img.shields.io/cocoapods/p/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
 
-A CocoaPods wrapper of [cmark](https://github.com/commonmark/cmark) in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
+A lightweight Markdown library in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
 
 ## Overview
 
@@ -59,7 +59,7 @@ self.view.addSubview(markView)
 markView.load(markdown: "# Hello", options: [.default])
 ```
 
-### Options
+### 3. Options
 
 You can pass different options to the underlying `cmark` library. By default `safe` is passed.
 
