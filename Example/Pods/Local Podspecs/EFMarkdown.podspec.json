@@ -2,7 +2,7 @@
   "name": "EFMarkdown",
   "version": "0.0.1",
   "summary": "A CocoaPods wrapper of cmark in Swift.",
-  "description": "A CocoaPods wrapper of cmark in Swift, based on brokenhandsio/cmark-gfm.",
+  "description": "A CocoaPods wrapper of cmark in Swift, based on EFCMark, inspired by vapor-community/markdown.",
   "homepage": "https://github.com/EyreFree/EFMarkdown",
   "license": {
     "type": "GPLv3",
@@ -20,6 +20,11 @@
     "ios": "8.0"
   },
   "source_files": "EFMarkdown/Classes/**/*",
+  "resource_bundles": {
+    "EFMarkdown": [
+      "EFMarkdown/Assets/**/*"
+    ]
+  },
   "dependencies": {
     "EFCMark": [
 

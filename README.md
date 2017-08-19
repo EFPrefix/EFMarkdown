@@ -5,7 +5,12 @@
 [![License](https://img.shields.io/cocoapods/l/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
 [![Platform](https://img.shields.io/cocoapods/p/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
 
-A CocoaPods wrapper of [cmark](https://github.com/commonmark/cmark) in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [vapor-community/markdown](https://github.com/vapor-community/markdown).
+A CocoaPods wrapper of [cmark](https://github.com/commonmark/cmark) in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
+
+## Overview
+
+![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample1.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample2.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample3.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample4.png)  
+:---------------------:|:---------------------:|:---------------------:|:---------------------:
 
 ## Example
 
@@ -27,36 +32,48 @@ pod "EFMarkdown"
 
 ## Usage
 
-### Markdown -> HTML
+### 1. Markdown -> HTML
+
+You can use `EFMarkdown` to make Markdown string to HTML string easily:
 
 ```swift
 let markdown = "# Hello"
 var html = ""
 do {
-html = try EFMarkdown.markdownToHTML(markdown)
-print(html) // This will return "<h1>Hello</h1>\n"
+    html = try EFMarkdown().markdownToHTML(markdown, options: EFMarkdownOptions.safe)
+    print(html) // This will return "<h1>Hello</h1>\n"
 } catch let error as NSError {
-print ("Error: \(error.domain)")
+    print ("Error: \(error.domain)")
 }
+```
+
+### 2. View Markdown
+
+You can use `EFMarkdownView` to make a preview of Markdown:
+
+```swift
+let screenSize = UIScreen.main.bounds
+let markView = EFMarkdownView()
+markView.frame = CGRect(x: 0, y: 20, width: screenSize.width, height: screenSize.height - 20)
+self.view.addSubview(markView)
+markView.load(markdown: "# Hello", options: [.default])
 ```
 
 ### Options
 
-You can pass different options to the underlying `cmark` library. By default `safe` is passed, but this can be explicitly done with:
-
-```swift
-let html = try EFMarkdown.markdownToHTML(markdown, options: [.safe])
-```
+You can pass different options to the underlying `cmark` library. By default `safe` is passed.
 
 The available options are:
 
-* sourcePosition
+* default
+* sourcePos
 * hardBreaks
 * safe
 * noBreaks
-* normalize
 * validateUTF8
-* smartQuotes
+* smart
+* githubPreLang
+* liberalHtmlTag
 
 For more information on the available options, see [`cmark`](https://github.com/github/cmark).
 

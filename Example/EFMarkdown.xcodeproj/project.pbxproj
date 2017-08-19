@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		12717AAD1F4856DF003A00BA /* sample1.md in Resources */ = {isa = PBXBuildFile; fileRef = 12717AAB1F4856BC003A00BA /* sample1.md */; };
+		12717AB01F485B31003A00BA /* sample2.md in Resources */ = {isa = PBXBuildFile; fileRef = 12717AAE1F485B29003A00BA /* sample2.md */; };
+		12717AB51F485C92003A00BA /* sample3.md in Resources */ = {isa = PBXBuildFile; fileRef = 12717AB11F485C85003A00BA /* sample3.md */; };
+		12717AB61F485C92003A00BA /* sample4.md in Resources */ = {isa = PBXBuildFile; fileRef = 12717AB21F485C85003A00BA /* sample4.md */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
 		607FACD81AFB9204008FA782 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD71AFB9204008FA782 /* ViewController.swift */; };
 		607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607FACD91AFB9204008FA782 /* Main.storyboard */; };
@@ -29,6 +33,10 @@
 
 /* Begin PBXFileReference section */
 		107A289339181E0E23C99AA9 /* Pods_EFMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFMarkdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		12717AAB1F4856BC003A00BA /* sample1.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sample1.md; sourceTree = "<group>"; };
+		12717AAE1F485B29003A00BA /* sample2.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sample2.md; sourceTree = "<group>"; };
+		12717AB11F485C85003A00BA /* sample3.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sample3.md; sourceTree = "<group>"; };
+		12717AB21F485C85003A00BA /* sample4.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = sample4.md; sourceTree = "<group>"; };
 		2C84BFE2FF429D36A9F733AB /* Pods-EFMarkdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFMarkdown_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.release.xcconfig"; sourceTree = "<group>"; };
 		607FACD01AFB9204008FA782 /* EFMarkdown_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EFMarkdown_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD41AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -40,10 +48,10 @@
 		607FACE51AFB9204008FA782 /* EFMarkdown_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFMarkdown_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		70FA4B29C7C160FB4BA62AB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		70FA4B29C7C160FB4BA62AB8 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		8844FE5241C10EC6070E5BC5 /* Pods-EFMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFMarkdown_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		8DB462CAF41E16E5D8C7CFA8 /* EFMarkdown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = EFMarkdown.podspec; path = ../EFMarkdown.podspec; sourceTree = "<group>"; };
-		95D74F8BF00CF99C134C0030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		8DB462CAF41E16E5D8C7CFA8 /* EFMarkdown.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = EFMarkdown.podspec; path = ../EFMarkdown.podspec; sourceTree = "<group>"; };
+		95D74F8BF00CF99C134C0030 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		A841B15F27504C04034503BD /* Pods-EFMarkdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFMarkdown_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		DB4EB9F924A86C57C950BFFA /* Pods_EFMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F62B36AA8CBD33959432242F /* Pods-EFMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-EFMarkdown_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
@@ -107,6 +115,10 @@
 		607FACD31AFB9204008FA782 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				12717AAB1F4856BC003A00BA /* sample1.md */,
+				12717AAE1F485B29003A00BA /* sample2.md */,
+				12717AB11F485C85003A00BA /* sample3.md */,
+				12717AB21F485C85003A00BA /* sample4.md */,
 				607FACD41AFB9204008FA782 /* Info.plist */,
 			);
 			name = "Supporting Files";
@@ -215,10 +227,12 @@
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P3X2725LYY;
 						LastSwiftMigration = 0820;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
+						DevelopmentTeam = P3X2725LYY;
 						LastSwiftMigration = 0820;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
@@ -248,6 +262,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				12717AAD1F4856DF003A00BA /* sample1.md in Resources */,
+				12717AB01F485B31003A00BA /* sample2.md in Resources */,
+				12717AB51F485C92003A00BA /* sample3.md in Resources */,
+				12717AB61F485C92003A00BA /* sample4.md in Resources */,
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
@@ -443,7 +461,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -483,7 +501,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -496,6 +514,7 @@
 			baseConfigurationReference = A841B15F27504C04034503BD /* Pods-EFMarkdown_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3X2725LYY;
 				INFOPLIST_FILE = EFMarkdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -510,6 +529,7 @@
 			baseConfigurationReference = 2C84BFE2FF429D36A9F733AB /* Pods-EFMarkdown_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = P3X2725LYY;
 				INFOPLIST_FILE = EFMarkdown/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
@@ -523,6 +543,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8844FE5241C10EC6070E5BC5 /* Pods-EFMarkdown_Tests.debug.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P3X2725LYY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
@@ -543,6 +564,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F62B36AA8CBD33959432242F /* Pods-EFMarkdown_Tests.release.xcconfig */;
 			buildSettings = {
+				DEVELOPMENT_TEAM = P3X2725LYY;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",

@@ -32,9 +32,9 @@ A CocoaPods wrapper of cmark in Swift, based on EFCMark, inspired by vapor-commu
 
   s.source_files = 'EFMarkdown/Classes/**/*'
   
-  # s.resource_bundles = {
-  #   'EFMarkdown' => ['EFMarkdown/Assets/*.png']
-  # }
+  s.resource_bundles = {
+    'EFMarkdown' => ['EFMarkdown/Assets/**/*']
+  }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'

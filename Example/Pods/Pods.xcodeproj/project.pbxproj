@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		011AAA85EB552D5A99149794C3A89541 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C432C580C11C3DFF0D82A2FE4A23EB7 /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		030C942B5251E94B23094E06BD94BC27 /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 32BE094CEA987126006947BB73927D3A /* ext_scanners.c */; };
+		0395E3D125517AF17B40735A10A68629 /* EFMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FA0CD864089B14C8FD21D3853839CA99 /* EFMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		0886393E5BCDFC47EDD32A8DC229DEFF /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 8F8486795350F13F87C63C697263203D /* syntax_extension.c */; };
+		09C586DDE1265ABE19AC74ECCC4F6FE7 /* EFMarkdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A29B7EBF5E6F7BA6F56EF96F5B63ED5B /* EFMarkdown.bundle */; };
 		0A1CBC11114C7B34403E6E874BE7FB9E /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D751971436BD02B987D6359CC32748C /* html.c */; };
 		0DC1D54EE8BD4B092682D83327C41970 /* EFCMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC99B536B0BE69638950C7BFECB6C96 /* EFCMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1248D7339E7398123526D556ADDD75A0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27398968B8C9E080A2A27F87548F183 /* Foundation.framework */; };
-		12E0E79A06A52C261B3FC2AC4B044413 /* EFMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6904ECDD09A9654E7BE823477C8E817F /* EFMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		159BA04571C5786A964327AABFA20FD0 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = C7779F4CAC815755EA205738F18975D5 /* plugin.c */; };
 		16BE65D536CB418B0CC5667D70FA6344 /* cmark_extension_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E620CEF332248690114A013D5D72CF8 /* cmark_extension_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1917575798EA56FF37F77DAD238B3DC0 /* registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D31E95FED04D51F36191B8B9F949F /* registry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -24,21 +24,24 @@
 		29F4EFED2C0804400F68545A34774C31 /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 314755545FC20821A52444881D2500DA /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2E8C32F097D828555BF69FF07EC8B3A4 /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 74CDDB53937F88926E4BFB747CCBB3AE /* blocks.c */; };
 		30C3E728CCC6367BFC08C675A8C2AEAF /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = C2600D51ACA525CA601C09F6CF8A85B9 /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		343D6B84B9C18BC98009D5A3479254F3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E27398968B8C9E080A2A27F87548F183 /* Foundation.framework */; };
 		346676CE0FD45E8BC7BB68928607911D /* core-extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = BBEE28C83DBF7BD9AD60CAA29CD3606C /* core-extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		35216B6651D31D4FE6B9D7C313D1A9BD /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B1D7901DA068688A221610422DB1CED /* iterator.c */; };
 		35D207E0AA9BADD36325C673BEDAE3CF /* EFCMark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F45F66B47E7910E8FA0A1E94DAEA41E /* EFCMark-dummy.m */; };
 		38C314E6A873C71EACD8F11E0A1E5A3B /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 4ECAC6DE41AAEEAFF23D7FC324A2BEEC /* inlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		3EAF0AF2B850A24C8BC6F3400B040A4F /* entities.inc in Sources */ = {isa = PBXBuildFile; fileRef = 57F353CA3A35E79ABF1B28A86ADF0C72 /* entities.inc */; };
+		404AA360F9EDB57AA40CBBF640C57569 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = F90B6B41148A7DCE9FDCF1CD335D5890 /* main.css */; };
 		4234B54927F4138659EEBF2476515ADF /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 3EC0AAAC94E68631FE1DCF664840A3E4 /* linked_list.c */; };
 		4734870EE1B26538D727F7481859F74A /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = ABA3355406329914147ED18B1478A1DB /* tagfilter.c */; };
 		47BBD59527547062409EB8E68AAAAEE9 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = C3238F1850A3BBE7CE7B89D200489AB4 /* registry.c */; };
 		4D1F3A34FB540D09EF3DA8EFE5F7EADC /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = C8043711E158172DDBAD5B1A9DC3B7AB /* render.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		4D3B89B6BAEA8AAD8048102C9181EA0B /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = E5F38FF00DB2FD2B4557EF4904D70D8B /* latex.c */; };
+		4D87C5CB93658E04CDDC59CB6AE50666 /* EFMarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94043E28B1D75FDA21410F1E70E3B766 /* EFMarkdownView.swift */; };
+		52CC7B8DEACEF7905626BB3B15B3F8AC /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = AB0CA467FF20BA96CBB2A65AEDE81182 /* vendor.js */; };
 		575CD7DD46910B7700A46F25EF415917 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = F05BE181793007A160BBD05C8B1C8BC7 /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		587F16A4145D805DB9F5436BB73D381F /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 4286AF666DF92AC3AF98A831CA6F1DB6 /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5B7048A4DA43D280EBF60F67BB99D479 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 994E797FD6B17B74C895E612C0F3BFFB /* xml.c */; };
 		5D9DCCAE48226460405E0AE7C52DA8C7 /* arena.c in Sources */ = {isa = PBXBuildFile; fileRef = 87DC805AA727C8991D6A609A22A64F0F /* arena.c */; };
-		60691CDBBDEFCE769FB10545992E8289 /* EFMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 17E1E5A321EFF7BF8A1EA9FCA956DA8F /* EFMarkdown.swift */; };
 		6300B3BA3402E883226064D8A10178DE /* syntax_extension.h in Headers */ = {isa = PBXBuildFile; fileRef = D1A81EAC9375E65F4576640D2117F014 /* syntax_extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6404BD79BFECA6A200D4485260CCE82B /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 0932BB3B99E4C3F6FEADEFD2F75312DC /* chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		682778135E8AF97989E2976F6A2641A8 /* case_fold_switch.inc in Sources */ = {isa = PBXBuildFile; fileRef = 7A58156DACFD6C12F566D5A20284CB83 /* case_fold_switch.inc */; };
@@ -52,9 +55,11 @@
 		72F7DD56F66892510C8B2E86C1A5A5A6 /* ext_scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 52BF12AF5B9B9EB279452AA6B45A77AD /* ext_scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8234E16573B35164CEFD40AFA9C3027E /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 660360B11668001CF8FA0457153226CD /* houdini_html_e.c */; };
 		833DA73C3C11884CBFC12E34A30D7D78 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = 67C2C88A038D7F655D7DD05092ECBECB /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B1EC181413D2B00413B0837C1D16E1C /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 676CF55E78B070D795428EB770E9A2B6 /* index.html */; };
 		8E0DE774345CC290F68DAA436158CEC5 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = F020F9CA8692D01DB3DDDC1CCF6F10B1 /* references.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		91447A926C529BE9117D5E1E7A698755 /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 72EBB6D34D721D93847CB04D98DACD16 /* plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9256195CCE6B0E7BE352F6412B3AC633 /* Pods-EFMarkdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DFBE31069AB1507596542F7480DBCE9 /* Pods-EFMarkdown_Example-dummy.m */; };
+		95F284A807C6BFF8E0AF6A704D64664D /* EFMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E1D67E5138FE7D9FF96F099AE376DE9 /* EFMarkdown-dummy.m */; };
 		9EF8E432C5B614452E5F2D02F2607BC2 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = C343F1C6B8996E8C7B02D85C0A56AFB8 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9F33CA479219D279F8C75C4117CBB9CA /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = F2F250DD5E3B1BA8FC3ACDC741FE7A6B /* table.c */; };
 		A11AEADB8635E7A24A4405D5B5E116C9 /* core-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 7D177F0D37CF93A956600FDABBA0DB67 /* core-extensions.c */; };
@@ -67,25 +72,33 @@
 		B7FC327F727C5280C935CE401F25BF0C /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 85C49ACD1490FF7E416A74769E4FAC1F /* cmark_ctype.c */; };
 		B953D781AA07AE0C0BEE4F673F7EA10A /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 434692F97A45774D943723FBC031E497 /* render.c */; };
 		BB36C026F1AAB4077A64FFC9851F53D7 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 873B82986B36465332485C0B4D0991C8 /* references.c */; };
-		C4556C53ED4497D166C5D2576F0130BC /* EFMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB6850577E09ED1EFBDF8DB58AE21558 /* EFMarkdown-dummy.m */; };
+		C8F34DC79BBA26BE210DDBB32D336051 /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 6181D240697C7F0189378838C15F7C8E /* main.js */; };
 		CD89987FD75C71CA34DA31DDF45B3571 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 60AB79FAB042BC061FD01F78ADEAC6BD /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CF208B3F2472CA2FAA3465F65DE20942 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 51185EA617E98B292D3677C84FA95711 /* inlines.c */; };
 		CF2B0E279BC817F9353E03B6F19AB87F /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = E00042B3C5FF25EBCC857B57B4C4AE65 /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D0C7A6A39E44D3B1085CEB3FAF87B1DB /* strikethrough.h in Headers */ = {isa = PBXBuildFile; fileRef = 45454C656F8795F38E96B81DD7062C21 /* strikethrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D25E3490DD73A9E2C02BED8521124E1C /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = BD6892BEC3BBE30FB94C53ABE5D65E26 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D3CAEDBDFA10B6C492C27B8B08515C00 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = F558BDE38FA7477F69E989D46E130173 /* node.c */; };
+		D442E9429AC917452B928F784918A8A9 /* EFCMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2DE39323E1B309C662CAC32405C6C /* EFCMark.framework */; };
 		D50E089413146B973B9110E89F91BE0E /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = FEC4B8709ED9940409BE23BEEDA2B5AC /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DACB6355898A9A2D02B41A9166CC882E /* tagfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 1988CB57CB4643F34A9828FC1D85EE5C /* tagfilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DB0C57750EF963EC87E1D9E6D9567C29 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = D6672C74D29ADC89D022092B84DAD5E4 /* buffer.c */; };
 		DB75579B2030A79FCD3FFF3EA376860E /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = EF02B4EDF56CE9DE8EEF854DDCAAC23F /* man.c */; };
-		E25047812488071BF6033EE300B35063 /* EFCMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2DE39323E1B309C662CAC32405C6C /* EFCMark.framework */; };
 		E309437C98FCD3C9446EFA7F86909DEE /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = A2DDCD2CE6569878B79E39D07E3BAA3F /* scanners.c */; };
 		E3C3B472E701F26950145A1409677201 /* Pods-EFMarkdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 74234FF27E29524B3EA271F30828AA80 /* Pods-EFMarkdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E43DD61BE0858DD6451E455A35CA07CF /* Pods-EFMarkdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EAC1E6403703D3963893A8BDC349AE37 /* Pods-EFMarkdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E5BC9529CFA3373DD3AD621EED58C29E /* EFMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C82B65FF50BD42864C463958ED70869 /* EFMarkdown.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		2EBF83E0B5F6B7092E1842257C4F4E01 /* PBXContainerItemProxy */ = {
+		12A666262506DE5E0C513CD424482FDD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C33D5B0BA16312E909E4EEF220938A76;
+			remoteInfo = "EFMarkdown-EFMarkdown";
+		};
+		4DEFD9098885F65803764A5BE97D5275 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
@@ -103,21 +116,20 @@
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = F737E983333E631541A59D978C500DED;
+			remoteGlobalIDString = 6AE227E3D1B02246D7A5B7FF32E2EC26;
 			remoteInfo = EFMarkdown;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		07D778C31608155DD4163521DDA6F2CC /* EFMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EFMarkdown.modulemap; sourceTree = "<group>"; };
-		07FFCE60D681608B2CB3248546A3A6AD /* EFMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFMarkdown.xcconfig; sourceTree = "<group>"; };
 		092B2594B99F7AE7A623068D74671972 /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = autolink.c; path = EFCMark/Classes/cmark/autolink.c; sourceTree = "<group>"; };
 		0932BB3B99E4C3F6FEADEFD2F75312DC /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = EFCMark/Classes/cmark/chunk.h; sourceTree = "<group>"; };
+		0E1D67E5138FE7D9FF96F099AE376DE9 /* EFMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFMarkdown-dummy.m"; sourceTree = "<group>"; };
 		0F4BB1FDE68D76A7FEFF60EC13695527 /* Pods-EFMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		17E1E5A321EFF7BF8A1EA9FCA956DA8F /* EFMarkdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EFMarkdown.swift; sourceTree = "<group>"; };
 		1988CB57CB4643F34A9828FC1D85EE5C /* tagfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tagfilter.h; path = EFCMark/Classes/cmark/tagfilter.h; sourceTree = "<group>"; };
 		1FB04062AE586131F9F18F7EF1E6BCBC /* plaintext.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = plaintext.c; path = EFCMark/Classes/cmark/plaintext.c; sourceTree = "<group>"; };
 		218F09754D1A9E4C2C730DAC2EC48480 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = EFCMark/Classes/cmark/config.h; sourceTree = "<group>"; };
+		25C54F0EBE1B4352AF13745095F3F4A2 /* Pods_EFMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AC99B536B0BE69638950C7BFECB6C96 /* EFCMark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCMark-umbrella.h"; sourceTree = "<group>"; };
 		2B1D7901DA068688A221610422DB1CED /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = iterator.c; path = EFCMark/Classes/cmark/iterator.c; sourceTree = "<group>"; };
 		2C3C5845C614BDC79BE477DB7015543B /* Pods-EFMarkdown_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFMarkdown_Tests-resources.sh"; sourceTree = "<group>"; };
@@ -133,8 +145,6 @@
 		4286AF666DF92AC3AF98A831CA6F1DB6 /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html.h; path = EFCMark/Classes/cmark/html.h; sourceTree = "<group>"; };
 		434692F97A45774D943723FBC031E497 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = render.c; path = EFCMark/Classes/cmark/render.c; sourceTree = "<group>"; };
 		45454C656F8795F38E96B81DD7062C21 /* strikethrough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strikethrough.h; path = EFCMark/Classes/cmark/strikethrough.h; sourceTree = "<group>"; };
-		4815A5134F80923E0B0CB00BAB93B7FA /* EFMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-prefix.pch"; sourceTree = "<group>"; };
-		4877759B7CA2BEEA86C93E47BECDA7E6 /* Pods_EFMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFMarkdown_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4ECAC6DE41AAEEAFF23D7FC324A2BEEC /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = EFCMark/Classes/cmark/inlines.h; sourceTree = "<group>"; };
 		51185EA617E98B292D3677C84FA95711 /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = inlines.c; path = EFCMark/Classes/cmark/inlines.c; sourceTree = "<group>"; };
 		52BF12AF5B9B9EB279452AA6B45A77AD /* ext_scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ext_scanners.h; path = EFCMark/Classes/cmark/ext_scanners.h; sourceTree = "<group>"; };
@@ -143,12 +153,13 @@
 		5E158FFF03FA9009AD9F579D1D7074E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		60AB79FAB042BC061FD01F78ADEAC6BD /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = EFCMark/Classes/cmark/cmark_export.h; sourceTree = "<group>"; };
 		615AEDC87FFDA04CCAC99F27E50F4BFA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		619F1F7D8F1E33A0344D328A164D38CF /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6181D240697C7F0189378838C15F7C8E /* main.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = main.js; sourceTree = "<group>"; };
 		660360B11668001CF8FA0457153226CD /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_html_e.c; path = EFCMark/Classes/cmark/houdini_html_e.c; sourceTree = "<group>"; };
+		676CF55E78B070D795428EB770E9A2B6 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.html; path = index.html; sourceTree = "<group>"; };
 		67C2C88A038D7F655D7DD05092ECBECB /* autolink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = EFCMark/Classes/cmark/autolink.h; sourceTree = "<group>"; };
-		6904ECDD09A9654E7BE823477C8E817F /* EFMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-umbrella.h"; sourceTree = "<group>"; };
-		69343AFB084359CA6BABCD215D7C8E8C /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6C82B65FF50BD42864C463958ED70869 /* EFMarkdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EFMarkdown.swift; sourceTree = "<group>"; };
 		6E620CEF332248690114A013D5D72CF8 /* cmark_extension_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_extension_api.h; path = EFCMark/Classes/cmark/cmark_extension_api.h; sourceTree = "<group>"; };
+		6F3AAFBA27B2C85A6337B2E53F584887 /* EFMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		72EBB6D34D721D93847CB04D98DACD16 /* plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plugin.h; path = EFCMark/Classes/cmark/plugin.h; sourceTree = "<group>"; };
 		74234FF27E29524B3EA271F30828AA80 /* Pods-EFMarkdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFMarkdown_Example-umbrella.h"; sourceTree = "<group>"; };
 		74CDDB53937F88926E4BFB747CCBB3AE /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = blocks.c; path = EFCMark/Classes/cmark/blocks.c; sourceTree = "<group>"; };
@@ -159,28 +170,29 @@
 		81D4EFF8B497350BA8A48CFE9D6D9FCC /* strikethrough.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = strikethrough.c; path = EFCMark/Classes/cmark/strikethrough.c; sourceTree = "<group>"; };
 		843D31E95FED04D51F36191B8B9F949F /* registry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = registry.h; path = EFCMark/Classes/cmark/registry.h; sourceTree = "<group>"; };
 		85C49ACD1490FF7E416A74769E4FAC1F /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cmark_ctype.c; path = EFCMark/Classes/cmark/cmark_ctype.c; sourceTree = "<group>"; };
+		86EA8991B17EF9C1926365D15A46FB8E /* EFMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EFMarkdown.modulemap; sourceTree = "<group>"; };
 		873B82986B36465332485C0B4D0991C8 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = references.c; path = EFCMark/Classes/cmark/references.c; sourceTree = "<group>"; };
 		87DC805AA727C8991D6A609A22A64F0F /* arena.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = arena.c; path = EFCMark/Classes/cmark/arena.c; sourceTree = "<group>"; };
 		8982DCD6640BD1BE53DD8B676A45B9D6 /* Pods-EFMarkdown_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFMarkdown_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		8D751971436BD02B987D6359CC32748C /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = html.c; path = EFCMark/Classes/cmark/html.c; sourceTree = "<group>"; };
-		8F0F89C1283D2D7A676C3453D3E3C7FE /* EFMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F8486795350F13F87C63C697263203D /* syntax_extension.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = syntax_extension.c; path = EFCMark/Classes/cmark/syntax_extension.c; sourceTree = "<group>"; };
 		8FDEBF361D274969361086BC7898778B /* Pods-EFMarkdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFMarkdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		913B16880D7C8D145EBF084D09D68542 /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = utf8.c; path = EFCMark/Classes/cmark/utf8.c; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		94043E28B1D75FDA21410F1E70E3B766 /* EFMarkdownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = EFMarkdownView.swift; sourceTree = "<group>"; };
 		994E797FD6B17B74C895E612C0F3BFFB /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = xml.c; path = EFCMark/Classes/cmark/xml.c; sourceTree = "<group>"; };
 		9997515A7B97D10E51528EA2CEA589E9 /* Pods-EFMarkdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EFMarkdown_Example.modulemap"; sourceTree = "<group>"; };
 		9D2A3FA87D43E7ADC9B8572EB7E2DDEA /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_html_u.c; path = EFCMark/Classes/cmark/houdini_html_u.c; sourceTree = "<group>"; };
 		9F9697B784EEAC2E797618EC587E93EA /* Pods-EFMarkdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
 		A184EA216E8E86C909442C1C334223C5 /* Pods-EFMarkdown_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFMarkdown_Example-resources.sh"; sourceTree = "<group>"; };
+		A29B7EBF5E6F7BA6F56EF96F5B63ED5B /* EFMarkdown.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = EFMarkdown.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
 		A2DDCD2CE6569878B79E39D07E3BAA3F /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = scanners.c; path = EFCMark/Classes/cmark/scanners.c; sourceTree = "<group>"; };
+		AB0CA467FF20BA96CBB2A65AEDE81182 /* vendor.js */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.javascript; path = vendor.js; sourceTree = "<group>"; };
 		AB99D61D4DDB795F105E8B0B0263699C /* Pods-EFMarkdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFMarkdown_Tests-dummy.m"; sourceTree = "<group>"; };
 		ABA3355406329914147ED18B1478A1DB /* tagfilter.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = tagfilter.c; path = EFCMark/Classes/cmark/tagfilter.c; sourceTree = "<group>"; };
 		AE328808722045C206934C07B58FF9A6 /* Pods-EFMarkdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		B30388503B09BE74EF3509AF210A2B71 /* Pods_EFMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFMarkdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B71DD2BC4D8362B0736872690E0F4C2D /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = EFCMark/Classes/cmark/scanners.h; sourceTree = "<group>"; };
 		BB286F6852AFCCD89AB9E3998C7C3B95 /* Pods-EFMarkdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFMarkdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		BB6850577E09ED1EFBDF8DB58AE21558 /* EFMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFMarkdown-dummy.m"; sourceTree = "<group>"; };
 		BBEE28C83DBF7BD9AD60CAA29CD3606C /* core-extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "core-extensions.h"; path = "EFCMark/Classes/cmark/core-extensions.h"; sourceTree = "<group>"; };
 		BD6892BEC3BBE30FB94C53ABE5D65E26 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = EFCMark/Classes/cmark/houdini.h; sourceTree = "<group>"; };
 		C09D818A5F616EDE7114A736C48208EB /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = houdini_href_e.c; path = EFCMark/Classes/cmark/houdini_href_e.c; sourceTree = "<group>"; };
@@ -190,16 +202,21 @@
 		C343F1C6B8996E8C7B02D85C0A56AFB8 /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = EFCMark/Classes/cmark/cmark_ctype.h; sourceTree = "<group>"; };
 		C7779F4CAC815755EA205738F18975D5 /* plugin.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = plugin.c; path = EFCMark/Classes/cmark/plugin.c; sourceTree = "<group>"; };
 		C8043711E158172DDBAD5B1A9DC3B7AB /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = EFCMark/Classes/cmark/render.h; sourceTree = "<group>"; };
+		C9DB4ACFA616963CFBCE3701AF582101 /* EFMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFMarkdown.xcconfig; sourceTree = "<group>"; };
 		CCC4EDC5B2E0907385E8ED5037DBF571 /* cmarkextensions_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmarkextensions_export.h; path = EFCMark/Classes/cmark/cmarkextensions_export.h; sourceTree = "<group>"; };
+		CE805AB794CC495D7C543870A980DE15 /* EFMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-prefix.pch"; sourceTree = "<group>"; };
 		D1A81EAC9375E65F4576640D2117F014 /* syntax_extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = syntax_extension.h; path = EFCMark/Classes/cmark/syntax_extension.h; sourceTree = "<group>"; };
 		D6672C74D29ADC89D022092B84DAD5E4 /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = buffer.c; path = EFCMark/Classes/cmark/buffer.c; sourceTree = "<group>"; };
 		DCA8CE54C61A6ECB0FEDD79AB02DF11A /* Pods-EFMarkdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-EFMarkdown_Tests.modulemap"; sourceTree = "<group>"; };
 		DD4498279888142B3FFE4F4A69DDC6F4 /* EFCMark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCMark-prefix.pch"; sourceTree = "<group>"; };
+		DD51002604894129BE9C8B2EF06BCB6C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DFF2DE39323E1B309C662CAC32405C6C /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E00042B3C5FF25EBCC857B57B4C4AE65 /* table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table.h; path = EFCMark/Classes/cmark/table.h; sourceTree = "<group>"; };
 		E1FAEBD667CDB5FAA9F3E55D57E3C31C /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = cmark.c; path = EFCMark/Classes/cmark/cmark.c; sourceTree = "<group>"; };
 		E27398968B8C9E080A2A27F87548F183 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		E37B6D2B19865E6FF5D74C0E17049E2C /* Pods_EFMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_EFMarkdown_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E5F38FF00DB2FD2B4557EF4904D70D8B /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = latex.c; path = EFCMark/Classes/cmark/latex.c; sourceTree = "<group>"; };
+		E67E7C33C90FE52760A3150B56A0B63E /* ResourceBundle-EFMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EFMarkdown-Info.plist"; sourceTree = "<group>"; };
 		EAC1E6403703D3963893A8BDC349AE37 /* Pods-EFMarkdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFMarkdown_Tests-umbrella.h"; sourceTree = "<group>"; };
 		EF02B4EDF56CE9DE8EEF854DDCAAC23F /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = man.c; path = EFCMark/Classes/cmark/man.c; sourceTree = "<group>"; };
 		EFF192100AEFDEF6DA2B6947C56D9836 /* Pods-EFMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -207,18 +224,19 @@
 		F05BE181793007A160BBD05C8B1C8BC7 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = EFCMark/Classes/cmark/node.h; sourceTree = "<group>"; };
 		F18AAA32D2E325B1088FEF28A3FD2DEE /* Pods-EFMarkdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
 		F2F250DD5E3B1BA8FC3ACDC741FE7A6B /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = table.c; path = EFCMark/Classes/cmark/table.c; sourceTree = "<group>"; };
+		F327FAE4F998421CD195A5BC0B9A4DD0 /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		F558BDE38FA7477F69E989D46E130173 /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = node.c; path = EFCMark/Classes/cmark/node.c; sourceTree = "<group>"; };
+		F90B6B41148A7DCE9FDCF1CD335D5890 /* main.css */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.css; path = main.css; sourceTree = "<group>"; };
+		FA0CD864089B14C8FD21D3853839CA99 /* EFMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-umbrella.h"; sourceTree = "<group>"; };
 		FA5E61CF6EA0DAFB3627358D0FCE2C6E /* EFCMark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = EFCMark.modulemap; sourceTree = "<group>"; };
 		FEC4B8709ED9940409BE23BEEDA2B5AC /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = EFCMark/Classes/cmark/utf8.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		0E1D292B86C47A80CFEC2BDCC036D904 /* Frameworks */ = {
+		5F926DD3B27432D18ABC839F8452E823 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E25047812488071BF6033EE300B35063 /* EFCMark.framework in Frameworks */,
-				1248D7339E7398123526D556ADDD75A0 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -227,6 +245,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				24C6D997BCB6773470CC81DFF4A00E6A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		992D6F33575228C97419AD0C8E7518F9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D442E9429AC917452B928F784918A8A9 /* EFCMark.framework in Frameworks */,
+				343D6B84B9C18BC98009D5A3479254F3 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -267,12 +294,28 @@
 			path = "Target Support Files/Pods-EFMarkdown_Tests";
 			sourceTree = "<group>";
 		};
-		1D506885115C9383D2B7666D72D1862A /* Development Pods */ = {
+		0E4DEEA2082902FDB77AA9DD03449248 /* EFMarkdown */ = {
 			isa = PBXGroup;
 			children = (
-				F7B994A13E9DEF0E55F2A412EDB4B60E /* EFMarkdown */,
+				D19BCBAC87C08B457F0DAB8EBD43785A /* Assets */,
 			);
-			name = "Development Pods";
+			path = EFMarkdown;
+			sourceTree = "<group>";
+		};
+		1B89A701F0F38AD466389E1EEF2B53CA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0E4DEEA2082902FDB77AA9DD03449248 /* EFMarkdown */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		2681118915ECFBB0E8BAB99F0E10C936 /* EFMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				73AF4EBDFAD03961A1ACE0481D712948 /* Classes */,
+			);
+			path = EFMarkdown;
 			sourceTree = "<group>";
 		};
 		292D9AABF17814001F79BAC7DC1F8915 /* iOS */ = {
@@ -299,20 +342,6 @@
 			);
 			name = "Pods-EFMarkdown_Example";
 			path = "Target Support Files/Pods-EFMarkdown_Example";
-			sourceTree = "<group>";
-		};
-		363A3EADB368B71E74D7ECC859D87B0C /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				07D778C31608155DD4163521DDA6F2CC /* EFMarkdown.modulemap */,
-				07FFCE60D681608B2CB3248546A3A6AD /* EFMarkdown.xcconfig */,
-				BB6850577E09ED1EFBDF8DB58AE21558 /* EFMarkdown-dummy.m */,
-				4815A5134F80923E0B0CB00BAB93B7FA /* EFMarkdown-prefix.pch */,
-				6904ECDD09A9654E7BE823477C8E817F /* EFMarkdown-umbrella.h */,
-				619F1F7D8F1E33A0344D328A164D38CF /* Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EFMarkdown";
 			sourceTree = "<group>";
 		};
 		38BB4ED53379D02E1D7DD4C311829B04 /* EFCMark */ = {
@@ -384,33 +413,38 @@
 			path = EFCMark;
 			sourceTree = "<group>";
 		};
-		713283B6FA07074D82650C98B8EB6FE8 /* Classes */ = {
+		532B2348166836F2A542A42EFDBF51AA /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				17E1E5A321EFF7BF8A1EA9FCA956DA8F /* EFMarkdown.swift */,
+				86EA8991B17EF9C1926365D15A46FB8E /* EFMarkdown.modulemap */,
+				C9DB4ACFA616963CFBCE3701AF582101 /* EFMarkdown.xcconfig */,
+				0E1D67E5138FE7D9FF96F099AE376DE9 /* EFMarkdown-dummy.m */,
+				CE805AB794CC495D7C543870A980DE15 /* EFMarkdown-prefix.pch */,
+				FA0CD864089B14C8FD21D3853839CA99 /* EFMarkdown-umbrella.h */,
+				DD51002604894129BE9C8B2EF06BCB6C /* Info.plist */,
+				E67E7C33C90FE52760A3150B56A0B63E /* ResourceBundle-EFMarkdown-Info.plist */,
 			);
-			path = Classes;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EFMarkdown";
 			sourceTree = "<group>";
 		};
-		7D8AF6A950F46BBD6AA57B2EE12D9933 /* Products */ = {
+		73AF4EBDFAD03961A1ACE0481D712948 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				69343AFB084359CA6BABCD215D7C8E8C /* EFCMark.framework */,
-				8F0F89C1283D2D7A676C3453D3E3C7FE /* EFMarkdown.framework */,
-				4877759B7CA2BEEA86C93E47BECDA7E6 /* Pods_EFMarkdown_Example.framework */,
-				B30388503B09BE74EF3509AF210A2B71 /* Pods_EFMarkdown_Tests.framework */,
+				6C82B65FF50BD42864C463958ED70869 /* EFMarkdown.swift */,
+				94043E28B1D75FDA21410F1E70E3B766 /* EFMarkdownView.swift */,
 			);
-			name = Products;
+			path = Classes;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				1D506885115C9383D2B7666D72D1862A /* Development Pods */,
+				BD5EA165E5DC049DB04465A051013038 /* Development Pods */,
 				AA9CB89EAF13317AB5951A55935932C1 /* Frameworks */,
 				DD0D23160C2CB24B1BDC18111E5AFF55 /* Pods */,
-				7D8AF6A950F46BBD6AA57B2EE12D9933 /* Products */,
+				C9E9679C88E0D53F8875176464B00A4E /* Products */,
 				9C2B0300EDC0D85AA9FF790F3C2FAE23 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -433,12 +467,46 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BD294ADC30B977539722B3FC323ABB03 /* EFMarkdown */ = {
+		BD5EA165E5DC049DB04465A051013038 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				713283B6FA07074D82650C98B8EB6FE8 /* Classes */,
+				DCC1B069DF2F189CBD60CDCE2DE158D6 /* EFMarkdown */,
 			);
-			path = EFMarkdown;
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C9E9679C88E0D53F8875176464B00A4E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F327FAE4F998421CD195A5BC0B9A4DD0 /* EFCMark.framework */,
+				A29B7EBF5E6F7BA6F56EF96F5B63ED5B /* EFMarkdown.bundle */,
+				6F3AAFBA27B2C85A6337B2E53F584887 /* EFMarkdown.framework */,
+				25C54F0EBE1B4352AF13745095F3F4A2 /* Pods_EFMarkdown_Example.framework */,
+				E37B6D2B19865E6FF5D74C0E17049E2C /* Pods_EFMarkdown_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D19BCBAC87C08B457F0DAB8EBD43785A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				676CF55E78B070D795428EB770E9A2B6 /* index.html */,
+				F90B6B41148A7DCE9FDCF1CD335D5890 /* main.css */,
+				6181D240697C7F0189378838C15F7C8E /* main.js */,
+				AB0CA467FF20BA96CBB2A65AEDE81182 /* vendor.js */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		DCC1B069DF2F189CBD60CDCE2DE158D6 /* EFMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				2681118915ECFBB0E8BAB99F0E10C936 /* EFMarkdown */,
+				1B89A701F0F38AD466389E1EEF2B53CA /* Resources */,
+				532B2348166836F2A542A42EFDBF51AA /* Support Files */,
+			);
+			name = EFMarkdown;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		DD0D23160C2CB24B1BDC18111E5AFF55 /* Pods */ = {
@@ -447,16 +515,6 @@
 				38BB4ED53379D02E1D7DD4C311829B04 /* EFCMark */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		F7B994A13E9DEF0E55F2A412EDB4B60E /* EFMarkdown */ = {
-			isa = PBXGroup;
-			children = (
-				BD294ADC30B977539722B3FC323ABB03 /* EFMarkdown */,
-				363A3EADB368B71E74D7ECC859D87B0C /* Support Files */,
-			);
-			name = EFMarkdown;
-			path = ../..;
 			sourceTree = "<group>";
 		};
 		FBCBFF7D986ADE8B6495DB03799BC2BD /* Support Files */ = {
@@ -528,11 +586,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		A0BEABB4B19C0E5A4A6EC4F8B1D75FD5 /* Headers */ = {
+		B930BF92CC70692E2A1F21E75D8AF256 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				12E0E79A06A52C261B3FC2AC4B044413 /* EFMarkdown-umbrella.h in Headers */,
+				0395E3D125517AF17B40735A10A68629 /* EFMarkdown-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -553,7 +611,7 @@
 			);
 			name = "Pods-EFMarkdown_Tests";
 			productName = "Pods-EFMarkdown_Tests";
-			productReference = B30388503B09BE74EF3509AF210A2B71 /* Pods_EFMarkdown_Tests.framework */;
+			productReference = E37B6D2B19865E6FF5D74C0E17049E2C /* Pods_EFMarkdown_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		506D36A013098109E5778B923F490C34 /* EFCMark */ = {
@@ -570,7 +628,7 @@
 			);
 			name = EFCMark;
 			productName = EFCMark;
-			productReference = 69343AFB084359CA6BABCD215D7C8E8C /* EFCMark.framework */;
+			productReference = F327FAE4F998421CD195A5BC0B9A4DD0 /* EFCMark.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 		677430EF16C6138CB2816D9A5B8B6984 /* Pods-EFMarkdown_Example */ = {
@@ -589,26 +647,45 @@
 			);
 			name = "Pods-EFMarkdown_Example";
 			productName = "Pods-EFMarkdown_Example";
-			productReference = 4877759B7CA2BEEA86C93E47BECDA7E6 /* Pods_EFMarkdown_Example.framework */;
+			productReference = 25C54F0EBE1B4352AF13745095F3F4A2 /* Pods_EFMarkdown_Example.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F737E983333E631541A59D978C500DED /* EFMarkdown */ = {
+		6AE227E3D1B02246D7A5B7FF32E2EC26 /* EFMarkdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 71C7577C86AD2DD8A4C6C4A027DE1CBB /* Build configuration list for PBXNativeTarget "EFMarkdown" */;
+			buildConfigurationList = A8DAF8E996079CC3DE120782BC23F17E /* Build configuration list for PBXNativeTarget "EFMarkdown" */;
 			buildPhases = (
-				8EF1A26032C4F4D6BA77EA6FB17D7FA6 /* Sources */,
-				0E1D292B86C47A80CFEC2BDCC036D904 /* Frameworks */,
-				A0BEABB4B19C0E5A4A6EC4F8B1D75FD5 /* Headers */,
+				DB23D2BC29BF13209FDEFD144850D6EE /* Sources */,
+				992D6F33575228C97419AD0C8E7518F9 /* Frameworks */,
+				63C51194750B609BB364BB75BF2756D6 /* Resources */,
+				B930BF92CC70692E2A1F21E75D8AF256 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8B9CD57EEAB95F7EC9797C72D9E6594A /* PBXTargetDependency */,
+				6EFA62458D47F69AB7C305F1FE240CE6 /* PBXTargetDependency */,
+				D8D36CD5863B055F16910D57CA312DCD /* PBXTargetDependency */,
 			);
 			name = EFMarkdown;
 			productName = EFMarkdown;
-			productReference = 8F0F89C1283D2D7A676C3453D3E3C7FE /* EFMarkdown.framework */;
+			productReference = 6F3AAFBA27B2C85A6337B2E53F584887 /* EFMarkdown.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		C33D5B0BA16312E909E4EEF220938A76 /* EFMarkdown-EFMarkdown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 53B56BB9BCF350F645F06D6FACA26883 /* Build configuration list for PBXNativeTarget "EFMarkdown-EFMarkdown" */;
+			buildPhases = (
+				D167B22B65A70CC76912B5F4D4AC98C4 /* Sources */,
+				5F926DD3B27432D18ABC839F8452E823 /* Frameworks */,
+				D174F586D9DC4B7FF7605CF4123D6B90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "EFMarkdown-EFMarkdown";
+			productName = "EFMarkdown-EFMarkdown";
+			productReference = A29B7EBF5E6F7BA6F56EF96F5B63ED5B /* EFMarkdown.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
@@ -627,17 +704,40 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 7D8AF6A950F46BBD6AA57B2EE12D9933 /* Products */;
+			productRefGroup = C9E9679C88E0D53F8875176464B00A4E /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				506D36A013098109E5778B923F490C34 /* EFCMark */,
-				F737E983333E631541A59D978C500DED /* EFMarkdown */,
+				6AE227E3D1B02246D7A5B7FF32E2EC26 /* EFMarkdown */,
+				C33D5B0BA16312E909E4EEF220938A76 /* EFMarkdown-EFMarkdown */,
 				677430EF16C6138CB2816D9A5B8B6984 /* Pods-EFMarkdown_Example */,
 				0D4013AEFDF8C1C61553EE4E57B097CA /* Pods-EFMarkdown_Tests */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63C51194750B609BB364BB75BF2756D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09C586DDE1265ABE19AC74ECCC4F6FE7 /* EFMarkdown.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D174F586D9DC4B7FF7605CF4123D6B90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8B1EC181413D2B00413B0837C1D16E1C /* index.html in Resources */,
+				404AA360F9EDB57AA40CBBF640C57569 /* main.css in Resources */,
+				C8F34DC79BBA26BE210DDBB32D336051 /* main.js in Resources */,
+				52CC7B8DEACEF7905626BB3B15B3F8AC /* vendor.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		0F6A1844EFF566E00CB121BC588471DB /* Sources */ = {
@@ -656,12 +756,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8EF1A26032C4F4D6BA77EA6FB17D7FA6 /* Sources */ = {
+		D167B22B65A70CC76912B5F4D4AC98C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C4556C53ED4497D166C5D2576F0130BC /* EFMarkdown-dummy.m in Sources */,
-				60691CDBBDEFCE769FB10545992E8289 /* EFMarkdown.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB23D2BC29BF13209FDEFD144850D6EE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95F284A807C6BFF8E0AF6A704D64664D /* EFMarkdown-dummy.m in Sources */,
+				E5BC9529CFA3373DD3AD621EED58C29E /* EFMarkdown.swift in Sources */,
+				4D87C5CB93658E04CDDC59CB6AE50666 /* EFMarkdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -709,96 +817,33 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		6EFA62458D47F69AB7C305F1FE240CE6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFCMark;
+			target = 506D36A013098109E5778B923F490C34 /* EFCMark */;
+			targetProxy = 4DEFD9098885F65803764A5BE97D5275 /* PBXContainerItemProxy */;
+		};
 		754B1F3675AEDA2F3741C9430C294158 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EFCMark;
 			target = 506D36A013098109E5778B923F490C34 /* EFCMark */;
 			targetProxy = DE4D868784394E16B23E0AF0BCC419D3 /* PBXContainerItemProxy */;
 		};
-		8B9CD57EEAB95F7EC9797C72D9E6594A /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EFCMark;
-			target = 506D36A013098109E5778B923F490C34 /* EFCMark */;
-			targetProxy = 2EBF83E0B5F6B7092E1842257C4F4E01 /* PBXContainerItemProxy */;
-		};
 		C262900FB8ADC2F9DC2D8468A1FE0709 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EFMarkdown;
-			target = F737E983333E631541A59D978C500DED /* EFMarkdown */;
+			target = 6AE227E3D1B02246D7A5B7FF32E2EC26 /* EFMarkdown */;
 			targetProxy = E8C1834C3E9FA8A7CDAB371B51F363CE /* PBXContainerItemProxy */;
+		};
+		D8D36CD5863B055F16910D57CA312DCD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "EFMarkdown-EFMarkdown";
+			target = C33D5B0BA16312E909E4EEF220938A76 /* EFMarkdown-EFMarkdown */;
+			targetProxy = 12A666262506DE5E0C513CD424482FDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		014BF2146404FF652740C2D625961CCA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07FFCE60D681608B2CB3248546A3A6AD /* EFMarkdown.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EFMarkdown/EFMarkdown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFMarkdown/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFMarkdown/EFMarkdown.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = EFMarkdown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		023D64337415A91DFE9BBF279CCCC0F7 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 07FFCE60D681608B2CB3248546A3A6AD /* EFMarkdown.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/EFMarkdown/EFMarkdown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFMarkdown/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFMarkdown/EFMarkdown.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = EFMarkdown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		1AF84D63E9BE2BC951E04AEE9CBF1A2C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1555C705DCF240D794E027208205BD1 /* EFCMark.xcconfig */;
@@ -832,7 +877,96 @@
 			};
 			name = Debug;
 		};
-		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+		1B03DD87F83374D5AB6A70DA5BB0B9BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DB4ACFA616963CFBCE3701AF582101 /* EFMarkdown.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EFMarkdown";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EFMarkdown/ResourceBundle-EFMarkdown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EFMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		4200C0A1715939FFB592C111CB2BA6AE /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 404D6FB4C308E751777D37E172F95215 /* Pods-EFMarkdown_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFMarkdown_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4B437F43D3EB965DB33BBBD65B2DBCB5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DB4ACFA616963CFBCE3701AF582101 /* EFMarkdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EFMarkdown/EFMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFMarkdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFMarkdown/EFMarkdown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = EFMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4E487F173E6C9664F4E9E26B9635D23C /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -872,7 +1006,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				ONLY_ACTIVE_ARCH = YES;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
@@ -913,7 +1047,170 @@
 			};
 			name = Release;
 		};
-		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+		59790A5006F7FB7C6206EED4B50BA421 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DB4ACFA616963CFBCE3701AF582101 /* EFMarkdown.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EFMarkdown";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/EFMarkdown/ResourceBundle-EFMarkdown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EFMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		5C49440B670144344CF59AFCC792A27A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C9DB4ACFA616963CFBCE3701AF582101 /* EFMarkdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/EFMarkdown/EFMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFMarkdown/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFMarkdown/EFMarkdown.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = EFMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		66EB7F16700F1B44ADCA735063B7D7D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EFF192100AEFDEF6DA2B6947C56D9836 /* Pods-EFMarkdown_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFMarkdown_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		74B172AA06F98955AFC34FEC277DF499 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE328808722045C206934C07B58FF9A6 /* Pods-EFMarkdown_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFMarkdown_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		BABFC339AFD82916F70CB34A327B3FC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F4BB1FDE68D76A7FEFF60EC13695527 /* Pods-EFMarkdown_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_EFMarkdown_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		BDD0139D6EB93FA375F887ABD62DAB2E /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -949,7 +1246,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
 				STRIP_INSTALLED_PRODUCT = NO;
 				SYMROOT = "${SRCROOT}/../build";
@@ -957,163 +1254,14 @@
 			};
 			name = Release;
 		};
-		9A97241F112DB3BF5212723E02EDCBCF /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 404D6FB4C308E751777D37E172F95215 /* Pods-EFMarkdown_Example.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EFMarkdown_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A12092D7BAD5F51BA27BBF69970FF36C /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = EFF192100AEFDEF6DA2B6947C56D9836 /* Pods-EFMarkdown_Tests.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EFMarkdown_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		B637BF5675A9128FBD43782746CA504C /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0F4BB1FDE68D76A7FEFF60EC13695527 /* Pods-EFMarkdown_Tests.release.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EFMarkdown_Tests;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		CEC1CE584586256FBA917985B7226020 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE328808722045C206934C07B58FF9A6 /* Pods-EFMarkdown_Example.debug.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEBUG_INFORMATION_FORMAT = dwarf;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_NO_COMMON_BLOCKS = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = Pods_EFMarkdown_Example;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				SWIFT_VERSION = 3.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
 		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
-				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+				4E487F173E6C9664F4E9E26B9635D23C /* Debug */,
+				BDD0139D6EB93FA375F887ABD62DAB2E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1121,17 +1269,26 @@
 		3D355D9C23D7F095BA3AAA913712203C /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CEC1CE584586256FBA917985B7226020 /* Debug */,
-				9A97241F112DB3BF5212723E02EDCBCF /* Release */,
+				74B172AA06F98955AFC34FEC277DF499 /* Debug */,
+				4200C0A1715939FFB592C111CB2BA6AE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		71C7577C86AD2DD8A4C6C4A027DE1CBB /* Build configuration list for PBXNativeTarget "EFMarkdown" */ = {
+		53B56BB9BCF350F645F06D6FACA26883 /* Build configuration list for PBXNativeTarget "EFMarkdown-EFMarkdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				014BF2146404FF652740C2D625961CCA /* Debug */,
-				023D64337415A91DFE9BBF279CCCC0F7 /* Release */,
+				1B03DD87F83374D5AB6A70DA5BB0B9BF /* Debug */,
+				59790A5006F7FB7C6206EED4B50BA421 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8DAF8E996079CC3DE120782BC23F17E /* Build configuration list for PBXNativeTarget "EFMarkdown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C49440B670144344CF59AFCC792A27A /* Debug */,
+				4B437F43D3EB965DB33BBBD65B2DBCB5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1139,8 +1296,8 @@
 		BDC4A4EFA5DEA55E5AB06DACE867C7C4 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A12092D7BAD5F51BA27BBF69970FF36C /* Debug */,
-				B637BF5675A9128FBD43782746CA504C /* Release */,
+				66EB7F16700F1B44ADCA735063B7D7D5 /* Debug */,
+				BABFC339AFD82916F70CB34A327B3FC2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
