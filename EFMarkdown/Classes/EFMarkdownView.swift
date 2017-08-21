@@ -11,17 +11,24 @@ import WebKit
 
 open class EFMarkdownView: UIView {
 
+    // Main content view
     private var webView: WKWebView?
 
+    // ScrollEnabled
     public var isScrollEnabled: Bool = true {
         didSet {
             webView?.scrollView.isScrollEnabled = isScrollEnabled
         }
     }
 
+    // Can link click jump, default allow all
     public var onTouchLink: ((URLRequest) -> Bool)?
 
+    // New height callback, Default is nil
     public var onRendered: ((CGFloat) -> Void)?
+
+    // Load finish callback temp handler
+    fileprivate var onFinishLoad: ((WKWebView, WKNavigation?) -> Void)?
 
     public convenience init() {
         self.init(frame: CGRect.zero)
@@ -29,24 +36,26 @@ open class EFMarkdownView: UIView {
 
     override init (frame: CGRect) {
         super.init(frame : frame)
+        setupViews()
     }
 
     public required init?(coder aDecoder: NSCoder) {
         super.init(coder: aDecoder)
+        setupViews()
     }
 
-    public func load(markdown: String?, options: EFMarkdownOptions = [.safe]) {
-        guard let markdown = markdown else {
-            return
-        }
+    func setupViews() {
+        setupWebView()
+    }
 
+    func setupWebView() {
         let wv = WKWebView(frame: self.bounds, configuration: WKWebViewConfiguration())
         wv.scrollView.isScrollEnabled = self.isScrollEnabled
         wv.translatesAutoresizingMaskIntoConstraints = false
         wv.navigationDelegate = self
         addSubview(wv)
 
-        // 约束，紧贴父 View
+        // Fit to parent view
         wv.translatesAutoresizingMaskIntoConstraints = false
         let leftLc = NSLayoutConstraint(
             item: wv,
@@ -91,28 +100,31 @@ open class EFMarkdownView: UIView {
 
         wv.backgroundColor = self.backgroundColor
         self.webView = wv
+    }
 
+    public func load(
+        markdown: String?,
+        options: EFMarkdownOptions = [.safe],
+        completionHandler: ((WKWebView, WKNavigation?) -> Void)? = nil) {
+        guard let markdown = markdown else {
+            return
+        }
         do {
             let pageContent = try markdownToHTMLPage(markdown, options: options)
-            print(pageContent)
-            wv.loadHTMLString(pageContent, baseURL: baseURL())
+            onFinishLoad = completionHandler
+            webView?.loadHTMLString(pageContent, baseURL: baseURL())
         } catch let error as NSError {
-            print ("Error: \(error.domain)")
+            printLog("Error: \(error.domain)")
         }
     }
 
-    private func escape(markdown: String) -> String? {
-        return markdown.addingPercentEncoding(withAllowedCharacters: CharacterSet.alphanumerics)
-    }
-
-    public func markdownToHTMLPage(_ markdown: String, options: EFMarkdownOptions = [.safe]) throws -> String {
+    private func markdownToHTMLPage(_ markdown: String, options: EFMarkdownOptions = [.safe]) throws -> String {
         var htmlContent: String = ""
         do {
             try htmlContent = EFMarkdown().markdownToHTML(markdown, options: options)
         } catch {
             throw error
         }
-
         if let templateURL = baseURL() {
             let templateContent = try String(contentsOf: templateURL, encoding: String.Encoding.utf8)
             return templateContent.replacingOccurrences(of: "$PLACEHOLDER", with: htmlContent)
@@ -120,7 +132,7 @@ open class EFMarkdownView: UIView {
         throw EFMarkdownError.conversionFailed
     }
 
-    public func baseURL() -> URL? {
+    func baseURL() -> URL? {
         let bundle = Bundle(for: EFMarkdownView.self)
         if let templateURL = bundle.bundleIdentifier?.hasPrefix("org.cocoapods") == true
             ? bundle.url(forResource: "index", withExtension: "html", subdirectory: "EFMarkdown.bundle")
@@ -129,23 +141,38 @@ open class EFMarkdownView: UIView {
         }
         return nil
     }
+
+    // Change font-size of text with scale
+    public func setFontSize(scale: CGFloat, completionHandler: ((Any?, Error?) -> Void)? = nil) {
+        let jsFontSize = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='\(scale)%'"
+        self.webView?.evaluateJavaScript(jsFontSize, completionHandler: completionHandler)
+    }
 }
 
 extension EFMarkdownView: WKNavigationDelegate {
 
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
-        let script = "document.body.offsetHeight;"
-        webView.evaluateJavaScript(script) { [weak self] result, error in
-            if let _ = error { return }
+        // Load finish
+        onFinishLoad?(webView, navigation)
+        onFinishLoad = nil
 
-            if let height = result as? CGFloat {
-                self?.onRendered?(height)
+        // Refresh height
+        if let onRendered = self.onRendered {
+            let script = "document.body.offsetHeight;"
+            webView.evaluateJavaScript(script) { [weak self] result, error in
+                if let _ = self {
+                    if let _ = error {
+                        return
+                    }
+                    if let height = result as? CGFloat {
+                        onRendered(height)
+                    }
+                }
             }
         }
     }
 
     public func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {
-
         switch navigationAction.navigationType {
         case .linkActivated:
             if let onTouchLink = onTouchLink {
