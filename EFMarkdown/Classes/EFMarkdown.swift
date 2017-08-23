@@ -52,4 +52,18 @@ public struct EFMarkdownOptions: OptionSet {
         }
         throw EFMarkdownError.conversionFailed
     }
+
+    private func isTableMarkLine(inputLine: String) -> Bool {
+        if !(inputLine.contains("|") && inputLine.contains("-")) {
+            return false
+        }
+        let line = inputLine.remove(string: "\r").trimmingCharacters(in: .whitespacesAndNewlines).toOne()
+        if !line.isConsistof(chars: "|:- \t") {
+            return false
+        }
+
+
+
+        return true
+    }
 }

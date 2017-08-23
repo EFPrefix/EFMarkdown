@@ -14,6 +14,7 @@
 		09C586DDE1265ABE19AC74ECCC4F6FE7 /* EFMarkdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = A29B7EBF5E6F7BA6F56EF96F5B63ED5B /* EFMarkdown.bundle */; };
 		0A1CBC11114C7B34403E6E874BE7FB9E /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 8D751971436BD02B987D6359CC32748C /* html.c */; };
 		0DC1D54EE8BD4B092682D83327C41970 /* EFCMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2AC99B536B0BE69638950C7BFECB6C96 /* EFCMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12ABADA41F4DA4E900A11C8E /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 12ABADA21F4DA4E500A11C8E /* String+.swift */; };
 		159BA04571C5786A964327AABFA20FD0 /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = C7779F4CAC815755EA205738F18975D5 /* plugin.c */; };
 		16BE65D536CB418B0CC5667D70FA6344 /* cmark_extension_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E620CEF332248690114A013D5D72CF8 /* cmark_extension_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1917575798EA56FF37F77DAD238B3DC0 /* registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 843D31E95FED04D51F36191B8B9F949F /* registry.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -126,6 +127,7 @@
 		0932BB3B99E4C3F6FEADEFD2F75312DC /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = EFCMark/Classes/cmark/chunk.h; sourceTree = "<group>"; };
 		0E1D67E5138FE7D9FF96F099AE376DE9 /* EFMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFMarkdown-dummy.m"; sourceTree = "<group>"; };
 		0F4BB1FDE68D76A7FEFF60EC13695527 /* Pods-EFMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		12ABADA21F4DA4E500A11C8E /* String+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+.swift"; sourceTree = "<group>"; };
 		1988CB57CB4643F34A9828FC1D85EE5C /* tagfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tagfilter.h; path = EFCMark/Classes/cmark/tagfilter.h; sourceTree = "<group>"; };
 		1FB04062AE586131F9F18F7EF1E6BCBC /* plaintext.c */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.c; name = plaintext.c; path = EFCMark/Classes/cmark/plaintext.c; sourceTree = "<group>"; };
 		218F09754D1A9E4C2C730DAC2EC48480 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = EFCMark/Classes/cmark/config.h; sourceTree = "<group>"; };
@@ -431,6 +433,7 @@
 		73AF4EBDFAD03961A1ACE0481D712948 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				12ABADA21F4DA4E500A11C8E /* String+.swift */,
 				6C82B65FF50BD42864C463958ED70869 /* EFMarkdown.swift */,
 				94043E28B1D75FDA21410F1E70E3B766 /* EFMarkdownView.swift */,
 			);
@@ -695,6 +698,11 @@
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
 				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					506D36A013098109E5778B923F490C34 = {
+						LastSwiftMigration = 0830;
+					};
+				};
 			};
 			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -769,6 +777,7 @@
 			files = (
 				95F284A807C6BFF8E0AF6A704D64664D /* EFMarkdown-dummy.m in Sources */,
 				E5BC9529CFA3373DD3AD621EED58C29E /* EFMarkdown.swift in Sources */,
+				12ABADA41F4DA4E900A11C8E /* String+.swift in Sources */,
 				4D87C5CB93658E04CDDC59CB6AE50666 /* EFMarkdownView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -848,6 +857,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1555C705DCF240D794E027208205BD1 /* EFCMark.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
@@ -870,6 +880,7 @@
 				PRODUCT_NAME = EFCMark;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
@@ -1018,6 +1029,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = C1555C705DCF240D794E027208205BD1 /* EFCMark.xcconfig */;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
