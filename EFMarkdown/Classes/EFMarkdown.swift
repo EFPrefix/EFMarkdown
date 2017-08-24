@@ -7,8 +7,7 @@ public func printLog<T>(
     _ message: T,
     file: String = #file,
     method: String = #function,
-    line: Int = #line
-    ) {
+    line: Int = #line) {
     #if DEBUG
         print("\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
     #endif
@@ -53,17 +52,20 @@ public struct EFMarkdownOptions: OptionSet {
         throw EFMarkdownError.conversionFailed
     }
 
-    private func isTableMarkLine(inputLine: String) -> Bool {
-        if !(inputLine.contains("|") && inputLine.contains("-")) {
+    public func isTableDelimiterLine(inputLine: String) -> Bool {
+        if inputLine.contains("||") || !(inputLine.contains("|") && inputLine.contains("-")) {
             return false
         }
-        let line = inputLine.remove(string: "\r").trimmingCharacters(in: .whitespacesAndNewlines).toOne()
-        if !line.isConsistof(chars: "|:- \t") {
-            return false
+        var line = inputLine.trimmingCharacters(in: .whitespacesAndNewlines).replace("\t", with: " ").toOne()
+        if !line.hasPrefix("|") {
+            line = "|" + line
         }
-
-
-
-        return true
+        if !line.hasSuffix("|") {
+            line = line + "|"
+        }
+        if line.conform(regex: "(\\| *:?-+:? *)+\\|") {
+            return true
+        }
+        return false
     }
 }
