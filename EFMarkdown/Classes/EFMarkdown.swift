@@ -2,17 +2,6 @@
 import Foundation
 import EFCMark
 
-// http://swifter.tips/log/
-public func printLog<T>(
-    _ message: T,
-    file: String = #file,
-    method: String = #function,
-    line: Int = #line) {
-    #if DEBUG
-        print("\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
-    #endif
-}
-
 public enum EFMarkdownError: Error {
     case conversionFailed
     case resourceFailed
@@ -37,9 +26,12 @@ public struct EFMarkdownOptions: OptionSet {
 }
 
 @objc public class EFMarkdown: NSObject {
+    
     public func markdownToHTML(_ markdown: String, options: EFMarkdownOptions = [.safe]) throws -> String {
         var buffer: String?
-        try markdown.withCString {
+        let xx = formatTable(markdown: markdown)
+        print(xx)
+        try xx.withCString {
             guard let buf = cmark_markdown_to_html($0, Int(strlen($0)), options.rawValue) else {
                 throw EFMarkdownError.conversionFailed
             }
@@ -50,22 +42,5 @@ public struct EFMarkdownOptions: OptionSet {
             return buffer
         }
         throw EFMarkdownError.conversionFailed
-    }
-
-    public func isTableDelimiterLine(inputLine: String) -> Bool {
-        if inputLine.contains("||") || !(inputLine.contains("|") && inputLine.contains("-")) {
-            return false
-        }
-        var line = inputLine.trimmingCharacters(in: .whitespacesAndNewlines).replace("\t", with: " ").toOne()
-        if !line.hasPrefix("|") {
-            line = "|" + line
-        }
-        if !line.hasSuffix("|") {
-            line = line + "|"
-        }
-        if line.conform(regex: "(\\| *:?-+:? *)+\\|") {
-            return true
-        }
-        return false
     }
 }

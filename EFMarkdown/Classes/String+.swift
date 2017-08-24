@@ -23,6 +23,11 @@ extension String {
         return NSPredicate(format: "SELF MATCHES %@", regex).evaluate(with: self)
     }
 
+    // 子串数量
+    func occurrencesOf(subString: String) -> Int {
+        return self.components(separatedBy: subString).count - 1
+    }
+
     //替换某个子字符串为另一字符串
     func replace(_ string: String, with: String, options: CompareOptions? = nil) -> String {
         if let options = options {
