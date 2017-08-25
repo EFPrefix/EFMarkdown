@@ -92,6 +92,6 @@ EyreFree, eyrefree@eyrefree.org
 
 ## License
 
-![](https://www.gnu.org/graphics/gplv3-127x51.png)
+<img src='http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x160.png' width='110' height='80'/>
 
-EFMarkdown is available under the GPLv3 license. See the LICENSE file for more info.
+EFMarkdown is available under the WTFPL license. See the LICENSE file for more info.

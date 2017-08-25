@@ -99,6 +99,6 @@ EyreFree, eyrefree@eyrefree.org
 
 ## 协议
 
-![](https://www.gnu.org/graphics/gplv3-127x51.png)
+<img src='http://www.wtfpl.net/wp-content/uploads/2012/12/logo-220x160.png' width='110' height='80'/>
 
-EFMarkdown 基于 GPLv3 协议进行分发和使用，更多信息参见协议文件。
+EFMarkdown 基于 WTFPL 协议进行分发和使用，更多信息参见协议文件。
