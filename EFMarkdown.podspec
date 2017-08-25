@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EFMarkdown'
-  s.version          = '0.0.3'
-  s.summary          = 'A CocoaPods wrapper of cmark in Swift.'
+  s.version          = '0.0.4'
+  s.summary          = 'A lightweight Markdown library for iOS.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,12 +18,12 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-A CocoaPods wrapper of cmark in Swift, based on EFCMark, inspired by vapor-community/markdown.
+A lightweight Markdown library in Swift, based on EFCMark, inspired by markdown and Markoff.
                        DESC
 
   s.homepage         = 'https://github.com/EyreFree/EFMarkdown'
-  # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
-  s.license          = { :type => 'GPLv3', :file => 'LICENSE' }
+  #s.screenshots     = 'raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample1.png'
+  s.license          = { :type => 'WTFPL', :file => 'LICENSE' }
   s.author           = { 'EyreFree' => 'eyrefree@eyrefree.org' }
   s.source           = { :git => 'https://github.com/EyreFree/EFMarkdown.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/EyreFree777'

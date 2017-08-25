@@ -2,6 +2,14 @@
 
 -----
 
+## [0.0.4](https://github.com/EyreFree/EFQRCode/releases/tag/0.0.4) (2017-08-26)
+
+#### Fix
+
+* Change license.
+
+---
+
 ## [0.0.3](https://github.com/EyreFree/EFQRCode/releases/tag/0.0.3) (2017-08-25)
 
 #### Add
