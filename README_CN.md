@@ -5,53 +5,60 @@
 [![License](https://img.shields.io/cocoapods/l/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
 [![Platform](https://img.shields.io/cocoapods/p/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
 
-A lightweight Markdown library in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
+一个轻量级的 Markdown 库，可以用来将 Markdown 转为 HTML，也可以用来直接展示 Markdown 对其进行预览，基于 [EFCMark](https://github.com/EyreFree/EFCMark)，受 [markdown](https://github.com/vapor-community/markdown) 和 [Markoff](https://github.com/thoughtbot/Markoff) 启发。
 
-> [中文介绍](https://github.com/EyreFree/EFMarkdown/blob/master/README_CN.md)
+> [English Introduction](https://github.com/EyreFree/EFMarkdown/blob/master/README.md)
 
-## Overview
+## 预览
 
 ![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample1.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample2.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample3.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample4.jpg)  
 :---------------------:|:---------------------:|:---------------------:|:---------------------:
 
-## Example
+## 示例
 
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+1. 利用 `git clone` 命令下载本仓库；
+2. 利用 cd 命令切换到 Example 目录下，执行 `pod install` 命令；
+3. 随后打开 `EFMarkdown.xcworkspace` 编译即可。
 
-## Requirements
+或执行以下命令：
+
+```bash
+git clone git@github.com:EyreFree/EFMarkdown.git; cd EFMarkdown/Example; pod install; open EFMarkdown.xcworkspace
+```
+
+## 环境
 
 - XCode 8.0+
 - Swift 3.0+
 
-## Installation
+## 安装
 
-EFMarkdown is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+EFMarkdown 可以通过 [CocoaPods](http://cocoapods.org) 进行获取。只需要在你的 Podfile 中添加如下代码就能实现引入：
 
-```ruby
+```
 pod "EFMarkdown"
 ```
 
-## Usage
+## 使用
 
-### 1. Markdown to HTML
+### 1. 将 Markdown 转为 HTML
 
-You can use `EFMarkdown` to make Markdown string to HTML string easily:
+你可以利用 `EFMarkdown` 轻松实现 Markdown 字符串到 HTML 字符串地转换，示例代码如下：
 
 ```swift
 let markdown = "# Hello"
 var html = ""
 do {
     html = try EFMarkdown().markdownToHTML(markdown, options: EFMarkdownOptions.safe)
-    print(html) // This will return "<h1>Hello</h1>\n"
+    print(html) // 这里会输出 "<h1>Hello</h1>\n"
 } catch let error as NSError {
     print ("Error: \(error.domain)")
 }
 ```
 
-### 2. View Markdown
+### 2. 对 Markdown 进行预览
 
-You can use `EFMarkdownView` to make a preview of Markdown:
+你可以利用 `EFMarkdownView` 实现对 Markdown 字符串的预览，示例代码如下：
 
 ```swift
 let screenSize = UIScreen.main.bounds
@@ -61,18 +68,18 @@ self.view.addSubview(markView)
 markView.load(markdown: testMarkdownFileContent(), options: [.default]) {
     [weak self] (_, _) in
     if let _ = self {
-        // Optional: you can change font-size with a value of percent here
+        // 可选：你可以通过在此处传入一个百分比来改变字体大小
         markView.setFontSize(percent: 128)
         printLog("load finish!")
     }
 }
 ```
 
-### 3. Options
+### 3. 选项
 
-You can pass different options to the underlying `cmark` library. By default `safe` is passed.
+你可以通过传入不同的选项来控制底层 `cmark` 对 Markdown 字符串的处理，默认传入的值为 `safe`。
 
-The available options are:
+可选的值有以下这些：
 
 * default
 * sourcePos
@@ -84,14 +91,14 @@ The available options are:
 * githubPreLang
 * liberalHtmlTag
 
-For more information on the available options, see [`cmark`](https://github.com/github/cmark).
+更多关于这些选项的信息，可以参考 [`cmark`](https://github.com/github/cmark)。
 
-## Author
+## 作者
 
 EyreFree, eyrefree@eyrefree.org
 
-## License
+## 协议
 
 ![](https://www.gnu.org/graphics/gplv3-127x51.png)
 
-EFMarkdown is available under the GPLv3 license. See the LICENSE file for more info.
+EFMarkdown 基于 GPLv3 协议进行分发和使用，更多信息参见协议文件。
