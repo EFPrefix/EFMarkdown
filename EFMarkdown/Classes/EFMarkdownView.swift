@@ -143,8 +143,8 @@ open class EFMarkdownView: UIView {
     }
 
     // Change font-size of text with scale
-    public func setFontSize(scale: CGFloat, completionHandler: ((Any?, Error?) -> Void)? = nil) {
-        let jsFontSize = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='\(scale)%'"
+    public func setFontSize(percent: CGFloat, completionHandler: ((Any?, Error?) -> Void)? = nil) {
+        let jsFontSize = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='\(percent)%'"
         self.webView?.evaluateJavaScript(jsFontSize, completionHandler: completionHandler)
     }
 }

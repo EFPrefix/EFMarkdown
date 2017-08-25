@@ -9,7 +9,7 @@ A lightweight Markdown library in Swift, based on [EFCMark](https://github.com/E
 
 ## Overview
 
-![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample1.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample2.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample3.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample4.png)  
+![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample1.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample2.jpg)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample3.png)|![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/sample4.jpg)  
 :---------------------:|:---------------------:|:---------------------:|:---------------------:
 
 ## Example
@@ -32,7 +32,7 @@ pod "EFMarkdown"
 
 ## Usage
 
-### 1. Markdown -> HTML
+### 1. Markdown to HTML
 
 You can use `EFMarkdown` to make Markdown string to HTML string easily:
 
@@ -56,7 +56,14 @@ let screenSize = UIScreen.main.bounds
 let markView = EFMarkdownView()
 markView.frame = CGRect(x: 0, y: 20, width: screenSize.width, height: screenSize.height - 20)
 self.view.addSubview(markView)
-markView.load(markdown: "# Hello", options: [.default])
+markView.load(markdown: testMarkdownFileContent(), options: [.default]) {
+    [weak self] (_, _) in
+    if let _ = self {
+        // Change font-size with a value of percent
+        markView.setFontSize(percent: 128)
+        printLog("load finish!")
+    }
+}
 ```
 
 ### 3. Options
