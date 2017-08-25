@@ -33,7 +33,7 @@ class ViewController: UIViewController {
             [weak self] (_, _) in
             // Change font-size
             if let _ = self {
-                markView.setFontSize(scale: 128)
+                markView.setFontSize(scale: 100)
                 printLog("load finish!")
             }
         }

@@ -159,7 +159,13 @@ public extension EFMarkdown {
         var lineHtml = "<tr>"
         let mark = isHead ? "th" : "td"
         for (index, ele) in lineArray.enumerated() {
-            lineHtml += "<\(mark)\(aligns[index].rawValue)>\(ele)</\(mark)>"
+            var eleHtml = ele
+            do {
+                eleHtml = try self.markdownToHTML(ele)
+            } catch let error as NSError {
+                print ("Error: \(error.domain)")
+            }
+            lineHtml += "<\(mark)\(aligns[index].rawValue)>\(eleHtml)</\(mark)>"
         }
         return (lineHtml + "</tr>").replace(tempBlank, with: "\\|")
     }
