@@ -1,9 +1,14 @@
-# EFMarkdown
+![](https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/assets/EFMarkdown.png)
 
-[![CI Status](http://img.shields.io/travis/EyreFree/EFMarkdown.svg?style=flat)](https://travis-ci.org/EyreFree/EFMarkdown)
-[![Version](https://img.shields.io/cocoapods/v/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
-[![License](https://img.shields.io/cocoapods/l/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
-[![Platform](https://img.shields.io/cocoapods/p/EFMarkdown.svg?style=flat)](http://cocoapods.org/pods/EFMarkdown)
+<p align="center">
+<a href="https://travis-ci.org/EyreFree/EFMarkdown"><img src="http://img.shields.io/travis/EyreFree/EFMarkdown.svg"></a>
+<a href="http://cocoapods.org/pods/EFMarkdown"><img src="https://img.shields.io/cocoapods/v/EFMarkdown.svg?style=flat"></a>
+<a href="http://cocoapods.org/pods/EFMarkdown"><img src="https://img.shields.io/cocoapods/p/EFMarkdown.svg?style=flat"></a>
+<a href="https://raw.githubusercontent.com/EyreFree/EFMarkdown/master/LICENSE"><img src="https://img.shields.io/cocoapods/l/EFMarkdown.svg?style=flat"></a>
+<a href="https://twitter.com/EyreFree777"><img src="https://img.shields.io/badge/twitter-@EyreFree777-blue.svg?style=flat"></a>
+<a href="http://weibo.com/eyrefree777"><img src="https://img.shields.io/badge/weibo-@EyreFree-red.svg?style=flat"></a>
+<img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
+</p>
 
 A lightweight Markdown library in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
 
