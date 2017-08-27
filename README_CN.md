@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
 </p>
 
-一个轻量级的 Markdown 库，可以用来将 Markdown 转为 HTML，也可以用来直接展示 Markdown 对其进行预览，基于 [EFCMark](https://github.com/EyreFree/EFCMark)，受 [markdown](https://github.com/vapor-community/markdown) 和 [Markoff](https://github.com/thoughtbot/Markoff) 启发。
+EFMarkdown 是一个轻量级的 Markdown 库，可以用来将 Markdown 转为 HTML，也可以用来直接展示 Markdown 对其进行预览，基于 [EFCMark](https://github.com/EyreFree/EFCMark)，受 [markdown](https://github.com/vapor-community/markdown) 和 [Markoff](https://github.com/thoughtbot/Markoff) 启发。
 
 > [English Introduction](https://github.com/EyreFree/EFMarkdown/blob/master/README.md)
 

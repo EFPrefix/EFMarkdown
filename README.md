@@ -10,7 +10,7 @@
 <img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
 </p>
 
-A lightweight Markdown library in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
+EFMarkdown is a lightweight Markdown library in Swift, based on [EFCMark](https://github.com/EyreFree/EFCMark), inspired by [markdown](https://github.com/vapor-community/markdown) and [Markoff](https://github.com/thoughtbot/Markoff).
 
 > [中文介绍](https://github.com/EyreFree/EFMarkdown/blob/master/README_CN.md)
 
