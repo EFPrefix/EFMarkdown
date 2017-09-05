@@ -1,11 +1,11 @@
 {
   "name": "EFMarkdown",
-  "version": "0.0.1",
-  "summary": "A CocoaPods wrapper of cmark in Swift.",
-  "description": "A CocoaPods wrapper of cmark in Swift, based on EFCMark, inspired by vapor-community/markdown.",
+  "version": "0.0.4",
+  "summary": "A lightweight Markdown library for iOS.",
+  "description": "A lightweight Markdown library in Swift, based on EFCMark, inspired by markdown and Markoff.",
   "homepage": "https://github.com/EyreFree/EFMarkdown",
   "license": {
-    "type": "GPLv3",
+    "type": "WTFPL",
     "file": "LICENSE"
   },
   "authors": {
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFMarkdown.git",
-    "tag": "0.0.1"
+    "tag": "0.0.4"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {

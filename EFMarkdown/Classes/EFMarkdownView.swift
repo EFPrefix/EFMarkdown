@@ -12,7 +12,7 @@ import WebKit
 open class EFMarkdownView: UIView {
 
     // Main content view
-    private var webView: WKWebView?
+    public var webView: WKWebView?
 
     // ScrollEnabled
     public var isScrollEnabled: Bool = true {
@@ -25,7 +25,7 @@ open class EFMarkdownView: UIView {
     public var onTouchLink: ((URLRequest) -> Bool)?
 
     // New height callback, Default is nil
-    public var onRendered: ((CGFloat) -> Void)?
+    public var onRendered: ((CGFloat?) -> Void)?
 
     // Load finish callback temp handler
     fileprivate var onFinishLoad: ((WKWebView, WKNavigation?) -> Void)?
@@ -145,31 +145,29 @@ open class EFMarkdownView: UIView {
     // Change font-size of text with scale
     public func setFontSize(percent: CGFloat, completionHandler: ((Any?, Error?) -> Void)? = nil) {
         let jsFontSize = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='\(percent)%'"
-        self.webView?.evaluateJavaScript(jsFontSize, completionHandler: completionHandler)
+        self.webView?.evaluateJavaScript(jsFontSize, completionHandler: { (result, error) in
+            // Refresh height
+            if let onRendered = self.onRendered {
+                onRendered(self.webView?.scrollView.contentSize.height)
+            }
+
+            // Finish
+            completionHandler?(result, error)
+        })
     }
 }
 
 extension EFMarkdownView: WKNavigationDelegate {
 
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
+        // Refresh height
+        if let onRendered = self.onRendered {
+            onRendered(self.webView?.scrollView.contentSize.height)
+        }
+
         // Load finish
         onFinishLoad?(webView, navigation)
         onFinishLoad = nil
-
-        // Refresh height
-        if let onRendered = self.onRendered {
-            let script = "document.body.offsetHeight;"
-            webView.evaluateJavaScript(script) { [weak self] result, error in
-                if let _ = self {
-                    if let _ = error {
-                        return
-                    }
-                    if let height = result as? CGFloat {
-                        onRendered(height)
-                    }
-                }
-            }
-        }
     }
 
     public func webView(_ webView: WKWebView, decidePolicyFor navigationAction: WKNavigationAction, decisionHandler: @escaping (WKNavigationActionPolicy) -> Void) {

@@ -19,7 +19,8 @@ class ViewController: UIViewController {
         var html = ""
         do {
             html = try EFMarkdown().markdownToHTML(markdown, options: EFMarkdownOptions.safe)
-            print(html) // This will return "<h1>Hello</h1>\n"
+            // This will return "<h1>Hello</h1>\n"
+            print(html)
         } catch let error as NSError {
             print ("Error: \(error.domain)")
         }
@@ -28,6 +29,12 @@ class ViewController: UIViewController {
         let screenSize = UIScreen.main.bounds
         let markView = EFMarkdownView()
         markView.frame = CGRect(x: 0, y: 20, width: screenSize.width, height: screenSize.height - 20)
+        markView.onRendered = {
+            [weak self] (height) in
+            if let _ = self {
+                print("onRendered height: \(height ?? 0)")
+            }
+        }
         self.view.addSubview(markView)
         markView.load(markdown: testMarkdownFileContent(), options: [.default]) {
             [weak self] (_, _) in
