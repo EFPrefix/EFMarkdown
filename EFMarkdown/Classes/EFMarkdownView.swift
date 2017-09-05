@@ -39,6 +39,9 @@ open class EFMarkdownView: UIView {
     // Load finish callback temp handler
     fileprivate var onFinishLoad: ((WKWebView, WKNavigation?) -> Void)?
 
+    // Last height
+    private var lastHeight: CGFloat = 0
+
     public convenience init() {
         self.init(frame: CGRect.zero)
     }
@@ -55,6 +58,28 @@ open class EFMarkdownView: UIView {
 
     func setupViews() {
         setupWebView()
+
+        addObserver(self, forKeyPath: "webView.scrollView.contentSize", options: .new, context: nil)
+    }
+
+    deinit {
+        removeObserver(self, forKeyPath: "webView.scrollView.contentSize")
+    }
+
+    override open func observeValue(
+        forKeyPath keyPath: String?,
+        of object: Any?,
+        change: [NSKeyValueChangeKey : Any]?,
+        context: UnsafeMutableRawPointer?
+        ) {
+        if let change = change, let onRendered = onRendered, keyPath == "webView.scrollView.contentSize" {
+            if let nsSize = change[NSKeyValueChangeKey.newKey] as? NSValue {
+                if nsSize.cgSizeValue.height != lastHeight {
+                    lastHeight = nsSize.cgSizeValue.height
+                    onRendered(nsSize.cgSizeValue.height)
+                }
+            }
+        }
     }
 
     func setupWebView() {
@@ -155,13 +180,13 @@ open class EFMarkdownView: UIView {
     public func setFontSize(percent: CGFloat, completionHandler: ((Any?, Error?) -> Void)? = nil) {
         let jsFontSize = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='\(percent)%'"
         self.webView?.evaluateJavaScript(jsFontSize, completionHandler: { (result, error) in
+            // Finish
+            completionHandler?(result, error)
+
             // Refresh height
             if let onRendered = self.onRendered {
                 onRendered(self.webView?.scrollView.contentSize.height)
             }
-
-            // Finish
-            completionHandler?(result, error)
         })
     }
 }

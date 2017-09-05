@@ -45,9 +45,7 @@ public struct EFMarkdownOptions: OptionSet {
     
     public func markdownToHTML(_ markdown: String, options: EFMarkdownOptions = [.safe]) throws -> String {
         var buffer: String?
-        let xx = formatTable(markdown: markdown)
-        print(xx)
-        try xx.withCString {
+        try formatTable(markdown: markdown).withCString {
             guard let buf = cmark_markdown_to_html($0, Int(strlen($0)), options.rawValue) else {
                 throw EFMarkdownError.conversionFailed
             }
