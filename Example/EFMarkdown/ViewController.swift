@@ -32,6 +32,7 @@ class ViewController: UIViewController {
         markView.onRendered = {
             [weak self] (height) in
             if let _ = self {
+                // Optional: you can know the change of height in this block
                 print("onRendered height: \(height ?? 0)")
             }
         }
@@ -39,7 +40,7 @@ class ViewController: UIViewController {
         markView.load(markdown: testMarkdownFileContent(), options: [.default]) {
             [weak self] (_, _) in
             if let _ = self {
-                // Change font-size with a value of percent
+                // Optional: you can change font-size with a value of percent here
                 markView.setFontSize(percent: 128)
                 printLog("load finish!")
             }

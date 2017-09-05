@@ -70,6 +70,13 @@ do {
 let screenSize = UIScreen.main.bounds
 let markView = EFMarkdownView()
 markView.frame = CGRect(x: 0, y: 20, width: screenSize.width, height: screenSize.height - 20)
+markView.onRendered = {
+    [weak self] (height) in
+    if let _ = self {
+        // 可选：实现这个闭包可以感知高度变化
+        print("onRendered height: \(height ?? 0)")
+    }
+}
 self.view.addSubview(markView)
 markView.load(markdown: testMarkdownFileContent(), options: [.default]) {
     [weak self] (_, _) in

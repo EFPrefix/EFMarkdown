@@ -63,6 +63,13 @@ You can use `EFMarkdownView` to make a preview of Markdown:
 let screenSize = UIScreen.main.bounds
 let markView = EFMarkdownView()
 markView.frame = CGRect(x: 0, y: 20, width: screenSize.width, height: screenSize.height - 20)
+markView.onRendered = {
+    [weak self] (height) in
+    if let _ = self {
+        // Optional: you can know the change of height in this block
+        print("onRendered height: \(height ?? 0)")
+    }
+}
 self.view.addSubview(markView)
 markView.load(markdown: testMarkdownFileContent(), options: [.default]) {
     [weak self] (_, _) in
