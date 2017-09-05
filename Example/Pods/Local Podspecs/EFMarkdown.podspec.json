@@ -1,6 +1,6 @@
 {
   "name": "EFMarkdown",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "summary": "A lightweight Markdown library for iOS.",
   "description": "A lightweight Markdown library in Swift, based on EFCMark, inspired by markdown and Markoff.",
   "homepage": "https://github.com/EyreFree/EFMarkdown",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/EyreFree/EFMarkdown.git",
-    "tag": "0.0.4"
+    "tag": "0.0.5"
   },
   "social_media_url": "https://twitter.com/EyreFree777",
   "platforms": {

@@ -1,6 +1,6 @@
 PODS:
   - EFCMark (0.0.1)
-  - EFMarkdown (0.0.4):
+  - EFMarkdown (0.0.5):
     - EFCMark
 
 DEPENDENCIES:
@@ -13,7 +13,7 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   EFCMark: 384f782f489f104c590dc375b9de902de37ebca3
-  EFMarkdown: 5f5d94a18b426ce29e5dd903f7d45bcdb47714b1
+  EFMarkdown: f9a2f4a443fa909c9d322ebf81232157fabfa29e
 
 PODFILE CHECKSUM: baf9f7a3b9d2839563b1e75bde9539f0ab0a9dff
 

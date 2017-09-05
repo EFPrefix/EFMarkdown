@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'EFMarkdown'
-  s.version          = '0.0.4'
+  s.version          = '0.0.5'
   s.summary          = 'A lightweight Markdown library for iOS.'
 
 # This description is used to generate tags and improve search results.
