@@ -34,8 +34,10 @@ git clone git@github.com:EyreFree/EFMarkdown.git; cd EFMarkdown/Example; pod ins
 
 ## 环境
 
-- XCode 8.0+
-- Swift 3.0+
+| Version | Needs                                |
+|:--------|:-------------------------------------|
+| 0.x     | XCode 8.0+<br>Swift 3.0+<br>iOS 8.0+ |
+| 4.x     | XCode 9.0+<br>Swift 4.0+<br>iOS 8.0+ |
 
 ## 安装
 
