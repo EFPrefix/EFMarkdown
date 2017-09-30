@@ -2,6 +2,14 @@
 
 -----
 
+## [4.0.0](https://github.com/EyreFree/EFMarkdown/releases/tag/4.0.0) (2017-09-30)
+
+#### Fix
+
+* Update to Swift 4.
+
+---
+
 ## [0.0.5](https://github.com/EyreFree/EFMarkdown/releases/tag/0.0.5) (2017-09-05)
 
 #### Fix

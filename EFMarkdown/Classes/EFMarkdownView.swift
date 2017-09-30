@@ -18,15 +18,17 @@
 import UIKit
 import WebKit
 
-open class EFMarkdownView: UIView {
+@objcMembers open class EFMarkdownView: UIView {
 
     // Main content view
-    public var webView: WKWebView?
+    public let webView: WKWebView = WKWebView(
+        frame: CGRect.zero, configuration: WKWebViewConfiguration()
+    )
 
     // ScrollEnabled
     public var isScrollEnabled: Bool = true {
         didSet {
-            webView?.scrollView.isScrollEnabled = isScrollEnabled
+            webView.scrollView.isScrollEnabled = isScrollEnabled
         }
     }
 
@@ -59,6 +61,8 @@ open class EFMarkdownView: UIView {
     func setupViews() {
         setupWebView()
 
+        print("setupViews")
+
         addObserver(self, forKeyPath: "webView.scrollView.contentSize", options: .new, context: nil)
     }
 
@@ -83,16 +87,16 @@ open class EFMarkdownView: UIView {
     }
 
     func setupWebView() {
-        let wv = WKWebView(frame: self.bounds, configuration: WKWebViewConfiguration())
-        wv.scrollView.isScrollEnabled = self.isScrollEnabled
-        wv.translatesAutoresizingMaskIntoConstraints = false
-        wv.navigationDelegate = self
-        addSubview(wv)
+        self.webView.scrollView.isScrollEnabled = self.isScrollEnabled
+        self.webView.translatesAutoresizingMaskIntoConstraints = false
+        self.webView.navigationDelegate = self
+        self.webView.frame = self.bounds
+        addSubview(self.webView)
 
         // Fit to parent view
-        wv.translatesAutoresizingMaskIntoConstraints = false
+        self.webView.translatesAutoresizingMaskIntoConstraints = false
         let leftLc = NSLayoutConstraint(
-            item: wv,
+            item: self.webView,
             attribute: .left,
             relatedBy: .equal,
             toItem: self,
@@ -101,7 +105,7 @@ open class EFMarkdownView: UIView {
             constant: 0
         )
         let rightLc = NSLayoutConstraint(
-            item: wv,
+            item: self.webView,
             attribute: .right,
             relatedBy: .equal,
             toItem: self,
@@ -110,7 +114,7 @@ open class EFMarkdownView: UIView {
             constant: 0
         )
         let topLc = NSLayoutConstraint(
-            item: wv,
+            item: self.webView,
             attribute: .top,
             relatedBy: .equal,
             toItem: self,
@@ -119,7 +123,7 @@ open class EFMarkdownView: UIView {
             constant: 0
         )
         let bottomLc = NSLayoutConstraint(
-            item: wv,
+            item: self.webView,
             attribute: .bottom,
             relatedBy: .equal,
             toItem: self,
@@ -132,8 +136,7 @@ open class EFMarkdownView: UIView {
         self.addConstraint(topLc)
         self.addConstraint(bottomLc)
 
-        wv.backgroundColor = self.backgroundColor
-        self.webView = wv
+        self.webView.backgroundColor = self.backgroundColor
     }
 
     public func load(
@@ -146,7 +149,7 @@ open class EFMarkdownView: UIView {
         do {
             let pageContent = try markdownToHTMLPage(markdown, options: options)
             onFinishLoad = completionHandler
-            webView?.loadHTMLString(pageContent, baseURL: baseURL())
+            webView.loadHTMLString(pageContent, baseURL: baseURL())
         } catch let error as NSError {
             printLog("Error: \(error.domain)")
         }
@@ -179,13 +182,13 @@ open class EFMarkdownView: UIView {
     // Change font-size of text with scale
     public func setFontSize(percent: CGFloat, completionHandler: ((Any?, Error?) -> Void)? = nil) {
         let jsFontSize = "document.getElementsByTagName('body')[0].style.webkitTextSizeAdjust='\(percent)%'"
-        self.webView?.evaluateJavaScript(jsFontSize, completionHandler: { (result, error) in
+        self.webView.evaluateJavaScript(jsFontSize, completionHandler: { (result, error) in
             // Finish
             completionHandler?(result, error)
 
             // Refresh height
             if let onRendered = self.onRendered {
-                onRendered(self.webView?.scrollView.contentSize.height)
+                onRendered(self.webView.scrollView.contentSize.height)
             }
         })
     }
@@ -196,7 +199,7 @@ extension EFMarkdownView: WKNavigationDelegate {
     public func webView(_ webView: WKWebView, didFinish navigation: WKNavigation!) {
         // Refresh height
         if let onRendered = self.onRendered {
-            onRendered(self.webView?.scrollView.contentSize.height)
+            onRendered(self.webView.scrollView.contentSize.height)
         }
 
         // Load finish
