@@ -1,4 +1,4 @@
-![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/assets/EFMarkdown.png)
+![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/Assets/EFMarkdown.png)
 
 <p align="center">
     <a href="https://travis-ci.org/EFPrefix/EFMarkdown">
@@ -29,8 +29,8 @@ EFMarkdown 是一个轻量级的 Markdown 库，可以用来将 Markdown 转为 
 ## 预览
 
 sample1|sample2|sample3|sample4  
-:---------------------:|:---------------------:|:---------------------:|:---------------------:
-![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/assets/sample1.png)|![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/assets/sample2.jpg)|![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/assets/sample3.png)|![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/assets/sample4.jpg)  
+:---------------------:|:---------------------:|:---------------------:|:----------------README.md-----:
+![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/Assets/sample1.png)|![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/Assets/sample2.jpg)|![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/Assets/sample3.png)|![](https://raw.githubusercontent.com/EFPrefix/EFMarkdown/master/Assets/sample4.jpg)  
 
 ## 示例
 
