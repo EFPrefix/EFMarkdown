@@ -20,6 +20,7 @@
 #import "cmark_version.h"
 #import "config.h"
 #import "core-extensions.h"
+#import "entities.inc"
 #import "ext_scanners.h"
 #import "houdini.h"
 #import "html.h"

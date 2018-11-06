@@ -1,7 +1,6 @@
-
 Pod::Spec.new do |s|
   s.name             = 'EFMarkdown'
-  s.version          = '4.0.0'
+  s.version          = '4.1.0'
   s.summary          = 'A lightweight Markdown library for iOS.'
 
   s.description      = <<-DESC
@@ -16,14 +15,12 @@ A lightweight Markdown library in Swift, based on EFCMark, inspired by markdown 
   s.social_media_url = 'https://twitter.com/EyreFree777'
 
   s.ios.deployment_target = '8.0'
-
+  s.requires_arc = true
   s.source_files = 'EFMarkdown/Classes/**/*'
   
   s.resource_bundles = {
     'EFMarkdown' => ['EFMarkdown/Assets/**/*']
   }
 
-  # s.public_header_files = 'Pod/Classes/**/*.h'
-  # s.frameworks = 'UIKit', 'MapKit'
-  s.dependency 'EFCMark'
+  s.dependency 'EFCMark', '0.0.2'
 end

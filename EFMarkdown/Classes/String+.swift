@@ -26,7 +26,7 @@ extension String {
 
     // 字符数量
     func count() -> Int {
-        return self.characters.count
+        return self.count
     }
 
     // 是否符合输入的正则表达式
@@ -50,7 +50,7 @@ extension String {
     // 替换前缀
     func replacePrefix(string: String, with: String) -> String {
         if self.hasPrefix(string) {
-            return with + String(self.characters.dropFirst(string.count()))
+            return with + String(self.dropFirst(string.count()))
         }
         return self
     }
@@ -58,7 +58,7 @@ extension String {
     // 替换尾缀
     func replaceSuffix(string: String, with: String) -> String {
         if self.hasSuffix(string) {
-            return String(self.characters.dropLast(string.count())) + with
+            return String(self.dropLast(string.count())) + with
         }
         return self
     }
@@ -81,7 +81,7 @@ extension String {
     // 将多个连续重复字符变为一个
     func toOne() -> String {
         var outString = self
-        let length = self.characters.count
+        let length = self.count
         for index in (1 ..< length).reversed() {
             if outString[index] == outString[index - 1] {
                 outString.remove(at: outString.index(outString.startIndex, offsetBy: index))

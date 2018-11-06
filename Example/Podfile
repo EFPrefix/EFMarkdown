@@ -1,9 +1,11 @@
+platform :ios, '8.0'
+
 use_frameworks!
 
 target 'EFMarkdown_Example' do
   pod 'EFMarkdown', :path => '../'
 
-  pod 'EFCMark'
+  pod 'EFCMark', '0.0.2'
 
   target 'EFMarkdown_Tests' do
     inherit! :search_paths
