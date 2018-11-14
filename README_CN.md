@@ -20,6 +20,9 @@
         <img src="https://img.shields.io/badge/weibo-@EyreFree-red.svg?style=flat">
     </a>
     <img src="https://img.shields.io/badge/made%20with-%3C3-orange.svg">
+    <a href="http://shang.qq.com/wpa/qunwpa?idkey=d0f732585dcb0c6f2eb26bc9e0327f6305d18260eeba89ed26a201b520c572c0">
+        <img src="http://image.eyrefree.org/QQGroup.png">
+    </a>
 </p>
 
 EFMarkdown 是一个轻量级的 Markdown 库，可以用来将 Markdown 转为 HTML，也可以用来直接展示 Markdown 对其进行预览，基于 [EFCMark](https://github.com/EFPrefix/EFCMark)，受 [markdown](https://github.com/vapor-community/markdown) 和 [Markoff](https://github.com/thoughtbot/Markoff) 启发。
