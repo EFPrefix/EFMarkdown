@@ -2,6 +2,12 @@
 
 -----
 
+## [5.0.0](https://github.com/EFPrefix/EFMarkdown/releases/tag/5.0.0) (2019-03-31)
+
+* Upgrade to Swift 5.0.
+
+---
+
 ## [4.1.0](https://github.com/EFPrefix/EFMarkdown/releases/tag/4.1.0) (2018-11-06)
 
 #### Add
