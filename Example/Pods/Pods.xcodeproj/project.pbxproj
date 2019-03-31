@@ -7,651 +7,654 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01F948E8D7BB27F6A1B696C259A494A2 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = A0829B2307D77EC0752A336EC7B7D4D4 /* scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		02275F953AAB6B143E96D7BF49FFF8B3 /* strikethrough.c in Sources */ = {isa = PBXBuildFile; fileRef = 211CAE25CFEC5168F6C6038321D15631 /* strikethrough.c */; };
-		04BA9E57BAF8F068629FD45D48527D48 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = 39D4A15FE4682D940C3BFBA608AC4F24 /* houdini_html_u.c */; };
-		07067D6B6F9084EF81B19C2F5B59EBED /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = F53BA62B72A0A9C3EAA1C10919EFA8C9 /* vendor.js */; };
-		09D1EA698B1DB6C23E212F8C97C86E3D /* tagfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 4009D1A928F4A4F4F67D6A81BE57F55F /* tagfilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0D885E2B5F7A19C6C8DE940F94003384 /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = C968F160EC5F69029870C190AC9F3342 /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11486C93CF033184C7EFBBC418EB0F55 /* EFCMark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D305B127084188AD936777EEEADEF01 /* EFCMark-dummy.m */; };
-		149A422C094152903EAD7ABEE65141F2 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 81749C9D81ADE07729F81766BF91F417 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		181FCC261FDD8A17D8DCCFB901163BDA /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 2C806DD02B098A96683824790943F97C /* main.js */; };
-		1906AD8C8867741928E132BBE9F3649B /* entities.inc in Headers */ = {isa = PBXBuildFile; fileRef = 98FCD651BCFA6D4776EAC17ADC8B7ED0 /* entities.inc */; settings = {ATTRIBUTES = (Public, ); }; };
-		19FF1A6D5EFDDB8302F15A31760D69FC /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F66EC5F1FC1AB3A2B7A443714FB7C93 /* ext_scanners.c */; };
-		1AADB221D69188E622ED6E84E7FF8DA8 /* strikethrough.h in Headers */ = {isa = PBXBuildFile; fileRef = B516E90BA7331A1E8FED2BAE8C078D15 /* strikethrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		1C8C8EB96CB295F74D461C4F7451C85C /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 563B8D1ACDD40A2A4CFCFB072CE37E2A /* autolink.c */; };
-		24B9B7F44482BE91316DCD0664CB309A /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 57DC5590C763F4EBA005C3FC6BED1E02 /* inlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		2668CD9E33589575B351B526016AB45B /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = 572F4D4CB1D2AACAD6F9DF5DDC40F64E /* utf8.c */; };
-		2B16017B8F40C866CFE4AE24C53AE074 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = B611A17F48985B7DC820DFBF308D3A8F /* buffer.c */; };
-		2EF9B2412C175E64A1A008308AF9E63F /* core-extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 92DB01D2E3E1E48EB628B236C3C4DB0F /* core-extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		302086AF4E7ED947AD56F855028D23F9 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = B01B75871EA9D210E1D2FDFF6F219FBE /* inlines.c */; };
-		31D3FB63F80B5A4E8DD5055B39B77AE3 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = 840B9AF10484E469F0A3153B24E0BA0A /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		34FFFA4359ED16797EA0F498F5743FC2 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = 98EB72715E2F703230931A6EC2A44F87 /* references.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		37527F6C9188298BB225E5A4BB047E4B /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = A7A0D9294AF41DD4AD33788C526F75DC /* blocks.c */; };
-		3A725F9C2CAD6C32AA7E872047843043 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = FBB1398119A84E5DE990F34661B5128C /* man.c */; };
-		3CA3D5F4025A6D5A1C92E83556DBBDA7 /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 8CF840B868AC869E1B49982646B38C41 /* scanners.c */; };
-		3DDFC58CBD3701506B5E03803D6D07C6 /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = A67E8A09DAB73A073A39F0C760547046 /* tagfilter.c */; };
-		461E7C9C5B74C434B31FC289882C83A2 /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = FACA14580546962159103D0B037C846E /* main.css */; };
-		4A36E3B33AF5CFDA3D4FD698DF31FA01 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = 57EEB529067A1635331FFBEB37EB110C /* render.c */; };
-		4C99CB1275AF378459BB3DAF5DF79C49 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = 057527A7C1BD55ACDDF3E21A4FB6011C /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4FE664807E8C1AC4EF1E5C489D4DE242 /* EFMarkdown+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A1AB3958301439878D4CA43501C2CED /* EFMarkdown+Table.swift */; };
-		51F9FDC4124F8D40C0FAC28124FCB0C3 /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4EB56450B33557DCF2019F42117E33DC /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		527A214BB50EE536E4C03E1E65CF8C01 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = BAF56843D48D28265AC6610ADFB27D72 /* latex.c */; };
-		573F98DFC48918AD8E95909A8A4FD425 /* arena.c in Sources */ = {isa = PBXBuildFile; fileRef = CCD3470DEF2BBB3FB3FAA1A529237D76 /* arena.c */; };
-		5E1964772C5050FFD138085BF4A4EF2D /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = F12EF1D227F4B5A36CA1FE7FAAFD36B7 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6759CDA001586C9D77BBB8AB870FD810 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = 16FB4ABECA75478795D499AF4A88D4D6 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		67688A5F22B811D08BA58D4A24BF5210 /* EFMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 424287169659A29C8EEFC68BCD0111E0 /* EFMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6AFF14B8345D4A8097534BDDC383F045 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = E62AB53584210D0C7CE896DE4D136D99 /* references.c */; };
-		76A6EE37CFD5259AA79F53FFF2A59913 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0F8C270C0C26EF2C346BC487812649 /* chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		772B520971AFFB392F987B9F4373E2F1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0959652E2A1982D0B04B8B50143E19 /* Foundation.framework */; };
-		7C60AB9F7981CE7299C128E91208D026 /* EFMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A48E7DA752D95770D9E2DF68645779C /* EFMarkdown.swift */; };
-		7FA18232D5F766A0E15BC1392189124B /* cmark_extension_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BFA3278C76C38E93FB2DECE4514390E /* cmark_extension_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		820C804BA500B946CBA4438B58BE1FFB /* plaintext.c in Sources */ = {isa = PBXBuildFile; fileRef = DD1F97768A1D99DF216A63DADB12E546 /* plaintext.c */; };
-		88086076FA87B67F388D227D985FCA05 /* EFMarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24147872A0B52604E33B2FCB731F28B /* EFMarkdownView.swift */; };
-		8BAF767F3BCE17A5077DA3074D454B77 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 87035457837AB5359A9C9AFB77603F95 /* houdini_html_e.c */; };
-		926DB2D5117E4283847F59A79A85FE78 /* core-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F20681C74BFA04E705BD17D7FB92DFA /* core-extensions.c */; };
-		929DC42985A922BFFDE97DA4DDECA320 /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = FB3A0BA2C2F65B0A44E53560182A50C7 /* plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9483D890F89EB41292B05247A48251F8 /* EFMarkdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 5BF22B33826B7E1EC212439768678015 /* EFMarkdown.bundle */; };
-		97E94014695863E8BA97DC755930A41D /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 91779E3A522BCECDBF7B73774EFA82D6 /* plugin.c */; };
-		9A66CCC8874F907274ADD4AB8675586E /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F97629614DD94586582825202C152585 /* String+.swift */; };
-		9A9BBE1B8A92A686D2AF2E41B4A9ED04 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B858AF850EF420EFE90D8C466774084 /* Global.swift */; };
-		9AC1149A1D6360DF4A7F41F4F0DB7B50 /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = 6AE323528162FAF506981E428879E9BF /* render.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9DD6C251DEB2FDC8703339C6B2F48903 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = 7BA690CC5D1815C1F9D6F34D2467C891 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9F90653BE7D5ACDF27E8C3C807655BD9 /* Pods-EFMarkdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E269129DCA83E56013109A0C6CA22A0 /* Pods-EFMarkdown_Tests-dummy.m */; };
-		9FFEF7AF9C25762FC9C470F60F645FA8 /* ext_scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 62AF2E2513F5519F988E5F9A2DB8F5B7 /* ext_scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A120DFEAA1B90B2F88CEBAFFDD70408D /* Pods-EFMarkdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4DE2304811F7C2A4D4F6A2E146CEDE6A /* Pods-EFMarkdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A20CF72DF9CECACF85A91939FBF1B96A /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 0D34584ABF376A7DC62C767A6D1389CD /* cmark_ctype.c */; };
-		A803357C13999851826E7FD6AE043C1B /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 93ED98CA7E1AF65772CB6669F8EAE759 /* syntax_extension.c */; };
-		A8282010F38FA6E0FD630CE8449945F1 /* EFCMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DFF2DE39323E1B309C662CAC32405C6C /* EFCMark.framework */; };
-		B1AAF85D5A0F711D236CE11B73768242 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0959652E2A1982D0B04B8B50143E19 /* Foundation.framework */; };
-		B2701381ED8C2AB537E80238B067F8DE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0959652E2A1982D0B04B8B50143E19 /* Foundation.framework */; };
-		B490FFAF0D855D63D97B1930DC3E6012 /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = 630A2ADDC33D0DB98E86F19064D9B58C /* linked_list.c */; };
-		B855ED84C0BD250D9B5AE7DDDF72DA27 /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 07AC7559DB8587F7C7816C89BE1A7FCB /* xml.c */; };
-		BC30FC5CB1957E146096739A846CEA09 /* cmarkextensions_export.h in Headers */ = {isa = PBXBuildFile; fileRef = CCF99FA37F5EFAB0C1F1D8213734D522 /* cmarkextensions_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		BE1F84C6343B062D07E215DD16F8AA15 /* registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 38E4A9EFC33A43861C0824E6885D9688 /* registry.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C100F4AA5E7513929238BBC918EF71B9 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = 0EA391B22AFA36B39773890F9E073AA7 /* iterator.c */; };
-		C18AADC23D699DA421597D1D4F28457E /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = E8E07186C1E45E3083B0C3D620D7854C /* table.c */; };
-		C47370B0BC02C72CB44810896A0A0D81 /* Pods-EFMarkdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9605745F6B70DB671224588FFB8D719E /* Pods-EFMarkdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C85F4952B43A41FA8B65B2E05156B41C /* syntax_extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 1E3621F7D8CF07141FFB06073BB98D8F /* syntax_extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C8E87C448F90D63898E744A5975B52A8 /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = D41A110B9F77C116D5D1CF1286ECA267 /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CC81F0DE7FD2654BF2D326DCB13B4F2E /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 629969C8D3D11812FD1513AB61E8A159 /* cmark.c */; };
-		CC903AAA545071EBD99DBC915C2C4A0B /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = C9B36D0F37A720C850FA6BA1267EC46E /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CEDB6730ED52BCD1DCE808924A18080D /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EA10F5BAED5B63D6E5DDABFA1394FE1 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D20C3D2161CF713973DDAED3D8A6E0B6 /* EFMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A8543822553EBEA9D9EF429FF0FB6CE1 /* EFMarkdown-dummy.m */; };
-		D3287722472B251CCB15FB4C7BD49562 /* Pods-EFMarkdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0B64E15BC27427D5C010CA919B740FDC /* Pods-EFMarkdown_Example-dummy.m */; };
-		D5003A2601D4D29FD6EBF6A16D571227 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 4AB66E952B9AAA9A515FD24FDF2CC274 /* html.c */; };
-		D5808B10BD2E901ECEA462B4935B062B /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = CFCDFF0AFCE875783A2C86DB11F8BD3C /* node.c */; };
-		DD82A2546B9A63A9F6D760B753176B26 /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = 732DA2151A8064799BFBBC0F2DFC4734 /* registry.c */; };
-		E5ADA5DECCD092857B6A6730991C9A0F /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = AF8B6F3F99EE285C6344C810E0217853 /* commonmark.c */; };
-		ED7358C6E55228A5799EAB8987344FD9 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 95667AEBF710A156F7D85003083218A1 /* houdini_href_e.c */; };
-		EEBAD336F971BE29E4E36E0FFA910CCB /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 6043BD7DF138A11B41BDAA2F4D6983BF /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F1E7899B1C45ED8CE514499BBB98C506 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ED5A5A03F04E9D8881316FDD5094592 /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F4D47D15BFA8266A27A4EE3E0E43E3F0 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 597600A20CB30280BE3FBCF4A41CB519 /* index.html */; };
-		F6E617C807F85DA5EA9193876D09C0EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0D0959652E2A1982D0B04B8B50143E19 /* Foundation.framework */; };
-		FD9C25C5279871E9F7B690941FD0375F /* EFCMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 84C637E6559169DC13E4B130F0FE0C16 /* EFCMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		FF636C90B4C9F918ADC4ACDDE9F1D909 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = F9A7BE4998261C4634B91BED3CBE0730 /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		008B5AB9BCB45A333718331474C12DFF /* String+.swift in Sources */ = {isa = PBXBuildFile; fileRef = CBAC47493D9360CD1F3BCE52AD50F367 /* String+.swift */; };
+		00BEFAE8734B64E56A055DE5B9D6AD30 /* arena.c in Sources */ = {isa = PBXBuildFile; fileRef = 08F03B784ABC324B05A1B40FF7886804 /* arena.c */; };
+		0D5CF944461290A248CCFEF6BEC034CB /* main.js in Resources */ = {isa = PBXBuildFile; fileRef = 92EB234045130DE52AD3252BF3A12D34 /* main.js */; };
+		139A85D456BD33952A8A75D9E3530C41 /* node.c in Sources */ = {isa = PBXBuildFile; fileRef = 32C798E307A72EB86B28F35586B40AB5 /* node.c */; };
+		16907016FA03F7145DDE508F9A426E0A /* utf8.c in Sources */ = {isa = PBXBuildFile; fileRef = DD3C7C32EF969134FDF6DD722AD6A716 /* utf8.c */; };
+		232539FF020DB92A5F77FCA7206FDD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBC0AB04FAC6FA09365D3191EA8C80 /* Foundation.framework */; };
+		26F418F40EE964E026B7088A7F49A2A5 /* EFCMark-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D036700ACFA31945AD7DDE870FCED80F /* EFCMark-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2920B38F591C914E4F6800BD1A888E8E /* main.css in Resources */ = {isa = PBXBuildFile; fileRef = 10D5F74B223A364AEB2CD26F37E0AF65 /* main.css */; };
+		29B15850DF46224E6DDDC1382A826034 /* man.c in Sources */ = {isa = PBXBuildFile; fileRef = 03B8BF9E9E7C7AABE81C28AFEEA39650 /* man.c */; };
+		29C077B771ADCD6AB21829F518804FDF /* plugin.c in Sources */ = {isa = PBXBuildFile; fileRef = 79718A218C093871EE84000D17432497 /* plugin.c */; };
+		2CAE76A0BADAFB488DC3823F87DFFF0B /* scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 5F45A2F8EBD48CDABD9792229A8F9C77 /* scanners.c */; };
+		2DD1C0874B5383587A6BB8061CE2DD81 /* EFMarkdown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 98AA4A82B7D8C7B957453AFB2CB9313E /* EFMarkdown.swift */; };
+		2E96C8D1CE6EE62A7D58E3C30E5954EA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBC0AB04FAC6FA09365D3191EA8C80 /* Foundation.framework */; };
+		341B85F2CF28ECA593DC54346B2275B8 /* entities.inc in Headers */ = {isa = PBXBuildFile; fileRef = FDD9D60DD38320730A9D0696897174B2 /* entities.inc */; settings = {ATTRIBUTES = (Public, ); }; };
+		35164F0F550CC96B3E4E97F5E7F1BD2F /* EFCMark.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9F42B8DD9311E302E25A31C882FA5BA2 /* EFCMark.framework */; };
+		39D860B9F4CAF4FB21D677F4A985AF7F /* registry.c in Sources */ = {isa = PBXBuildFile; fileRef = E8188841A861D1F4C1073152E1AEB93D /* registry.c */; };
+		3A36891A8A1DF81736803D577C31C7A3 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34BDD43B614B4A7B8D0765FE2C2F484 /* Global.swift */; };
+		3D3A5057291F378511E725AB8EAC788A /* Pods-EFMarkdown_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E5194DF4E31BE85725C22569096E1B9B /* Pods-EFMarkdown_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3FC33765F6DF47C5FFE26F9EDD62449F /* cmark_extension_api.h in Headers */ = {isa = PBXBuildFile; fileRef = 7ECAB4ED3B36EAC488D766678BA930FB /* cmark_extension_api.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		403C7BFA69A0E2A54EF2918E45BADD7D /* iterator.h in Headers */ = {isa = PBXBuildFile; fileRef = 9AED7EAE962BECC3633D94ED16567896 /* iterator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		40C1386C5749E3C9D59469F715A7203F /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = A7B22427C0A146AAEE05678CB0C8EC94 /* houdini_html_e.c */; };
+		41C8D51CA30F07FECBB120E4EBD04CEC /* EFCMark-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D50210E5679C718C83B108A5700CC7F0 /* EFCMark-dummy.m */; };
+		422F573597C77C695588E16104007112 /* cmarkextensions_export.h in Headers */ = {isa = PBXBuildFile; fileRef = A7341909194527EFF54B9E35C50426B6 /* cmarkextensions_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		474CD9F028288814FC323127C9446F5A /* table.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C72FFE42201B2FAACFC62863589CB93 /* table.c */; };
+		4A35B347A5B2CA823CAF5DD64B4FCEA6 /* vendor.js in Resources */ = {isa = PBXBuildFile; fileRef = C83118E4A29104593F63C566E60BE933 /* vendor.js */; };
+		54097865B6842A5117F4802D48FBF11C /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = 1891F5181A503C18053AB58890B4A75E /* html.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		550899D11EA25E7B31901FB30C4B1CAB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBC0AB04FAC6FA09365D3191EA8C80 /* Foundation.framework */; };
+		57EB7B6D9DD91138959A4B932936BFEE /* table.h in Headers */ = {isa = PBXBuildFile; fileRef = C4AE237EA0C5CEECD47F547318412B4C /* table.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		623A62B790783F4B87023012895C230D /* commonmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 2618932532A55339E386ECFF7C8CFD11 /* commonmark.c */; };
+		703F2E29AEE4AEB2F954F564DA904ADB /* syntax_extension.h in Headers */ = {isa = PBXBuildFile; fileRef = 38429168796651D22FE6D4932C28E406 /* syntax_extension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		70DEB773D48D93EDE566142A5D3451C9 /* index.html in Resources */ = {isa = PBXBuildFile; fileRef = 9BB415D28060C2219BA4E5F7F1EA87C3 /* index.html */; };
+		725FDB3D1D82BFE477232508A443608A /* render.h in Headers */ = {isa = PBXBuildFile; fileRef = F3AF1FC55618B68E19649D3657D0C7A0 /* render.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		727ED9F8A9B64E9EAD102D2EB959DA90 /* strikethrough.h in Headers */ = {isa = PBXBuildFile; fileRef = B7203DF8D89CFA3A7FB1F1D97A94D1D3 /* strikethrough.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		735296AD1389191DBE2979412847C050 /* tagfilter.h in Headers */ = {isa = PBXBuildFile; fileRef = 68FCA5A4A9D90C838FCA22E8120674EE /* tagfilter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75509F6AB1DF2ADCB47D8845AE102B98 /* utf8.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FA7DC363FB98EB5658FC07A08B14270 /* utf8.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75FAF8CEA0CB47E3F99D89FC6D3D97CF /* EFMarkdown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 77EACE0612D035891A9993A35DF41346 /* EFMarkdown-dummy.m */; };
+		7B63BDC3899D66A536A127BED7D8DDE4 /* cmark_ctype.h in Headers */ = {isa = PBXBuildFile; fileRef = ADCBF94CA628CE54E41D6FF2647CEF62 /* cmark_ctype.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7D2D3079B1DF741A24D118BCA15D47F2 /* core-extensions.c in Sources */ = {isa = PBXBuildFile; fileRef = CBB4205B0625D102113042CFDD14781D /* core-extensions.c */; };
+		7E9E7EB052BF46C04CDE1B6D30F85AC7 /* Pods-EFMarkdown_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 93225E3EB9D6697BCA3DFAB6BBE02ABE /* Pods-EFMarkdown_Example-dummy.m */; };
+		7FE02A27DE22ADD2B0FCD790E27A1C44 /* core-extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 73AF007011D96328A313E99E176DB913 /* core-extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8694A172A0B5D1A9BD8F4A5F78A47034 /* inlines.c in Sources */ = {isa = PBXBuildFile; fileRef = 55166A38E132B1F3E839835BA54C50CE /* inlines.c */; };
+		8A05C1BA09A72E11F06AE89C1762E5C8 /* references.h in Headers */ = {isa = PBXBuildFile; fileRef = C60C895A45BAD3277851EAF5E9BCE20F /* references.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8B7F13A27DFD1580DE0ACC0E685A0D25 /* ext_scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = C947DC05979E7EA38348536A47CC5706 /* ext_scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		91EDB285342775F4C74B91096151F0E1 /* inlines.h in Headers */ = {isa = PBXBuildFile; fileRef = 6F0D32C50D64703604E934EFF64FCC99 /* inlines.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9327AAF8349CADF8262B26C82BD83AE2 /* ext_scanners.c in Sources */ = {isa = PBXBuildFile; fileRef = 0CDF0BF7141755567098AFA641E832A2 /* ext_scanners.c */; };
+		9A65BC685273D63C4F115E4C201B036B /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = 41D0F7DA4145DF2E8AD3A29FCDA06BCC /* html.c */; };
+		9BF8921CEDE94DC18070330138D78642 /* cmark_export.h in Headers */ = {isa = PBXBuildFile; fileRef = FDB10D28A4D8775E9B099FFB62845CB3 /* cmark_export.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D4AAF33B3B1DD9578B2871D1FA34684 /* EFMarkdown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9940761961387C1FDAA6F8AA2985B90A /* EFMarkdown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A60DAB796A897F8E55CEF57639C14A76 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = EA83A80542969918884186CE29350016 /* autolink.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A7A3A05A09119CC2A94EF9488F06B901 /* Pods-EFMarkdown_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 86189BB36E472CDAB386ACB3609FDE5B /* Pods-EFMarkdown_Tests-dummy.m */; };
+		AA5378C14A9B8C4A02E561C275D23549 /* chunk.h in Headers */ = {isa = PBXBuildFile; fileRef = 98A2B31957EC71CF26BFCC63DD291CCE /* chunk.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD3DEFCCEEB34942BA0FAB48BD0DFAE5 /* iterator.c in Sources */ = {isa = PBXBuildFile; fileRef = A4CC34313F6ECF2D09CC4EA2D39EF058 /* iterator.c */; };
+		B5C26662EEBBD28F6B5F58C8A0287C88 /* registry.h in Headers */ = {isa = PBXBuildFile; fileRef = 0258304AD33F7B6D79CA06D78698BE71 /* registry.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B612B3C85B97F3BCB00685E51DC814B3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04EBC0AB04FAC6FA09365D3191EA8C80 /* Foundation.framework */; };
+		B78AEAD51947E63692222AB980134566 /* references.c in Sources */ = {isa = PBXBuildFile; fileRef = 3B2DCE7CBD775071D60DEF7B85E867DC /* references.c */; };
+		B9592B31B56D2001D99FA6143EB268CC /* cmark.h in Headers */ = {isa = PBXBuildFile; fileRef = 8184321F14F95A7B9CED5AD8A8F3140F /* cmark.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BBFB51BBA977D9D738501CAA92B01823 /* config.h in Headers */ = {isa = PBXBuildFile; fileRef = 009FCFD76E7AE56ED6A3E4A76D644AF0 /* config.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCA910611DAD49A547CDA7C78CD69069 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = 44DF1CEEFCEE052C6D06B7050BD6545C /* houdini_href_e.c */; };
+		BCED20A42C92119568800343E20E75F4 /* houdini_html_u.c in Sources */ = {isa = PBXBuildFile; fileRef = CDA8B9391DFE28B3360B01FC35FC615D /* houdini_html_u.c */; };
+		C4119CEC423E4F612B870EB79F9C74B7 /* tagfilter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9322DBCA0838EE25ECFAE09D66FBAF2B /* tagfilter.c */; };
+		C43B4FF74195BF463B260AA5A04E7D0B /* linked_list.c in Sources */ = {isa = PBXBuildFile; fileRef = CBF1E68D9918850B5644FE394798EBAB /* linked_list.c */; };
+		C4EE7167A9CB3ADFCFF9CD7C978807A5 /* cmark_version.h in Headers */ = {isa = PBXBuildFile; fileRef = CFAEA42C9CC0E9D5FE2C79E8E051E8C9 /* cmark_version.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C6D250400D2A81A003087BE2D2A0EE2E /* Pods-EFMarkdown_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 55A253640A444DE8234C9362640F4E7D /* Pods-EFMarkdown_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C8D336206BD5E5E8296188BCCF8E825B /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = 85B7F0504956B3DF778450227EC08B37 /* autolink.c */; };
+		CB5A553B9416A0735F0C9E63DAB61964 /* latex.c in Sources */ = {isa = PBXBuildFile; fileRef = AE3B91C01642527CFD4D1F30C543D141 /* latex.c */; };
+		CBD0E38582E0A303EF64A7712A3EC5A7 /* node.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DBB2D4735B67CF6093AA4C912BDDAF0 /* node.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD38AC51A2F60898F975641252D36777 /* scanners.h in Headers */ = {isa = PBXBuildFile; fileRef = 21B8E8EC0361D6509E45C96B3BF65374 /* scanners.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CD55D55805C9338CF5CDD6AF88464AC1 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = 93E45C6D020E493B22AB9FC03A6A5893 /* buffer.c */; };
+		D3E84B57835637E5C533DA08E72BC89C /* plugin.h in Headers */ = {isa = PBXBuildFile; fileRef = 8526269E2260F1E282DCB452237A3505 /* plugin.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D711C49E819F6AE41EF430A3F7713903 /* EFMarkdownView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCFD511291912BA599B47D5F80E00A84 /* EFMarkdownView.swift */; };
+		DE749A40949DFE3E90F2A974421BEECC /* syntax_extension.c in Sources */ = {isa = PBXBuildFile; fileRef = 66625BFB7B4996ABA5125C9F55BA28FE /* syntax_extension.c */; };
+		DF35FF3D0DFAFAAD5910CC2885717659 /* cmark_ctype.c in Sources */ = {isa = PBXBuildFile; fileRef = 8B7005893E41CB0524C185BC2EBFA2CB /* cmark_ctype.c */; };
+		DF78DE9D8AA05504BA42768328AA8EC5 /* plaintext.c in Sources */ = {isa = PBXBuildFile; fileRef = C2B6907250D654A57AB651EFFBC5DF4E /* plaintext.c */; };
+		E990D979DDD5DDAC6060669CB630952A /* parser.h in Headers */ = {isa = PBXBuildFile; fileRef = C6A48E64D156CBB5C9BC5D5B694500EC /* parser.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EA5F64361EFDAE9E62FB501BA32B37AD /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = DFEC3438D50EB37C4A44A0F9A3CFD1E8 /* houdini.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F0DE058792077A934CD89FD46FE298AE /* EFMarkdown+Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 516FFEB203AC0D15964917E649A5C97B /* EFMarkdown+Table.swift */; };
+		F292BE6F2F655842B28B02D95B6F4DD2 /* EFMarkdown.bundle in Resources */ = {isa = PBXBuildFile; fileRef = F844069921F0DA547B4B812550E8F5E5 /* EFMarkdown.bundle */; };
+		F631E9C139A93859EFFDC0AC96EFB344 /* render.c in Sources */ = {isa = PBXBuildFile; fileRef = CB9A309AAF3D226A0E42B1451EA11079 /* render.c */; };
+		F8F13DFC4B6A0D385A2D464D01F5412C /* cmark.c in Sources */ = {isa = PBXBuildFile; fileRef = 5597C11326E6EA446AD856042D797AC1 /* cmark.c */; };
+		FBF0C7F23A09864ED46F5C58A511B1ED /* blocks.c in Sources */ = {isa = PBXBuildFile; fileRef = 557EB740D17D47CD65034E658E1A2562 /* blocks.c */; };
+		FD724C402AAF4B33923043974E2DF679 /* strikethrough.c in Sources */ = {isa = PBXBuildFile; fileRef = 326C2F2170E2A2AF0A13DF6CC5FBFA5D /* strikethrough.c */; };
+		FDFE6390FF648D4A2A9F29D27ED04A10 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = D849847E6AF5847E8DB7C8817D3B6F85 /* buffer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEFCD6674BCA0A413682780D9021F59B /* xml.c in Sources */ = {isa = PBXBuildFile; fileRef = 2EB18F0A99CD6FD98272929FC7CEF320 /* xml.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		056EE7B8EC4BC53510CF68F2CEA82E05 /* PBXContainerItemProxy */ = {
+		250B57632FEAF748FA9AC9B1BE7439C1 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = C6C91B54E556D19610FE01641EA04BBF;
-			remoteInfo = EFCMark;
-		};
-		05F14779E914BC9BCC33EC677D21FE80 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F55494EC5349CB2E5FA48794671A37C2;
+			remoteGlobalIDString = 0ADEB6E7D60B67126073846482152831;
 			remoteInfo = "Pods-EFMarkdown_Example";
 		};
-		28B3FE7BEAD71DCE788D75A2D164E19C /* PBXContainerItemProxy */ = {
+		25C0BEB66BB2FEEA10619CCA18178E6E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 6CA88B3F5E91E1F71810207F801FB476;
+			remoteGlobalIDString = 56C7C31241203F7913913DF7EB8F6970;
+			remoteInfo = EFCMark;
+		};
+		3F427C762A631E26ACD3F7643B7790E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 56C7C31241203F7913913DF7EB8F6970;
+			remoteInfo = EFCMark;
+		};
+		43F1A7D7441A7D74C2DD3C9C1DCED2D2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 48FABF783E55028D837026F7669DF047;
 			remoteInfo = EFMarkdown;
 		};
-		4BE4A72694EE7D00D214DB544C367A13 /* PBXContainerItemProxy */ = {
+		D8C36FB2B738C30998A46E41A879060B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 1BC7CC699AE312C5DB6756123BE6C98C;
+			remoteGlobalIDString = FD24C4148583707A05F8608772DBAE74;
 			remoteInfo = "EFMarkdown-EFMarkdown";
-		};
-		DDF10AD4978DC920C76B4B2DB4A41071 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = C6C91B54E556D19610FE01641EA04BBF;
-			remoteInfo = EFCMark;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		057527A7C1BD55ACDDF3E21A4FB6011C /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = EFCMark/Classes/cmark/cmark_export.h; sourceTree = "<group>"; };
-		07943238884CD97794AB9A3A194BB029 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		07AC7559DB8587F7C7816C89BE1A7FCB /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xml.c; path = EFCMark/Classes/cmark/xml.c; sourceTree = "<group>"; };
-		0846688D9E63151AF7CCAB142E7A5B5F /* Pods-EFMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0A48E7DA752D95770D9E2DF68645779C /* EFMarkdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFMarkdown.swift; path = EFMarkdown/Classes/EFMarkdown.swift; sourceTree = "<group>"; };
-		0B64E15BC27427D5C010CA919B740FDC /* Pods-EFMarkdown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFMarkdown_Example-dummy.m"; sourceTree = "<group>"; };
-		0D0959652E2A1982D0B04B8B50143E19 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		0D34584ABF376A7DC62C767A6D1389CD /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark_ctype.c; path = EFCMark/Classes/cmark/cmark_ctype.c; sourceTree = "<group>"; };
-		0EA391B22AFA36B39773890F9E073AA7 /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.c; path = EFCMark/Classes/cmark/iterator.c; sourceTree = "<group>"; };
-		12E25972841C577F28F7B37353709675 /* Pods-EFMarkdown_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Example-Info.plist"; sourceTree = "<group>"; };
-		1447C1FE5F58FAEC894EDACCAD0442A7 /* EFCMark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCMark-prefix.pch"; sourceTree = "<group>"; };
-		16FB4ABECA75478795D499AF4A88D4D6 /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_version.h; path = EFCMark/Classes/cmark/cmark_version.h; sourceTree = "<group>"; };
-		1E096C46FC713FF3B638C49F0223F018 /* EFCMark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFCMark.xcconfig; sourceTree = "<group>"; };
-		1E3621F7D8CF07141FFB06073BB98D8F /* syntax_extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = syntax_extension.h; path = EFCMark/Classes/cmark/syntax_extension.h; sourceTree = "<group>"; };
-		1F1EB9A3ECF7E8B80EB5D6C356C898CF /* Pods_EFMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFMarkdown_Example.framework; path = "Pods-EFMarkdown_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1F20681C74BFA04E705BD17D7FB92DFA /* core-extensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "core-extensions.c"; path = "EFCMark/Classes/cmark/core-extensions.c"; sourceTree = "<group>"; };
-		211CAE25CFEC5168F6C6038321D15631 /* strikethrough.c */ = {isa = PBXFileReference; includeInIndex = 1; name = strikethrough.c; path = EFCMark/Classes/cmark/strikethrough.c; sourceTree = "<group>"; };
-		2A526531E9DFB91CF42D7B43863A7880 /* Pods-EFMarkdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2C806DD02B098A96683824790943F97C /* main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = main.js; path = EFMarkdown/Assets/main.js; sourceTree = "<group>"; };
-		2D305B127084188AD936777EEEADEF01 /* EFCMark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFCMark-dummy.m"; sourceTree = "<group>"; };
-		2DD108ADA163479BE0543B138C925169 /* EFCMark-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFCMark-Info.plist"; sourceTree = "<group>"; };
-		36722B7F33E500E155911629F57889BB /* EFMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFMarkdown-Info.plist"; sourceTree = "<group>"; };
-		38E4A9EFC33A43861C0824E6885D9688 /* registry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = registry.h; path = EFCMark/Classes/cmark/registry.h; sourceTree = "<group>"; };
-		397874EAD09AEDC4464BCA265B1C56C1 /* EFMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFMarkdown.framework; path = EFMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		39D4A15FE4682D940C3BFBA608AC4F24 /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_u.c; path = EFCMark/Classes/cmark/houdini_html_u.c; sourceTree = "<group>"; };
-		39E17074C40DABB694EBD7F4A36FD88E /* Pods-EFMarkdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		3B858AF850EF420EFE90D8C466774084 /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Global.swift; path = EFMarkdown/Classes/Global.swift; sourceTree = "<group>"; };
-		3C4DC6A899901B36C85D657EEB32A9A3 /* Pods-EFMarkdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFMarkdown_Example.modulemap"; sourceTree = "<group>"; };
-		4009D1A928F4A4F4F67D6A81BE57F55F /* tagfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tagfilter.h; path = EFCMark/Classes/cmark/tagfilter.h; sourceTree = "<group>"; };
-		424287169659A29C8EEFC68BCD0111E0 /* EFMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-umbrella.h"; sourceTree = "<group>"; };
-		462ADB20902FABCE8AFD0ACAF453E411 /* Pods-EFMarkdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Example.release.xcconfig"; sourceTree = "<group>"; };
-		4AB66E952B9AAA9A515FD24FDF2CC274 /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; name = html.c; path = EFCMark/Classes/cmark/html.c; sourceTree = "<group>"; };
-		4BFA3278C76C38E93FB2DECE4514390E /* cmark_extension_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_extension_api.h; path = EFCMark/Classes/cmark/cmark_extension_api.h; sourceTree = "<group>"; };
-		4DE2304811F7C2A4D4F6A2E146CEDE6A /* Pods-EFMarkdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFMarkdown_Example-umbrella.h"; sourceTree = "<group>"; };
-		4E269129DCA83E56013109A0C6CA22A0 /* Pods-EFMarkdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFMarkdown_Tests-dummy.m"; sourceTree = "<group>"; };
-		4EB56450B33557DCF2019F42117E33DC /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = EFCMark/Classes/cmark/parser.h; sourceTree = "<group>"; };
-		4F66EC5F1FC1AB3A2B7A443714FB7C93 /* ext_scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ext_scanners.c; path = EFCMark/Classes/cmark/ext_scanners.c; sourceTree = "<group>"; };
-		5347512F665B2CB26985AA7C9F0797F0 /* Pods-EFMarkdown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFMarkdown_Example-frameworks.sh"; sourceTree = "<group>"; };
-		54E596FE04F9D2969AD89F29BE319375 /* Pods-EFMarkdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		563B8D1ACDD40A2A4CFCFB072CE37E2A /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; name = autolink.c; path = EFCMark/Classes/cmark/autolink.c; sourceTree = "<group>"; };
-		572F4D4CB1D2AACAD6F9DF5DDC40F64E /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf8.c; path = EFCMark/Classes/cmark/utf8.c; sourceTree = "<group>"; };
-		57DC5590C763F4EBA005C3FC6BED1E02 /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = EFCMark/Classes/cmark/inlines.h; sourceTree = "<group>"; };
-		57EEB529067A1635331FFBEB37EB110C /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; name = render.c; path = EFCMark/Classes/cmark/render.c; sourceTree = "<group>"; };
-		597600A20CB30280BE3FBCF4A41CB519 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = EFMarkdown/Assets/index.html; sourceTree = "<group>"; };
-		5BF22B33826B7E1EC212439768678015 /* EFMarkdown.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EFMarkdown.bundle; path = "EFMarkdown-EFMarkdown.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		5EA10F5BAED5B63D6E5DDABFA1394FE1 /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = EFCMark/Classes/cmark/cmark_ctype.h; sourceTree = "<group>"; };
-		6043BD7DF138A11B41BDAA2F4D6983BF /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = EFCMark/Classes/cmark/iterator.h; sourceTree = "<group>"; };
-		629969C8D3D11812FD1513AB61E8A159 /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark.c; path = EFCMark/Classes/cmark/cmark.c; sourceTree = "<group>"; };
-		62AF2E2513F5519F988E5F9A2DB8F5B7 /* ext_scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ext_scanners.h; path = EFCMark/Classes/cmark/ext_scanners.h; sourceTree = "<group>"; };
-		630A2ADDC33D0DB98E86F19064D9B58C /* linked_list.c */ = {isa = PBXFileReference; includeInIndex = 1; name = linked_list.c; path = EFCMark/Classes/cmark/linked_list.c; sourceTree = "<group>"; };
-		6A0F8C270C0C26EF2C346BC487812649 /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = EFCMark/Classes/cmark/chunk.h; sourceTree = "<group>"; };
-		6AE323528162FAF506981E428879E9BF /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = EFCMark/Classes/cmark/render.h; sourceTree = "<group>"; };
-		71D455EC07FB5D7625CD27E15E35A56D /* ResourceBundle-EFMarkdown-EFMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EFMarkdown-EFMarkdown-Info.plist"; sourceTree = "<group>"; };
-		732DA2151A8064799BFBBC0F2DFC4734 /* registry.c */ = {isa = PBXFileReference; includeInIndex = 1; name = registry.c; path = EFCMark/Classes/cmark/registry.c; sourceTree = "<group>"; };
-		7A1AB3958301439878D4CA43501C2CED /* EFMarkdown+Table.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EFMarkdown+Table.swift"; path = "EFMarkdown/Classes/EFMarkdown+Table.swift"; sourceTree = "<group>"; };
-		7BA690CC5D1815C1F9D6F34D2467C891 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = EFCMark/Classes/cmark/houdini.h; sourceTree = "<group>"; };
-		7ED5A5A03F04E9D8881316FDD5094592 /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html.h; path = EFCMark/Classes/cmark/html.h; sourceTree = "<group>"; };
-		7F9F6BE5522F1F61095831F99214D3C2 /* EFMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFMarkdown.modulemap; sourceTree = "<group>"; };
-		80A162434102D7E8D169A4467A0BD027 /* Pods-EFMarkdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFMarkdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
-		81749C9D81ADE07729F81766BF91F417 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = EFCMark/Classes/cmark/utf8.h; sourceTree = "<group>"; };
-		840B9AF10484E469F0A3153B24E0BA0A /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = EFCMark/Classes/cmark/buffer.h; sourceTree = "<group>"; };
-		84C637E6559169DC13E4B130F0FE0C16 /* EFCMark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCMark-umbrella.h"; sourceTree = "<group>"; };
-		87035457837AB5359A9C9AFB77603F95 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_e.c; path = EFCMark/Classes/cmark/houdini_html_e.c; sourceTree = "<group>"; };
-		88F2BB2622C889CB3CAA98D9B5524215 /* EFMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFMarkdown.xcconfig; sourceTree = "<group>"; };
-		8CF840B868AC869E1B49982646B38C41 /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanners.c; path = EFCMark/Classes/cmark/scanners.c; sourceTree = "<group>"; };
-		91779E3A522BCECDBF7B73774EFA82D6 /* plugin.c */ = {isa = PBXFileReference; includeInIndex = 1; name = plugin.c; path = EFCMark/Classes/cmark/plugin.c; sourceTree = "<group>"; };
-		92DB01D2E3E1E48EB628B236C3C4DB0F /* core-extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "core-extensions.h"; path = "EFCMark/Classes/cmark/core-extensions.h"; sourceTree = "<group>"; };
-		93ED98CA7E1AF65772CB6669F8EAE759 /* syntax_extension.c */ = {isa = PBXFileReference; includeInIndex = 1; name = syntax_extension.c; path = EFCMark/Classes/cmark/syntax_extension.c; sourceTree = "<group>"; };
-		95667AEBF710A156F7D85003083218A1 /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_href_e.c; path = EFCMark/Classes/cmark/houdini_href_e.c; sourceTree = "<group>"; };
-		9605745F6B70DB671224588FFB8D719E /* Pods-EFMarkdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFMarkdown_Tests-umbrella.h"; sourceTree = "<group>"; };
-		98EB72715E2F703230931A6EC2A44F87 /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = references.h; path = EFCMark/Classes/cmark/references.h; sourceTree = "<group>"; };
-		98FCD651BCFA6D4776EAC17ADC8B7ED0 /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = entities.inc; path = EFCMark/Classes/cmark/entities.inc; sourceTree = "<group>"; };
-		9DE45B8FC28C54B5D7773098DB52692E /* Pods-EFMarkdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFMarkdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		A0829B2307D77EC0752A336EC7B7D4D4 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = EFCMark/Classes/cmark/scanners.h; sourceTree = "<group>"; };
-		A36DB3B1B157AE252BFB3B5B6906E204 /* Pods-EFMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		A67E8A09DAB73A073A39F0C760547046 /* tagfilter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tagfilter.c; path = EFCMark/Classes/cmark/tagfilter.c; sourceTree = "<group>"; };
-		A7A0D9294AF41DD4AD33788C526F75DC /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blocks.c; path = EFCMark/Classes/cmark/blocks.c; sourceTree = "<group>"; };
-		A8543822553EBEA9D9EF429FF0FB6CE1 /* EFMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFMarkdown-dummy.m"; sourceTree = "<group>"; };
-		AF8B6F3F99EE285C6344C810E0217853 /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = commonmark.c; path = EFCMark/Classes/cmark/commonmark.c; sourceTree = "<group>"; };
-		B01B75871EA9D210E1D2FDFF6F219FBE /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inlines.c; path = EFCMark/Classes/cmark/inlines.c; sourceTree = "<group>"; };
-		B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		B516E90BA7331A1E8FED2BAE8C078D15 /* strikethrough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strikethrough.h; path = EFCMark/Classes/cmark/strikethrough.h; sourceTree = "<group>"; };
-		B5A964477ADD48B2060D71FC061A2ED6 /* Pods-EFMarkdown_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Tests-Info.plist"; sourceTree = "<group>"; };
-		B611A17F48985B7DC820DFBF308D3A8F /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer.c; path = EFCMark/Classes/cmark/buffer.c; sourceTree = "<group>"; };
-		B79E72DE4D299A7138B5175E602AD0EE /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFCMark.framework; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BAF56843D48D28265AC6610ADFB27D72 /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = latex.c; path = EFCMark/Classes/cmark/latex.c; sourceTree = "<group>"; };
-		C59D0A9861886AF596DF0FBA19892677 /* EFMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-prefix.pch"; sourceTree = "<group>"; };
-		C6F0B6B4CBBD9EE789341935EC1B5766 /* EFCMark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFCMark.modulemap; sourceTree = "<group>"; };
-		C968F160EC5F69029870C190AC9F3342 /* table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table.h; path = EFCMark/Classes/cmark/table.h; sourceTree = "<group>"; };
-		C9B36D0F37A720C850FA6BA1267EC46E /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = EFCMark/Classes/cmark/config.h; sourceTree = "<group>"; };
-		CC5EC31DD9CAB3B0CF13F3A0DA158667 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CCD3470DEF2BBB3FB3FAA1A529237D76 /* arena.c */ = {isa = PBXFileReference; includeInIndex = 1; name = arena.c; path = EFCMark/Classes/cmark/arena.c; sourceTree = "<group>"; };
-		CCF99FA37F5EFAB0C1F1D8213734D522 /* cmarkextensions_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmarkextensions_export.h; path = EFCMark/Classes/cmark/cmarkextensions_export.h; sourceTree = "<group>"; };
-		CFCDFF0AFCE875783A2C86DB11F8BD3C /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; name = node.c; path = EFCMark/Classes/cmark/node.c; sourceTree = "<group>"; };
-		D41A110B9F77C116D5D1CF1286ECA267 /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark.h; path = EFCMark/Classes/cmark/include/cmark.h; sourceTree = "<group>"; };
-		DD1F97768A1D99DF216A63DADB12E546 /* plaintext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = plaintext.c; path = EFCMark/Classes/cmark/plaintext.c; sourceTree = "<group>"; };
-		DFF2DE39323E1B309C662CAC32405C6C /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		E62AB53584210D0C7CE896DE4D136D99 /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; name = references.c; path = EFCMark/Classes/cmark/references.c; sourceTree = "<group>"; };
-		E8E07186C1E45E3083B0C3D620D7854C /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; name = table.c; path = EFCMark/Classes/cmark/table.c; sourceTree = "<group>"; };
-		F0C230DF3A164AC007C31F11B2853DDB /* Pods_EFMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFMarkdown_Tests.framework; path = "Pods-EFMarkdown_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		F12EF1D227F4B5A36CA1FE7FAAFD36B7 /* autolink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = EFCMark/Classes/cmark/autolink.h; sourceTree = "<group>"; };
-		F24147872A0B52604E33B2FCB731F28B /* EFMarkdownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFMarkdownView.swift; path = EFMarkdown/Classes/EFMarkdownView.swift; sourceTree = "<group>"; };
-		F26BED823C6D32F989E572BE45405312 /* Pods-EFMarkdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFMarkdown_Tests.modulemap"; sourceTree = "<group>"; };
-		F35095E62C5A319A310BD5D9AE8CAF4C /* EFMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFMarkdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		F53BA62B72A0A9C3EAA1C10919EFA8C9 /* vendor.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vendor.js; path = EFMarkdown/Assets/vendor.js; sourceTree = "<group>"; };
-		F97629614DD94586582825202C152585 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "EFMarkdown/Classes/String+.swift"; sourceTree = "<group>"; };
-		F9A7BE4998261C4634B91BED3CBE0730 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = EFCMark/Classes/cmark/node.h; sourceTree = "<group>"; };
-		FACA14580546962159103D0B037C846E /* main.css */ = {isa = PBXFileReference; includeInIndex = 1; name = main.css; path = EFMarkdown/Assets/main.css; sourceTree = "<group>"; };
-		FB3A0BA2C2F65B0A44E53560182A50C7 /* plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plugin.h; path = EFCMark/Classes/cmark/plugin.h; sourceTree = "<group>"; };
-		FBB1398119A84E5DE990F34661B5128C /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; name = man.c; path = EFCMark/Classes/cmark/man.c; sourceTree = "<group>"; };
+		009FCFD76E7AE56ED6A3E4A76D644AF0 /* config.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = config.h; path = EFCMark/Classes/cmark/config.h; sourceTree = "<group>"; };
+		0258304AD33F7B6D79CA06D78698BE71 /* registry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = registry.h; path = EFCMark/Classes/cmark/registry.h; sourceTree = "<group>"; };
+		03B8BF9E9E7C7AABE81C28AFEEA39650 /* man.c */ = {isa = PBXFileReference; includeInIndex = 1; name = man.c; path = EFCMark/Classes/cmark/man.c; sourceTree = "<group>"; };
+		04EBC0AB04FAC6FA09365D3191EA8C80 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		07F0D051194E5956318730B7C6D25B57 /* EFCMark.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFCMark.xcconfig; sourceTree = "<group>"; };
+		08F03B784ABC324B05A1B40FF7886804 /* arena.c */ = {isa = PBXFileReference; includeInIndex = 1; name = arena.c; path = EFCMark/Classes/cmark/arena.c; sourceTree = "<group>"; };
+		0CDF0BF7141755567098AFA641E832A2 /* ext_scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ext_scanners.c; path = EFCMark/Classes/cmark/ext_scanners.c; sourceTree = "<group>"; };
+		101963AA5ECE6813577365A895EFFDCD /* Pods-EFMarkdown_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Example-Info.plist"; sourceTree = "<group>"; };
+		1062D7464409C32E67F72337541DE958 /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFCMark.framework; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		10D5F74B223A364AEB2CD26F37E0AF65 /* main.css */ = {isa = PBXFileReference; includeInIndex = 1; name = main.css; path = EFMarkdown/Assets/main.css; sourceTree = "<group>"; };
+		1340D0CE2246A82E7905AB7C6613633A /* EFCMark-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCMark-prefix.pch"; sourceTree = "<group>"; };
+		1891F5181A503C18053AB58890B4A75E /* html.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = html.h; path = EFCMark/Classes/cmark/html.h; sourceTree = "<group>"; };
+		1980C33F7683CB90B638B9E2EED983AF /* EFCMark-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFCMark-Info.plist"; sourceTree = "<group>"; };
+		1AEC3882C9342BBAFF90F1877055B78B /* Pods_EFMarkdown_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFMarkdown_Tests.framework; path = "Pods-EFMarkdown_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		21B8E8EC0361D6509E45C96B3BF65374 /* scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = scanners.h; path = EFCMark/Classes/cmark/scanners.h; sourceTree = "<group>"; };
+		22C4BE18B1700DE34EDA4EA332FBDFC4 /* Pods-EFMarkdown_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-EFMarkdown_Example-frameworks.sh"; sourceTree = "<group>"; };
+		25A8E2E2BFFC1C51E9DC232ACAA82E76 /* Pods-EFMarkdown_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Example.release.xcconfig"; sourceTree = "<group>"; };
+		2618932532A55339E386ECFF7C8CFD11 /* commonmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = commonmark.c; path = EFCMark/Classes/cmark/commonmark.c; sourceTree = "<group>"; };
+		2D66A0A123F6F61C11C015C696EC2D8A /* EFMarkdown.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = EFMarkdown.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		2EB18F0A99CD6FD98272929FC7CEF320 /* xml.c */ = {isa = PBXFileReference; includeInIndex = 1; name = xml.c; path = EFCMark/Classes/cmark/xml.c; sourceTree = "<group>"; };
+		2FA7DC363FB98EB5658FC07A08B14270 /* utf8.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = utf8.h; path = EFCMark/Classes/cmark/utf8.h; sourceTree = "<group>"; };
+		326C2F2170E2A2AF0A13DF6CC5FBFA5D /* strikethrough.c */ = {isa = PBXFileReference; includeInIndex = 1; name = strikethrough.c; path = EFCMark/Classes/cmark/strikethrough.c; sourceTree = "<group>"; };
+		32C798E307A72EB86B28F35586B40AB5 /* node.c */ = {isa = PBXFileReference; includeInIndex = 1; name = node.c; path = EFCMark/Classes/cmark/node.c; sourceTree = "<group>"; };
+		38429168796651D22FE6D4932C28E406 /* syntax_extension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = syntax_extension.h; path = EFCMark/Classes/cmark/syntax_extension.h; sourceTree = "<group>"; };
+		3B2DCE7CBD775071D60DEF7B85E867DC /* references.c */ = {isa = PBXFileReference; includeInIndex = 1; name = references.c; path = EFCMark/Classes/cmark/references.c; sourceTree = "<group>"; };
+		3C72FFE42201B2FAACFC62863589CB93 /* table.c */ = {isa = PBXFileReference; includeInIndex = 1; name = table.c; path = EFCMark/Classes/cmark/table.c; sourceTree = "<group>"; };
+		41D0F7DA4145DF2E8AD3A29FCDA06BCC /* html.c */ = {isa = PBXFileReference; includeInIndex = 1; name = html.c; path = EFCMark/Classes/cmark/html.c; sourceTree = "<group>"; };
+		44DF1CEEFCEE052C6D06B7050BD6545C /* houdini_href_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_href_e.c; path = EFCMark/Classes/cmark/houdini_href_e.c; sourceTree = "<group>"; };
+		516FFEB203AC0D15964917E649A5C97B /* EFMarkdown+Table.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "EFMarkdown+Table.swift"; path = "EFMarkdown/Classes/EFMarkdown+Table.swift"; sourceTree = "<group>"; };
+		52CA5E45ED4CFAE02EC6C98FD7F292AF /* EFMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "EFMarkdown-Info.plist"; sourceTree = "<group>"; };
+		55166A38E132B1F3E839835BA54C50CE /* inlines.c */ = {isa = PBXFileReference; includeInIndex = 1; name = inlines.c; path = EFCMark/Classes/cmark/inlines.c; sourceTree = "<group>"; };
+		557EB740D17D47CD65034E658E1A2562 /* blocks.c */ = {isa = PBXFileReference; includeInIndex = 1; name = blocks.c; path = EFCMark/Classes/cmark/blocks.c; sourceTree = "<group>"; };
+		5597C11326E6EA446AD856042D797AC1 /* cmark.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark.c; path = EFCMark/Classes/cmark/cmark.c; sourceTree = "<group>"; };
+		55A253640A444DE8234C9362640F4E7D /* Pods-EFMarkdown_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFMarkdown_Tests-umbrella.h"; sourceTree = "<group>"; };
+		5DBB2D4735B67CF6093AA4C912BDDAF0 /* node.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = node.h; path = EFCMark/Classes/cmark/node.h; sourceTree = "<group>"; };
+		5F45A2F8EBD48CDABD9792229A8F9C77 /* scanners.c */ = {isa = PBXFileReference; includeInIndex = 1; name = scanners.c; path = EFCMark/Classes/cmark/scanners.c; sourceTree = "<group>"; };
+		5F8E437C22E2C752FC4C9F5D569AFDCE /* EFMarkdown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = EFMarkdown.framework; path = EFMarkdown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		66625BFB7B4996ABA5125C9F55BA28FE /* syntax_extension.c */ = {isa = PBXFileReference; includeInIndex = 1; name = syntax_extension.c; path = EFCMark/Classes/cmark/syntax_extension.c; sourceTree = "<group>"; };
+		68FCA5A4A9D90C838FCA22E8120674EE /* tagfilter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = tagfilter.h; path = EFCMark/Classes/cmark/tagfilter.h; sourceTree = "<group>"; };
+		6EA73D694BE2DA8A48DCFB28B6D326CE /* ResourceBundle-EFMarkdown-EFMarkdown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-EFMarkdown-EFMarkdown-Info.plist"; sourceTree = "<group>"; };
+		6F0D32C50D64703604E934EFF64FCC99 /* inlines.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = inlines.h; path = EFCMark/Classes/cmark/inlines.h; sourceTree = "<group>"; };
+		73AF007011D96328A313E99E176DB913 /* core-extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "core-extensions.h"; path = "EFCMark/Classes/cmark/core-extensions.h"; sourceTree = "<group>"; };
+		77EACE0612D035891A9993A35DF41346 /* EFMarkdown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFMarkdown-dummy.m"; sourceTree = "<group>"; };
+		79718A218C093871EE84000D17432497 /* plugin.c */ = {isa = PBXFileReference; includeInIndex = 1; name = plugin.c; path = EFCMark/Classes/cmark/plugin.c; sourceTree = "<group>"; };
+		7ECAB4ED3B36EAC488D766678BA930FB /* cmark_extension_api.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_extension_api.h; path = EFCMark/Classes/cmark/cmark_extension_api.h; sourceTree = "<group>"; };
+		8184321F14F95A7B9CED5AD8A8F3140F /* cmark.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark.h; path = EFCMark/Classes/cmark/include/cmark.h; sourceTree = "<group>"; };
+		8526269E2260F1E282DCB452237A3505 /* plugin.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = plugin.h; path = EFCMark/Classes/cmark/plugin.h; sourceTree = "<group>"; };
+		85B7F0504956B3DF778450227EC08B37 /* autolink.c */ = {isa = PBXFileReference; includeInIndex = 1; name = autolink.c; path = EFCMark/Classes/cmark/autolink.c; sourceTree = "<group>"; };
+		86189BB36E472CDAB386ACB3609FDE5B /* Pods-EFMarkdown_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFMarkdown_Tests-dummy.m"; sourceTree = "<group>"; };
+		8619DB46906D6E1EBF120E73E4E723A0 /* Pods-EFMarkdown_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		88E81C1A050D29FAA43136FEE6895B64 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		8B7005893E41CB0524C185BC2EBFA2CB /* cmark_ctype.c */ = {isa = PBXFileReference; includeInIndex = 1; name = cmark_ctype.c; path = EFCMark/Classes/cmark/cmark_ctype.c; sourceTree = "<group>"; };
+		8BB6C215E889AD0DE1B13D04957682CD /* Pods-EFMarkdown_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Tests-Info.plist"; sourceTree = "<group>"; };
+		92EB234045130DE52AD3252BF3A12D34 /* main.js */ = {isa = PBXFileReference; includeInIndex = 1; name = main.js; path = EFMarkdown/Assets/main.js; sourceTree = "<group>"; };
+		93225E3EB9D6697BCA3DFAB6BBE02ABE /* Pods-EFMarkdown_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-EFMarkdown_Example-dummy.m"; sourceTree = "<group>"; };
+		9322DBCA0838EE25ECFAE09D66FBAF2B /* tagfilter.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tagfilter.c; path = EFCMark/Classes/cmark/tagfilter.c; sourceTree = "<group>"; };
+		93E45C6D020E493B22AB9FC03A6A5893 /* buffer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = buffer.c; path = EFCMark/Classes/cmark/buffer.c; sourceTree = "<group>"; };
+		98A2B31957EC71CF26BFCC63DD291CCE /* chunk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = chunk.h; path = EFCMark/Classes/cmark/chunk.h; sourceTree = "<group>"; };
+		98AA4A82B7D8C7B957453AFB2CB9313E /* EFMarkdown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFMarkdown.swift; path = EFMarkdown/Classes/EFMarkdown.swift; sourceTree = "<group>"; };
+		9919AAB8CC043758958E2A48D5519B86 /* Pods-EFMarkdown_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFMarkdown_Tests.modulemap"; sourceTree = "<group>"; };
+		9940761961387C1FDAA6F8AA2985B90A /* EFMarkdown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-umbrella.h"; sourceTree = "<group>"; };
+		9AED7EAE962BECC3633D94ED16567896 /* iterator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = iterator.h; path = EFCMark/Classes/cmark/iterator.h; sourceTree = "<group>"; };
+		9BB415D28060C2219BA4E5F7F1EA87C3 /* index.html */ = {isa = PBXFileReference; includeInIndex = 1; name = index.html; path = EFMarkdown/Assets/index.html; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F42B8DD9311E302E25A31C882FA5BA2 /* EFCMark.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = EFCMark.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A053E8C642765E969CCFF6F09144C6B2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		A4CC34313F6ECF2D09CC4EA2D39EF058 /* iterator.c */ = {isa = PBXFileReference; includeInIndex = 1; name = iterator.c; path = EFCMark/Classes/cmark/iterator.c; sourceTree = "<group>"; };
+		A7341909194527EFF54B9E35C50426B6 /* cmarkextensions_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmarkextensions_export.h; path = EFCMark/Classes/cmark/cmarkextensions_export.h; sourceTree = "<group>"; };
+		A7B22427C0A146AAEE05678CB0C8EC94 /* houdini_html_e.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_e.c; path = EFCMark/Classes/cmark/houdini_html_e.c; sourceTree = "<group>"; };
+		A92997A58DB57CEDC3BC2B942E87FBB4 /* EFMarkdown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFMarkdown-prefix.pch"; sourceTree = "<group>"; };
+		ADCBF94CA628CE54E41D6FF2647CEF62 /* cmark_ctype.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_ctype.h; path = EFCMark/Classes/cmark/cmark_ctype.h; sourceTree = "<group>"; };
+		AE3B91C01642527CFD4D1F30C543D141 /* latex.c */ = {isa = PBXFileReference; includeInIndex = 1; name = latex.c; path = EFCMark/Classes/cmark/latex.c; sourceTree = "<group>"; };
+		B7203DF8D89CFA3A7FB1F1D97A94D1D3 /* strikethrough.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = strikethrough.h; path = EFCMark/Classes/cmark/strikethrough.h; sourceTree = "<group>"; };
+		BAA98DA20D971FBED7872A848F4322D3 /* EFMarkdown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFMarkdown.modulemap; sourceTree = "<group>"; };
+		C2B6907250D654A57AB651EFFBC5DF4E /* plaintext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = plaintext.c; path = EFCMark/Classes/cmark/plaintext.c; sourceTree = "<group>"; };
+		C4AE237EA0C5CEECD47F547318412B4C /* table.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = table.h; path = EFCMark/Classes/cmark/table.h; sourceTree = "<group>"; };
+		C5D53FF603D99AC79BC63100FFD50C07 /* Pods-EFMarkdown_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		C60C895A45BAD3277851EAF5E9BCE20F /* references.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = references.h; path = EFCMark/Classes/cmark/references.h; sourceTree = "<group>"; };
+		C6A48E64D156CBB5C9BC5D5B694500EC /* parser.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = parser.h; path = EFCMark/Classes/cmark/parser.h; sourceTree = "<group>"; };
+		C83118E4A29104593F63C566E60BE933 /* vendor.js */ = {isa = PBXFileReference; includeInIndex = 1; name = vendor.js; path = EFMarkdown/Assets/vendor.js; sourceTree = "<group>"; };
+		C9177AF88A40116A2870FF0503DB8561 /* Pods-EFMarkdown_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-EFMarkdown_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		C947DC05979E7EA38348536A47CC5706 /* ext_scanners.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ext_scanners.h; path = EFCMark/Classes/cmark/ext_scanners.h; sourceTree = "<group>"; };
+		CAB6D055E7A8BECFC2875CA5A7F565FB /* Pods_EFMarkdown_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_EFMarkdown_Example.framework; path = "Pods-EFMarkdown_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CB9A309AAF3D226A0E42B1451EA11079 /* render.c */ = {isa = PBXFileReference; includeInIndex = 1; name = render.c; path = EFCMark/Classes/cmark/render.c; sourceTree = "<group>"; };
+		CBAC47493D9360CD1F3BCE52AD50F367 /* String+.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "String+.swift"; path = "EFMarkdown/Classes/String+.swift"; sourceTree = "<group>"; };
+		CBB4205B0625D102113042CFDD14781D /* core-extensions.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "core-extensions.c"; path = "EFCMark/Classes/cmark/core-extensions.c"; sourceTree = "<group>"; };
+		CBF1E68D9918850B5644FE394798EBAB /* linked_list.c */ = {isa = PBXFileReference; includeInIndex = 1; name = linked_list.c; path = EFCMark/Classes/cmark/linked_list.c; sourceTree = "<group>"; };
+		CDA8B9391DFE28B3360B01FC35FC615D /* houdini_html_u.c */ = {isa = PBXFileReference; includeInIndex = 1; name = houdini_html_u.c; path = EFCMark/Classes/cmark/houdini_html_u.c; sourceTree = "<group>"; };
+		CFAEA42C9CC0E9D5FE2C79E8E051E8C9 /* cmark_version.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_version.h; path = EFCMark/Classes/cmark/cmark_version.h; sourceTree = "<group>"; };
+		D036700ACFA31945AD7DDE870FCED80F /* EFCMark-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "EFCMark-umbrella.h"; sourceTree = "<group>"; };
+		D454AC32950556846335BBA08ECF96B6 /* EFMarkdown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = EFMarkdown.xcconfig; sourceTree = "<group>"; };
+		D49AABAD42165F0E980BFCDB5C0A3B56 /* Pods-EFMarkdown_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFMarkdown_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D50210E5679C718C83B108A5700CC7F0 /* EFCMark-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "EFCMark-dummy.m"; sourceTree = "<group>"; };
+		D5BE0241894B3F4A9EEBDBD60A39C8E5 /* Pods-EFMarkdown_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		D717E9BC695B12A8382434A7BBC17CEB /* Pods-EFMarkdown_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-EFMarkdown_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		D849847E6AF5847E8DB7C8817D3B6F85 /* buffer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = buffer.h; path = EFCMark/Classes/cmark/buffer.h; sourceTree = "<group>"; };
+		DD3C7C32EF969134FDF6DD722AD6A716 /* utf8.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf8.c; path = EFCMark/Classes/cmark/utf8.c; sourceTree = "<group>"; };
+		DFEC3438D50EB37C4A44A0F9A3CFD1E8 /* houdini.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = houdini.h; path = EFCMark/Classes/cmark/houdini.h; sourceTree = "<group>"; };
+		E364121359569D3D951EC94BDD81D9AB /* Pods-EFMarkdown_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-EFMarkdown_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E4016F116AC16DEFCC644ED543B63845 /* Pods-EFMarkdown_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-EFMarkdown_Example.modulemap"; sourceTree = "<group>"; };
+		E5194DF4E31BE85725C22569096E1B9B /* Pods-EFMarkdown_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-EFMarkdown_Example-umbrella.h"; sourceTree = "<group>"; };
+		E8188841A861D1F4C1073152E1AEB93D /* registry.c */ = {isa = PBXFileReference; includeInIndex = 1; name = registry.c; path = EFCMark/Classes/cmark/registry.c; sourceTree = "<group>"; };
+		EA83A80542969918884186CE29350016 /* autolink.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = autolink.h; path = EFCMark/Classes/cmark/autolink.h; sourceTree = "<group>"; };
+		ECDD2F21424EB64186A43713347B3F9D /* EFCMark.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = EFCMark.modulemap; sourceTree = "<group>"; };
+		F34BDD43B614B4A7B8D0765FE2C2F484 /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Global.swift; path = EFMarkdown/Classes/Global.swift; sourceTree = "<group>"; };
+		F3AF1FC55618B68E19649D3657D0C7A0 /* render.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = render.h; path = EFCMark/Classes/cmark/render.h; sourceTree = "<group>"; };
+		F844069921F0DA547B4B812550E8F5E5 /* EFMarkdown.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = EFMarkdown.bundle; path = "EFMarkdown-EFMarkdown.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCFD511291912BA599B47D5F80E00A84 /* EFMarkdownView.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EFMarkdownView.swift; path = EFMarkdown/Classes/EFMarkdownView.swift; sourceTree = "<group>"; };
+		FDB10D28A4D8775E9B099FFB62845CB3 /* cmark_export.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = cmark_export.h; path = EFCMark/Classes/cmark/cmark_export.h; sourceTree = "<group>"; };
+		FDD9D60DD38320730A9D0696897174B2 /* entities.inc */ = {isa = PBXFileReference; includeInIndex = 1; name = entities.inc; path = EFCMark/Classes/cmark/entities.inc; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		183138FA4B6610E8B839C38ECB83780C /* Frameworks */ = {
+		0D71F042C4AF46C2AF40173271A6E62C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2E96C8D1CE6EE62A7D58E3C30E5954EA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A6B568BD6F11389CD8A0B2629425326 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35164F0F550CC96B3E4E97F5E7F1BD2F /* EFCMark.framework in Frameworks */,
+				B612B3C85B97F3BCB00685E51DC814B3 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		90041E3889E3375785B9FF1532AC3A8B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				550899D11EA25E7B31901FB30C4B1CAB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BEF778605DCE0E285F6E86395139158 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2935AFE46519B82B78B0FB7490C10891 /* Frameworks */ = {
+		D416C5BCA23623B7CEF78FCEBE482342 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F6E617C807F85DA5EA9193876D09C0EA /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		42FF133B3CCF643112161FDC4AAED998 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				772B520971AFFB392F987B9F4373E2F1 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		4A801061DC99A574F0F60CAAECFB77E8 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				A8282010F38FA6E0FD630CE8449945F1 /* EFCMark.framework in Frameworks */,
-				B1AAF85D5A0F711D236CE11B73768242 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		91F0BCD783AA05EC7109B607C3D0D20E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B2701381ED8C2AB537E80238B067F8DE /* Foundation.framework in Frameworks */,
+				232539FF020DB92A5F77FCA7206FDD4D /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		198A19C75B00D6EC4BCA23651AE6F377 /* Resources */ = {
+		14EC1CD46C16D4E24CBE8E806B3C6BF5 /* Pods-EFMarkdown_Example */ = {
 			isa = PBXGroup;
 			children = (
-				597600A20CB30280BE3FBCF4A41CB519 /* index.html */,
-				FACA14580546962159103D0B037C846E /* main.css */,
-				2C806DD02B098A96683824790943F97C /* main.js */,
-				F53BA62B72A0A9C3EAA1C10919EFA8C9 /* vendor.js */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
-		5CA39B2C0FC59BB58F49F506F3508152 /* EFCMark */ = {
-			isa = PBXGroup;
-			children = (
-				CCD3470DEF2BBB3FB3FAA1A529237D76 /* arena.c */,
-				563B8D1ACDD40A2A4CFCFB072CE37E2A /* autolink.c */,
-				F12EF1D227F4B5A36CA1FE7FAAFD36B7 /* autolink.h */,
-				A7A0D9294AF41DD4AD33788C526F75DC /* blocks.c */,
-				B611A17F48985B7DC820DFBF308D3A8F /* buffer.c */,
-				840B9AF10484E469F0A3153B24E0BA0A /* buffer.h */,
-				6A0F8C270C0C26EF2C346BC487812649 /* chunk.h */,
-				629969C8D3D11812FD1513AB61E8A159 /* cmark.c */,
-				D41A110B9F77C116D5D1CF1286ECA267 /* cmark.h */,
-				0D34584ABF376A7DC62C767A6D1389CD /* cmark_ctype.c */,
-				5EA10F5BAED5B63D6E5DDABFA1394FE1 /* cmark_ctype.h */,
-				057527A7C1BD55ACDDF3E21A4FB6011C /* cmark_export.h */,
-				4BFA3278C76C38E93FB2DECE4514390E /* cmark_extension_api.h */,
-				16FB4ABECA75478795D499AF4A88D4D6 /* cmark_version.h */,
-				CCF99FA37F5EFAB0C1F1D8213734D522 /* cmarkextensions_export.h */,
-				AF8B6F3F99EE285C6344C810E0217853 /* commonmark.c */,
-				C9B36D0F37A720C850FA6BA1267EC46E /* config.h */,
-				1F20681C74BFA04E705BD17D7FB92DFA /* core-extensions.c */,
-				92DB01D2E3E1E48EB628B236C3C4DB0F /* core-extensions.h */,
-				98FCD651BCFA6D4776EAC17ADC8B7ED0 /* entities.inc */,
-				4F66EC5F1FC1AB3A2B7A443714FB7C93 /* ext_scanners.c */,
-				62AF2E2513F5519F988E5F9A2DB8F5B7 /* ext_scanners.h */,
-				7BA690CC5D1815C1F9D6F34D2467C891 /* houdini.h */,
-				95667AEBF710A156F7D85003083218A1 /* houdini_href_e.c */,
-				87035457837AB5359A9C9AFB77603F95 /* houdini_html_e.c */,
-				39D4A15FE4682D940C3BFBA608AC4F24 /* houdini_html_u.c */,
-				4AB66E952B9AAA9A515FD24FDF2CC274 /* html.c */,
-				7ED5A5A03F04E9D8881316FDD5094592 /* html.h */,
-				B01B75871EA9D210E1D2FDFF6F219FBE /* inlines.c */,
-				57DC5590C763F4EBA005C3FC6BED1E02 /* inlines.h */,
-				0EA391B22AFA36B39773890F9E073AA7 /* iterator.c */,
-				6043BD7DF138A11B41BDAA2F4D6983BF /* iterator.h */,
-				BAF56843D48D28265AC6610ADFB27D72 /* latex.c */,
-				630A2ADDC33D0DB98E86F19064D9B58C /* linked_list.c */,
-				FBB1398119A84E5DE990F34661B5128C /* man.c */,
-				CFCDFF0AFCE875783A2C86DB11F8BD3C /* node.c */,
-				F9A7BE4998261C4634B91BED3CBE0730 /* node.h */,
-				4EB56450B33557DCF2019F42117E33DC /* parser.h */,
-				DD1F97768A1D99DF216A63DADB12E546 /* plaintext.c */,
-				91779E3A522BCECDBF7B73774EFA82D6 /* plugin.c */,
-				FB3A0BA2C2F65B0A44E53560182A50C7 /* plugin.h */,
-				E62AB53584210D0C7CE896DE4D136D99 /* references.c */,
-				98EB72715E2F703230931A6EC2A44F87 /* references.h */,
-				732DA2151A8064799BFBBC0F2DFC4734 /* registry.c */,
-				38E4A9EFC33A43861C0824E6885D9688 /* registry.h */,
-				57EEB529067A1635331FFBEB37EB110C /* render.c */,
-				6AE323528162FAF506981E428879E9BF /* render.h */,
-				8CF840B868AC869E1B49982646B38C41 /* scanners.c */,
-				A0829B2307D77EC0752A336EC7B7D4D4 /* scanners.h */,
-				211CAE25CFEC5168F6C6038321D15631 /* strikethrough.c */,
-				B516E90BA7331A1E8FED2BAE8C078D15 /* strikethrough.h */,
-				93ED98CA7E1AF65772CB6669F8EAE759 /* syntax_extension.c */,
-				1E3621F7D8CF07141FFB06073BB98D8F /* syntax_extension.h */,
-				E8E07186C1E45E3083B0C3D620D7854C /* table.c */,
-				C968F160EC5F69029870C190AC9F3342 /* table.h */,
-				A67E8A09DAB73A073A39F0C760547046 /* tagfilter.c */,
-				4009D1A928F4A4F4F67D6A81BE57F55F /* tagfilter.h */,
-				572F4D4CB1D2AACAD6F9DF5DDC40F64E /* utf8.c */,
-				81749C9D81ADE07729F81766BF91F417 /* utf8.h */,
-				07AC7559DB8587F7C7816C89BE1A7FCB /* xml.c */,
-				74653E03C18B0E5BB212EBC1C9A21D7F /* Support Files */,
-			);
-			name = EFCMark;
-			path = EFCMark;
-			sourceTree = "<group>";
-		};
-		74653E03C18B0E5BB212EBC1C9A21D7F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				C6F0B6B4CBBD9EE789341935EC1B5766 /* EFCMark.modulemap */,
-				1E096C46FC713FF3B638C49F0223F018 /* EFCMark.xcconfig */,
-				2D305B127084188AD936777EEEADEF01 /* EFCMark-dummy.m */,
-				2DD108ADA163479BE0543B138C925169 /* EFCMark-Info.plist */,
-				1447C1FE5F58FAEC894EDACCAD0442A7 /* EFCMark-prefix.pch */,
-				84C637E6559169DC13E4B130F0FE0C16 /* EFCMark-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/EFCMark";
-			sourceTree = "<group>";
-		};
-		7DB346D0F39D3F0E887471402A8071AB = {
-			isa = PBXGroup;
-			children = (
-				B36AB396275697EEE1A5B13BA8A38FE3 /* Podfile */,
-				B23B26BC596F5148CF1DD4CEC204D710 /* Development Pods */,
-				AA9CB89EAF13317AB5951A55935932C1 /* Frameworks */,
-				CC6A34DE53D20A370EE2EA767015C620 /* Pods */,
-				AEACEA42FBA4B05D8AC6FFADD8804753 /* Products */,
-				9F9B1A195DD097FAB9407F6A245AC5AA /* Targets Support Files */,
-			);
-			sourceTree = "<group>";
-		};
-		92B86D2BA99FD46C27C404454A4AA153 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				F35095E62C5A319A310BD5D9AE8CAF4C /* EFMarkdown.podspec */,
-				CC5EC31DD9CAB3B0CF13F3A0DA158667 /* LICENSE */,
-				07943238884CD97794AB9A3A194BB029 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		996BF8377909C7ACBFBACEE4FFAC45C5 /* EFMarkdown */ = {
-			isa = PBXGroup;
-			children = (
-				0A48E7DA752D95770D9E2DF68645779C /* EFMarkdown.swift */,
-				7A1AB3958301439878D4CA43501C2CED /* EFMarkdown+Table.swift */,
-				F24147872A0B52604E33B2FCB731F28B /* EFMarkdownView.swift */,
-				3B858AF850EF420EFE90D8C466774084 /* Global.swift */,
-				F97629614DD94586582825202C152585 /* String+.swift */,
-				92B86D2BA99FD46C27C404454A4AA153 /* Pod */,
-				198A19C75B00D6EC4BCA23651AE6F377 /* Resources */,
-				AC87CD1E613A63131F9A4ABFBEE1AF8F /* Support Files */,
-			);
-			name = EFMarkdown;
-			path = ../..;
-			sourceTree = "<group>";
-		};
-		9F9B1A195DD097FAB9407F6A245AC5AA /* Targets Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				D9A139A91220B8292E6F85C87133D399 /* Pods-EFMarkdown_Example */,
-				BED0E5B18C304D70988213BE3C2E5029 /* Pods-EFMarkdown_Tests */,
-			);
-			name = "Targets Support Files";
-			sourceTree = "<group>";
-		};
-		AA9CB89EAF13317AB5951A55935932C1 /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				DFF2DE39323E1B309C662CAC32405C6C /* EFCMark.framework */,
-				F066F050E47EC1EF4BB8C7130E5151BC /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		AC87CD1E613A63131F9A4ABFBEE1AF8F /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				7F9F6BE5522F1F61095831F99214D3C2 /* EFMarkdown.modulemap */,
-				88F2BB2622C889CB3CAA98D9B5524215 /* EFMarkdown.xcconfig */,
-				A8543822553EBEA9D9EF429FF0FB6CE1 /* EFMarkdown-dummy.m */,
-				36722B7F33E500E155911629F57889BB /* EFMarkdown-Info.plist */,
-				C59D0A9861886AF596DF0FBA19892677 /* EFMarkdown-prefix.pch */,
-				424287169659A29C8EEFC68BCD0111E0 /* EFMarkdown-umbrella.h */,
-				71D455EC07FB5D7625CD27E15E35A56D /* ResourceBundle-EFMarkdown-EFMarkdown-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/EFMarkdown";
-			sourceTree = "<group>";
-		};
-		AEACEA42FBA4B05D8AC6FFADD8804753 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				B79E72DE4D299A7138B5175E602AD0EE /* EFCMark.framework */,
-				5BF22B33826B7E1EC212439768678015 /* EFMarkdown.bundle */,
-				397874EAD09AEDC4464BCA265B1C56C1 /* EFMarkdown.framework */,
-				1F1EB9A3ECF7E8B80EB5D6C356C898CF /* Pods_EFMarkdown_Example.framework */,
-				F0C230DF3A164AC007C31F11B2853DDB /* Pods_EFMarkdown_Tests.framework */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		B23B26BC596F5148CF1DD4CEC204D710 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				996BF8377909C7ACBFBACEE4FFAC45C5 /* EFMarkdown */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
-		BED0E5B18C304D70988213BE3C2E5029 /* Pods-EFMarkdown_Tests */ = {
-			isa = PBXGroup;
-			children = (
-				F26BED823C6D32F989E572BE45405312 /* Pods-EFMarkdown_Tests.modulemap */,
-				9DE45B8FC28C54B5D7773098DB52692E /* Pods-EFMarkdown_Tests-acknowledgements.markdown */,
-				54E596FE04F9D2969AD89F29BE319375 /* Pods-EFMarkdown_Tests-acknowledgements.plist */,
-				4E269129DCA83E56013109A0C6CA22A0 /* Pods-EFMarkdown_Tests-dummy.m */,
-				B5A964477ADD48B2060D71FC061A2ED6 /* Pods-EFMarkdown_Tests-Info.plist */,
-				9605745F6B70DB671224588FFB8D719E /* Pods-EFMarkdown_Tests-umbrella.h */,
-				A36DB3B1B157AE252BFB3B5B6906E204 /* Pods-EFMarkdown_Tests.debug.xcconfig */,
-				0846688D9E63151AF7CCAB142E7A5B5F /* Pods-EFMarkdown_Tests.release.xcconfig */,
-			);
-			name = "Pods-EFMarkdown_Tests";
-			path = "Target Support Files/Pods-EFMarkdown_Tests";
-			sourceTree = "<group>";
-		};
-		CC6A34DE53D20A370EE2EA767015C620 /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				5CA39B2C0FC59BB58F49F506F3508152 /* EFCMark */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		D9A139A91220B8292E6F85C87133D399 /* Pods-EFMarkdown_Example */ = {
-			isa = PBXGroup;
-			children = (
-				3C4DC6A899901B36C85D657EEB32A9A3 /* Pods-EFMarkdown_Example.modulemap */,
-				80A162434102D7E8D169A4467A0BD027 /* Pods-EFMarkdown_Example-acknowledgements.markdown */,
-				2A526531E9DFB91CF42D7B43863A7880 /* Pods-EFMarkdown_Example-acknowledgements.plist */,
-				0B64E15BC27427D5C010CA919B740FDC /* Pods-EFMarkdown_Example-dummy.m */,
-				5347512F665B2CB26985AA7C9F0797F0 /* Pods-EFMarkdown_Example-frameworks.sh */,
-				12E25972841C577F28F7B37353709675 /* Pods-EFMarkdown_Example-Info.plist */,
-				4DE2304811F7C2A4D4F6A2E146CEDE6A /* Pods-EFMarkdown_Example-umbrella.h */,
-				39E17074C40DABB694EBD7F4A36FD88E /* Pods-EFMarkdown_Example.debug.xcconfig */,
-				462ADB20902FABCE8AFD0ACAF453E411 /* Pods-EFMarkdown_Example.release.xcconfig */,
+				E4016F116AC16DEFCC644ED543B63845 /* Pods-EFMarkdown_Example.modulemap */,
+				D717E9BC695B12A8382434A7BBC17CEB /* Pods-EFMarkdown_Example-acknowledgements.markdown */,
+				E364121359569D3D951EC94BDD81D9AB /* Pods-EFMarkdown_Example-acknowledgements.plist */,
+				93225E3EB9D6697BCA3DFAB6BBE02ABE /* Pods-EFMarkdown_Example-dummy.m */,
+				22C4BE18B1700DE34EDA4EA332FBDFC4 /* Pods-EFMarkdown_Example-frameworks.sh */,
+				101963AA5ECE6813577365A895EFFDCD /* Pods-EFMarkdown_Example-Info.plist */,
+				E5194DF4E31BE85725C22569096E1B9B /* Pods-EFMarkdown_Example-umbrella.h */,
+				8619DB46906D6E1EBF120E73E4E723A0 /* Pods-EFMarkdown_Example.debug.xcconfig */,
+				25A8E2E2BFFC1C51E9DC232ACAA82E76 /* Pods-EFMarkdown_Example.release.xcconfig */,
 			);
 			name = "Pods-EFMarkdown_Example";
 			path = "Target Support Files/Pods-EFMarkdown_Example";
 			sourceTree = "<group>";
 		};
-		F066F050E47EC1EF4BB8C7130E5151BC /* iOS */ = {
+		1933D5A46D2BD4296170B0F2291133A5 /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				0D0959652E2A1982D0B04B8B50143E19 /* Foundation.framework */,
+				E0D40C60C13A254B39273F9BD6F362CF /* EFMarkdown */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		37732700C54FA4D03BD4D542F1A98380 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1062D7464409C32E67F72337541DE958 /* EFCMark.framework */,
+				F844069921F0DA547B4B812550E8F5E5 /* EFMarkdown.bundle */,
+				5F8E437C22E2C752FC4C9F5D569AFDCE /* EFMarkdown.framework */,
+				CAB6D055E7A8BECFC2875CA5A7F565FB /* Pods_EFMarkdown_Example.framework */,
+				1AEC3882C9342BBAFF90F1877055B78B /* Pods_EFMarkdown_Tests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		391CFC719EDABA724C982150C074063B /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				14EC1CD46C16D4E24CBE8E806B3C6BF5 /* Pods-EFMarkdown_Example */,
+				4D395B9DD99CFEF5C6EAC9089E3EAA72 /* Pods-EFMarkdown_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		42A9C199C23992A11DB9664ED7F8FC0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9F42B8DD9311E302E25A31C882FA5BA2 /* EFCMark.framework */,
+				F22A95838FA5014A7C31CBE290321CA5 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D395B9DD99CFEF5C6EAC9089E3EAA72 /* Pods-EFMarkdown_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				9919AAB8CC043758958E2A48D5519B86 /* Pods-EFMarkdown_Tests.modulemap */,
+				D49AABAD42165F0E980BFCDB5C0A3B56 /* Pods-EFMarkdown_Tests-acknowledgements.markdown */,
+				D5BE0241894B3F4A9EEBDBD60A39C8E5 /* Pods-EFMarkdown_Tests-acknowledgements.plist */,
+				86189BB36E472CDAB386ACB3609FDE5B /* Pods-EFMarkdown_Tests-dummy.m */,
+				8BB6C215E889AD0DE1B13D04957682CD /* Pods-EFMarkdown_Tests-Info.plist */,
+				55A253640A444DE8234C9362640F4E7D /* Pods-EFMarkdown_Tests-umbrella.h */,
+				C9177AF88A40116A2870FF0503DB8561 /* Pods-EFMarkdown_Tests.debug.xcconfig */,
+				C5D53FF603D99AC79BC63100FFD50C07 /* Pods-EFMarkdown_Tests.release.xcconfig */,
+			);
+			name = "Pods-EFMarkdown_Tests";
+			path = "Target Support Files/Pods-EFMarkdown_Tests";
+			sourceTree = "<group>";
+		};
+		554C8C40D4B88D6B350A8145CEB89AD0 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				BAA98DA20D971FBED7872A848F4322D3 /* EFMarkdown.modulemap */,
+				D454AC32950556846335BBA08ECF96B6 /* EFMarkdown.xcconfig */,
+				77EACE0612D035891A9993A35DF41346 /* EFMarkdown-dummy.m */,
+				52CA5E45ED4CFAE02EC6C98FD7F292AF /* EFMarkdown-Info.plist */,
+				A92997A58DB57CEDC3BC2B942E87FBB4 /* EFMarkdown-prefix.pch */,
+				9940761961387C1FDAA6F8AA2985B90A /* EFMarkdown-umbrella.h */,
+				6EA73D694BE2DA8A48DCFB28B6D326CE /* ResourceBundle-EFMarkdown-EFMarkdown-Info.plist */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/EFMarkdown";
+			sourceTree = "<group>";
+		};
+		6472669E700E4F2077FA9F04801FED88 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9BB415D28060C2219BA4E5F7F1EA87C3 /* index.html */,
+				10D5F74B223A364AEB2CD26F37E0AF65 /* main.css */,
+				92EB234045130DE52AD3252BF3A12D34 /* main.js */,
+				C83118E4A29104593F63C566E60BE933 /* vendor.js */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6820578AF3264CAA33D7ED62FB893197 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				ECDD2F21424EB64186A43713347B3F9D /* EFCMark.modulemap */,
+				07F0D051194E5956318730B7C6D25B57 /* EFCMark.xcconfig */,
+				D50210E5679C718C83B108A5700CC7F0 /* EFCMark-dummy.m */,
+				1980C33F7683CB90B638B9E2EED983AF /* EFCMark-Info.plist */,
+				1340D0CE2246A82E7905AB7C6613633A /* EFCMark-prefix.pch */,
+				D036700ACFA31945AD7DDE870FCED80F /* EFCMark-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/EFCMark";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				1933D5A46D2BD4296170B0F2291133A5 /* Development Pods */,
+				42A9C199C23992A11DB9664ED7F8FC0E /* Frameworks */,
+				D9D4FBD215D56E60248154D676C7CC55 /* Pods */,
+				37732700C54FA4D03BD4D542F1A98380 /* Products */,
+				391CFC719EDABA724C982150C074063B /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D9D4FBD215D56E60248154D676C7CC55 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E03CF85A46CF5026CA0B309DE3063B6C /* EFCMark */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		E03CF85A46CF5026CA0B309DE3063B6C /* EFCMark */ = {
+			isa = PBXGroup;
+			children = (
+				08F03B784ABC324B05A1B40FF7886804 /* arena.c */,
+				85B7F0504956B3DF778450227EC08B37 /* autolink.c */,
+				EA83A80542969918884186CE29350016 /* autolink.h */,
+				557EB740D17D47CD65034E658E1A2562 /* blocks.c */,
+				93E45C6D020E493B22AB9FC03A6A5893 /* buffer.c */,
+				D849847E6AF5847E8DB7C8817D3B6F85 /* buffer.h */,
+				98A2B31957EC71CF26BFCC63DD291CCE /* chunk.h */,
+				5597C11326E6EA446AD856042D797AC1 /* cmark.c */,
+				8184321F14F95A7B9CED5AD8A8F3140F /* cmark.h */,
+				8B7005893E41CB0524C185BC2EBFA2CB /* cmark_ctype.c */,
+				ADCBF94CA628CE54E41D6FF2647CEF62 /* cmark_ctype.h */,
+				FDB10D28A4D8775E9B099FFB62845CB3 /* cmark_export.h */,
+				7ECAB4ED3B36EAC488D766678BA930FB /* cmark_extension_api.h */,
+				CFAEA42C9CC0E9D5FE2C79E8E051E8C9 /* cmark_version.h */,
+				A7341909194527EFF54B9E35C50426B6 /* cmarkextensions_export.h */,
+				2618932532A55339E386ECFF7C8CFD11 /* commonmark.c */,
+				009FCFD76E7AE56ED6A3E4A76D644AF0 /* config.h */,
+				CBB4205B0625D102113042CFDD14781D /* core-extensions.c */,
+				73AF007011D96328A313E99E176DB913 /* core-extensions.h */,
+				FDD9D60DD38320730A9D0696897174B2 /* entities.inc */,
+				0CDF0BF7141755567098AFA641E832A2 /* ext_scanners.c */,
+				C947DC05979E7EA38348536A47CC5706 /* ext_scanners.h */,
+				DFEC3438D50EB37C4A44A0F9A3CFD1E8 /* houdini.h */,
+				44DF1CEEFCEE052C6D06B7050BD6545C /* houdini_href_e.c */,
+				A7B22427C0A146AAEE05678CB0C8EC94 /* houdini_html_e.c */,
+				CDA8B9391DFE28B3360B01FC35FC615D /* houdini_html_u.c */,
+				41D0F7DA4145DF2E8AD3A29FCDA06BCC /* html.c */,
+				1891F5181A503C18053AB58890B4A75E /* html.h */,
+				55166A38E132B1F3E839835BA54C50CE /* inlines.c */,
+				6F0D32C50D64703604E934EFF64FCC99 /* inlines.h */,
+				A4CC34313F6ECF2D09CC4EA2D39EF058 /* iterator.c */,
+				9AED7EAE962BECC3633D94ED16567896 /* iterator.h */,
+				AE3B91C01642527CFD4D1F30C543D141 /* latex.c */,
+				CBF1E68D9918850B5644FE394798EBAB /* linked_list.c */,
+				03B8BF9E9E7C7AABE81C28AFEEA39650 /* man.c */,
+				32C798E307A72EB86B28F35586B40AB5 /* node.c */,
+				5DBB2D4735B67CF6093AA4C912BDDAF0 /* node.h */,
+				C6A48E64D156CBB5C9BC5D5B694500EC /* parser.h */,
+				C2B6907250D654A57AB651EFFBC5DF4E /* plaintext.c */,
+				79718A218C093871EE84000D17432497 /* plugin.c */,
+				8526269E2260F1E282DCB452237A3505 /* plugin.h */,
+				3B2DCE7CBD775071D60DEF7B85E867DC /* references.c */,
+				C60C895A45BAD3277851EAF5E9BCE20F /* references.h */,
+				E8188841A861D1F4C1073152E1AEB93D /* registry.c */,
+				0258304AD33F7B6D79CA06D78698BE71 /* registry.h */,
+				CB9A309AAF3D226A0E42B1451EA11079 /* render.c */,
+				F3AF1FC55618B68E19649D3657D0C7A0 /* render.h */,
+				5F45A2F8EBD48CDABD9792229A8F9C77 /* scanners.c */,
+				21B8E8EC0361D6509E45C96B3BF65374 /* scanners.h */,
+				326C2F2170E2A2AF0A13DF6CC5FBFA5D /* strikethrough.c */,
+				B7203DF8D89CFA3A7FB1F1D97A94D1D3 /* strikethrough.h */,
+				66625BFB7B4996ABA5125C9F55BA28FE /* syntax_extension.c */,
+				38429168796651D22FE6D4932C28E406 /* syntax_extension.h */,
+				3C72FFE42201B2FAACFC62863589CB93 /* table.c */,
+				C4AE237EA0C5CEECD47F547318412B4C /* table.h */,
+				9322DBCA0838EE25ECFAE09D66FBAF2B /* tagfilter.c */,
+				68FCA5A4A9D90C838FCA22E8120674EE /* tagfilter.h */,
+				DD3C7C32EF969134FDF6DD722AD6A716 /* utf8.c */,
+				2FA7DC363FB98EB5658FC07A08B14270 /* utf8.h */,
+				2EB18F0A99CD6FD98272929FC7CEF320 /* xml.c */,
+				6820578AF3264CAA33D7ED62FB893197 /* Support Files */,
+			);
+			name = EFCMark;
+			path = EFCMark;
+			sourceTree = "<group>";
+		};
+		E0D40C60C13A254B39273F9BD6F362CF /* EFMarkdown */ = {
+			isa = PBXGroup;
+			children = (
+				98AA4A82B7D8C7B957453AFB2CB9313E /* EFMarkdown.swift */,
+				516FFEB203AC0D15964917E649A5C97B /* EFMarkdown+Table.swift */,
+				FCFD511291912BA599B47D5F80E00A84 /* EFMarkdownView.swift */,
+				F34BDD43B614B4A7B8D0765FE2C2F484 /* Global.swift */,
+				CBAC47493D9360CD1F3BCE52AD50F367 /* String+.swift */,
+				FDB3557A9B9FE96154325B54C3C0BF73 /* Pod */,
+				6472669E700E4F2077FA9F04801FED88 /* Resources */,
+				554C8C40D4B88D6B350A8145CEB89AD0 /* Support Files */,
+			);
+			name = EFMarkdown;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		F22A95838FA5014A7C31CBE290321CA5 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				04EBC0AB04FAC6FA09365D3191EA8C80 /* Foundation.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		FDB3557A9B9FE96154325B54C3C0BF73 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				2D66A0A123F6F61C11C015C696EC2D8A /* EFMarkdown.podspec */,
+				88E81C1A050D29FAA43136FEE6895B64 /* LICENSE */,
+				A053E8C642765E969CCFF6F09144C6B2 /* README.md */,
+			);
+			name = Pod;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1C3D5AA541DCDDCAB498CEE2527AC41B /* Headers */ = {
+		63BB69087D1657DCE1CE0F016D7F710B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5E1964772C5050FFD138085BF4A4EF2D /* autolink.h in Headers */,
-				31D3FB63F80B5A4E8DD5055B39B77AE3 /* buffer.h in Headers */,
-				76A6EE37CFD5259AA79F53FFF2A59913 /* chunk.h in Headers */,
-				C8E87C448F90D63898E744A5975B52A8 /* cmark.h in Headers */,
-				CEDB6730ED52BCD1DCE808924A18080D /* cmark_ctype.h in Headers */,
-				4C99CB1275AF378459BB3DAF5DF79C49 /* cmark_export.h in Headers */,
-				7FA18232D5F766A0E15BC1392189124B /* cmark_extension_api.h in Headers */,
-				6759CDA001586C9D77BBB8AB870FD810 /* cmark_version.h in Headers */,
-				BC30FC5CB1957E146096739A846CEA09 /* cmarkextensions_export.h in Headers */,
-				CC903AAA545071EBD99DBC915C2C4A0B /* config.h in Headers */,
-				2EF9B2412C175E64A1A008308AF9E63F /* core-extensions.h in Headers */,
-				FD9C25C5279871E9F7B690941FD0375F /* EFCMark-umbrella.h in Headers */,
-				1906AD8C8867741928E132BBE9F3649B /* entities.inc in Headers */,
-				9FFEF7AF9C25762FC9C470F60F645FA8 /* ext_scanners.h in Headers */,
-				9DD6C251DEB2FDC8703339C6B2F48903 /* houdini.h in Headers */,
-				F1E7899B1C45ED8CE514499BBB98C506 /* html.h in Headers */,
-				24B9B7F44482BE91316DCD0664CB309A /* inlines.h in Headers */,
-				EEBAD336F971BE29E4E36E0FFA910CCB /* iterator.h in Headers */,
-				FF636C90B4C9F918ADC4ACDDE9F1D909 /* node.h in Headers */,
-				51F9FDC4124F8D40C0FAC28124FCB0C3 /* parser.h in Headers */,
-				929DC42985A922BFFDE97DA4DDECA320 /* plugin.h in Headers */,
-				34FFFA4359ED16797EA0F498F5743FC2 /* references.h in Headers */,
-				BE1F84C6343B062D07E215DD16F8AA15 /* registry.h in Headers */,
-				9AC1149A1D6360DF4A7F41F4F0DB7B50 /* render.h in Headers */,
-				01F948E8D7BB27F6A1B696C259A494A2 /* scanners.h in Headers */,
-				1AADB221D69188E622ED6E84E7FF8DA8 /* strikethrough.h in Headers */,
-				C85F4952B43A41FA8B65B2E05156B41C /* syntax_extension.h in Headers */,
-				0D885E2B5F7A19C6C8DE940F94003384 /* table.h in Headers */,
-				09D1EA698B1DB6C23E212F8C97C86E3D /* tagfilter.h in Headers */,
-				149A422C094152903EAD7ABEE65141F2 /* utf8.h in Headers */,
+				A60DAB796A897F8E55CEF57639C14A76 /* autolink.h in Headers */,
+				FDFE6390FF648D4A2A9F29D27ED04A10 /* buffer.h in Headers */,
+				AA5378C14A9B8C4A02E561C275D23549 /* chunk.h in Headers */,
+				B9592B31B56D2001D99FA6143EB268CC /* cmark.h in Headers */,
+				7B63BDC3899D66A536A127BED7D8DDE4 /* cmark_ctype.h in Headers */,
+				9BF8921CEDE94DC18070330138D78642 /* cmark_export.h in Headers */,
+				3FC33765F6DF47C5FFE26F9EDD62449F /* cmark_extension_api.h in Headers */,
+				C4EE7167A9CB3ADFCFF9CD7C978807A5 /* cmark_version.h in Headers */,
+				422F573597C77C695588E16104007112 /* cmarkextensions_export.h in Headers */,
+				BBFB51BBA977D9D738501CAA92B01823 /* config.h in Headers */,
+				7FE02A27DE22ADD2B0FCD790E27A1C44 /* core-extensions.h in Headers */,
+				26F418F40EE964E026B7088A7F49A2A5 /* EFCMark-umbrella.h in Headers */,
+				341B85F2CF28ECA593DC54346B2275B8 /* entities.inc in Headers */,
+				8B7F13A27DFD1580DE0ACC0E685A0D25 /* ext_scanners.h in Headers */,
+				EA5F64361EFDAE9E62FB501BA32B37AD /* houdini.h in Headers */,
+				54097865B6842A5117F4802D48FBF11C /* html.h in Headers */,
+				91EDB285342775F4C74B91096151F0E1 /* inlines.h in Headers */,
+				403C7BFA69A0E2A54EF2918E45BADD7D /* iterator.h in Headers */,
+				CBD0E38582E0A303EF64A7712A3EC5A7 /* node.h in Headers */,
+				E990D979DDD5DDAC6060669CB630952A /* parser.h in Headers */,
+				D3E84B57835637E5C533DA08E72BC89C /* plugin.h in Headers */,
+				8A05C1BA09A72E11F06AE89C1762E5C8 /* references.h in Headers */,
+				B5C26662EEBBD28F6B5F58C8A0287C88 /* registry.h in Headers */,
+				725FDB3D1D82BFE477232508A443608A /* render.h in Headers */,
+				CD38AC51A2F60898F975641252D36777 /* scanners.h in Headers */,
+				727ED9F8A9B64E9EAD102D2EB959DA90 /* strikethrough.h in Headers */,
+				703F2E29AEE4AEB2F954F564DA904ADB /* syntax_extension.h in Headers */,
+				57EB7B6D9DD91138959A4B932936BFEE /* table.h in Headers */,
+				735296AD1389191DBE2979412847C050 /* tagfilter.h in Headers */,
+				75509F6AB1DF2ADCB47D8845AE102B98 /* utf8.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		655048DF8F4D572C9867595656118BC7 /* Headers */ = {
+		6B759E0203CD6CF36F166B90C49EA310 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C47370B0BC02C72CB44810896A0A0D81 /* Pods-EFMarkdown_Tests-umbrella.h in Headers */,
+				9D4AAF33B3B1DD9578B2871D1FA34684 /* EFMarkdown-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7AE6FE4B4547021418FC95F879022575 /* Headers */ = {
+		744F8670ED1758FAA7D0C2F27A5D52C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A120DFEAA1B90B2F88CEBAFFDD70408D /* Pods-EFMarkdown_Example-umbrella.h in Headers */,
+				3D3A5057291F378511E725AB8EAC788A /* Pods-EFMarkdown_Example-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D81EFA932F86FF205B4B038051B0E9D3 /* Headers */ = {
+		7938F8A7B7C624C753CD1BB82855E76B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				67688A5F22B811D08BA58D4A24BF5210 /* EFMarkdown-umbrella.h in Headers */,
+				C6D250400D2A81A003087BE2D2A0EE2E /* Pods-EFMarkdown_Tests-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		1BC7CC699AE312C5DB6756123BE6C98C /* EFMarkdown-EFMarkdown */ = {
+		0ADEB6E7D60B67126073846482152831 /* Pods-EFMarkdown_Example */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D434A72B5B9C39F9D2D82B29BFC47F92 /* Build configuration list for PBXNativeTarget "EFMarkdown-EFMarkdown" */;
+			buildConfigurationList = 92C1FBCE017FDF243749294D0A8F3CA5 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Example" */;
 			buildPhases = (
-				E67EC385BBDE5635AABE07262E8AAD9E /* Sources */,
-				183138FA4B6610E8B839C38ECB83780C /* Frameworks */,
-				2C61AE7614F3ADA536B2E0F778AE265D /* Resources */,
+				744F8670ED1758FAA7D0C2F27A5D52C7 /* Headers */,
+				39239D382705DDA27B4B5B2BD3972B1E /* Sources */,
+				D416C5BCA23623B7CEF78FCEBE482342 /* Frameworks */,
+				E120B6A80C4409E28E07BCBFFDEF0E69 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				84EFBAC47A6F5F8C1D442672D09CE21E /* PBXTargetDependency */,
+				6C638A493068E451A567D9BA17DF28D2 /* PBXTargetDependency */,
 			);
-			name = "EFMarkdown-EFMarkdown";
-			productName = "EFMarkdown-EFMarkdown";
-			productReference = 5BF22B33826B7E1EC212439768678015 /* EFMarkdown.bundle */;
-			productType = "com.apple.product-type.bundle";
+			name = "Pods-EFMarkdown_Example";
+			productName = "Pods-EFMarkdown_Example";
+			productReference = CAB6D055E7A8BECFC2875CA5A7F565FB /* Pods_EFMarkdown_Example.framework */;
+			productType = "com.apple.product-type.framework";
 		};
-		62FCDC5CFC2DDFC5A4732D68EB7BD083 /* Pods-EFMarkdown_Tests */ = {
+		13DCFC8BE31EEBA6C5F9C4DD83145B4B /* Pods-EFMarkdown_Tests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F841A9151842BA0FAF699F38E7830E77 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Tests" */;
+			buildConfigurationList = F25650D9578D7F3EAD481CA1C13687A0 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Tests" */;
 			buildPhases = (
-				655048DF8F4D572C9867595656118BC7 /* Headers */,
-				C1CF6D9396D9C9D6B80C4D38660CADDC /* Sources */,
-				91F0BCD783AA05EC7109B607C3D0D20E /* Frameworks */,
-				871EFF4E2DF7D74A3A2B87576AE8107D /* Resources */,
+				7938F8A7B7C624C753CD1BB82855E76B /* Headers */,
+				79218E34B0EA2B2A4BDD328A6AE2A4C1 /* Sources */,
+				0D71F042C4AF46C2AF40173271A6E62C /* Frameworks */,
+				BB8FA73EAA6428592801E253DC4E06BA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				78AFAADDB998AFE21D306C5EEE838AFD /* PBXTargetDependency */,
+				AF7015602FC13CED89E68F7338DA986E /* PBXTargetDependency */,
 			);
 			name = "Pods-EFMarkdown_Tests";
 			productName = "Pods-EFMarkdown_Tests";
-			productReference = F0C230DF3A164AC007C31F11B2853DDB /* Pods_EFMarkdown_Tests.framework */;
+			productReference = 1AEC3882C9342BBAFF90F1877055B78B /* Pods_EFMarkdown_Tests.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		6CA88B3F5E91E1F71810207F801FB476 /* EFMarkdown */ = {
+		48FABF783E55028D837026F7669DF047 /* EFMarkdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = E44772BFC135F2D11E55BAFEFB890035 /* Build configuration list for PBXNativeTarget "EFMarkdown" */;
+			buildConfigurationList = 5DC3A7E1F6E5265AF16CCF3162234DD9 /* Build configuration list for PBXNativeTarget "EFMarkdown" */;
 			buildPhases = (
-				D81EFA932F86FF205B4B038051B0E9D3 /* Headers */,
-				EEDFA4DE1135D9AD65E09D750874DF89 /* Sources */,
-				4A801061DC99A574F0F60CAAECFB77E8 /* Frameworks */,
-				D86BD909F76781AA08AAC6AF72566BA2 /* Resources */,
+				6B759E0203CD6CF36F166B90C49EA310 /* Headers */,
+				B921718325D6322FACDBBD54F5F1B291 /* Sources */,
+				4A6B568BD6F11389CD8A0B2629425326 /* Frameworks */,
+				EBAD0946189D5792F9F2C363D9E41B4C /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				146EF2F5A7C01EF64944458402F319C0 /* PBXTargetDependency */,
-				D108E23BDF1C7B3955D5763BDBB67A1F /* PBXTargetDependency */,
+				705091ADF6B4990145823B6E03304A62 /* PBXTargetDependency */,
+				937B7A7463A14C549E40BDCE41929DBD /* PBXTargetDependency */,
 			);
 			name = EFMarkdown;
 			productName = EFMarkdown;
-			productReference = 397874EAD09AEDC4464BCA265B1C56C1 /* EFMarkdown.framework */;
+			productReference = 5F8E437C22E2C752FC4C9F5D569AFDCE /* EFMarkdown.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		C6C91B54E556D19610FE01641EA04BBF /* EFCMark */ = {
+		56C7C31241203F7913913DF7EB8F6970 /* EFCMark */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D5D7578501B0570C1128D453AC1C38F9 /* Build configuration list for PBXNativeTarget "EFCMark" */;
+			buildConfigurationList = 6C3ACE47DD1735D51F45A7B65E67795B /* Build configuration list for PBXNativeTarget "EFCMark" */;
 			buildPhases = (
-				1C3D5AA541DCDDCAB498CEE2527AC41B /* Headers */,
-				EC3FBE835AF5F1F8E1D12E681723C743 /* Sources */,
-				42FF133B3CCF643112161FDC4AAED998 /* Frameworks */,
-				4CAA6B97D59300BF41832734706DB591 /* Resources */,
+				63BB69087D1657DCE1CE0F016D7F710B /* Headers */,
+				36013708224AD8C440470AE4A373C2A9 /* Sources */,
+				90041E3889E3375785B9FF1532AC3A8B /* Frameworks */,
+				9D5A325C2CDAC16A8C572479BFC96575 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -659,427 +662,212 @@
 			);
 			name = EFCMark;
 			productName = EFCMark;
-			productReference = B79E72DE4D299A7138B5175E602AD0EE /* EFCMark.framework */;
+			productReference = 1062D7464409C32E67F72337541DE958 /* EFCMark.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F55494EC5349CB2E5FA48794671A37C2 /* Pods-EFMarkdown_Example */ = {
+		FD24C4148583707A05F8608772DBAE74 /* EFMarkdown-EFMarkdown */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = B1F9408E0C9B5BE3AF07AA5BD8669E3E /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Example" */;
+			buildConfigurationList = 9F56C84F95A06617D0EC6B9F31E9CDBF /* Build configuration list for PBXNativeTarget "EFMarkdown-EFMarkdown" */;
 			buildPhases = (
-				7AE6FE4B4547021418FC95F879022575 /* Headers */,
-				4356B9D30E4E73F890C5D522C14C0638 /* Sources */,
-				2935AFE46519B82B78B0FB7490C10891 /* Frameworks */,
-				45CCA7984D6454FE38D4112A6F7D1662 /* Resources */,
+				420B0659F0EE5D3ADF075ECD1B044E7D /* Sources */,
+				9BEF778605DCE0E285F6E86395139158 /* Frameworks */,
+				DFFDFA71E43DD3AF40F0F04FFD9B60D3 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				19562D2AD74D0DA0954F475594202CC0 /* PBXTargetDependency */,
-				2072C814CBB1889B9F991BC9B783E16C /* PBXTargetDependency */,
 			);
-			name = "Pods-EFMarkdown_Example";
-			productName = "Pods-EFMarkdown_Example";
-			productReference = 1F1EB9A3ECF7E8B80EB5D6C356C898CF /* Pods_EFMarkdown_Example.framework */;
-			productType = "com.apple.product-type.framework";
+			name = "EFMarkdown-EFMarkdown";
+			productName = "EFMarkdown-EFMarkdown";
+			productReference = F844069921F0DA547B4B812550E8F5E5 /* EFMarkdown.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0930;
 				LastUpgradeCheck = 0930;
 			};
-			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = AEACEA42FBA4B05D8AC6FFADD8804753 /* Products */;
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 37732700C54FA4D03BD4D542F1A98380 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				C6C91B54E556D19610FE01641EA04BBF /* EFCMark */,
-				6CA88B3F5E91E1F71810207F801FB476 /* EFMarkdown */,
-				1BC7CC699AE312C5DB6756123BE6C98C /* EFMarkdown-EFMarkdown */,
-				F55494EC5349CB2E5FA48794671A37C2 /* Pods-EFMarkdown_Example */,
-				62FCDC5CFC2DDFC5A4732D68EB7BD083 /* Pods-EFMarkdown_Tests */,
+				56C7C31241203F7913913DF7EB8F6970 /* EFCMark */,
+				48FABF783E55028D837026F7669DF047 /* EFMarkdown */,
+				FD24C4148583707A05F8608772DBAE74 /* EFMarkdown-EFMarkdown */,
+				0ADEB6E7D60B67126073846482152831 /* Pods-EFMarkdown_Example */,
+				13DCFC8BE31EEBA6C5F9C4DD83145B4B /* Pods-EFMarkdown_Tests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2C61AE7614F3ADA536B2E0F778AE265D /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F4D47D15BFA8266A27A4EE3E0E43E3F0 /* index.html in Resources */,
-				461E7C9C5B74C434B31FC289882C83A2 /* main.css in Resources */,
-				181FCC261FDD8A17D8DCCFB901163BDA /* main.js in Resources */,
-				07067D6B6F9084EF81B19C2F5B59EBED /* vendor.js in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		45CCA7984D6454FE38D4112A6F7D1662 /* Resources */ = {
+		9D5A325C2CDAC16A8C572479BFC96575 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4CAA6B97D59300BF41832734706DB591 /* Resources */ = {
+		BB8FA73EAA6428592801E253DC4E06BA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		871EFF4E2DF7D74A3A2B87576AE8107D /* Resources */ = {
+		DFFDFA71E43DD3AF40F0F04FFD9B60D3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				70DEB773D48D93EDE566142A5D3451C9 /* index.html in Resources */,
+				2920B38F591C914E4F6800BD1A888E8E /* main.css in Resources */,
+				0D5CF944461290A248CCFEF6BEC034CB /* main.js in Resources */,
+				4A35B347A5B2CA823CAF5DD64B4FCEA6 /* vendor.js in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E120B6A80C4409E28E07BCBFFDEF0E69 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D86BD909F76781AA08AAC6AF72566BA2 /* Resources */ = {
+		EBAD0946189D5792F9F2C363D9E41B4C /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9483D890F89EB41292B05247A48251F8 /* EFMarkdown.bundle in Resources */,
+				F292BE6F2F655842B28B02D95B6F4DD2 /* EFMarkdown.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4356B9D30E4E73F890C5D522C14C0638 /* Sources */ = {
+		36013708224AD8C440470AE4A373C2A9 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D3287722472B251CCB15FB4C7BD49562 /* Pods-EFMarkdown_Example-dummy.m in Sources */,
+				00BEFAE8734B64E56A055DE5B9D6AD30 /* arena.c in Sources */,
+				C8D336206BD5E5E8296188BCCF8E825B /* autolink.c in Sources */,
+				FBF0C7F23A09864ED46F5C58A511B1ED /* blocks.c in Sources */,
+				CD55D55805C9338CF5CDD6AF88464AC1 /* buffer.c in Sources */,
+				F8F13DFC4B6A0D385A2D464D01F5412C /* cmark.c in Sources */,
+				DF35FF3D0DFAFAAD5910CC2885717659 /* cmark_ctype.c in Sources */,
+				623A62B790783F4B87023012895C230D /* commonmark.c in Sources */,
+				7D2D3079B1DF741A24D118BCA15D47F2 /* core-extensions.c in Sources */,
+				41C8D51CA30F07FECBB120E4EBD04CEC /* EFCMark-dummy.m in Sources */,
+				9327AAF8349CADF8262B26C82BD83AE2 /* ext_scanners.c in Sources */,
+				BCA910611DAD49A547CDA7C78CD69069 /* houdini_href_e.c in Sources */,
+				40C1386C5749E3C9D59469F715A7203F /* houdini_html_e.c in Sources */,
+				BCED20A42C92119568800343E20E75F4 /* houdini_html_u.c in Sources */,
+				9A65BC685273D63C4F115E4C201B036B /* html.c in Sources */,
+				8694A172A0B5D1A9BD8F4A5F78A47034 /* inlines.c in Sources */,
+				AD3DEFCCEEB34942BA0FAB48BD0DFAE5 /* iterator.c in Sources */,
+				CB5A553B9416A0735F0C9E63DAB61964 /* latex.c in Sources */,
+				C43B4FF74195BF463B260AA5A04E7D0B /* linked_list.c in Sources */,
+				29B15850DF46224E6DDDC1382A826034 /* man.c in Sources */,
+				139A85D456BD33952A8A75D9E3530C41 /* node.c in Sources */,
+				DF78DE9D8AA05504BA42768328AA8EC5 /* plaintext.c in Sources */,
+				29C077B771ADCD6AB21829F518804FDF /* plugin.c in Sources */,
+				B78AEAD51947E63692222AB980134566 /* references.c in Sources */,
+				39D860B9F4CAF4FB21D677F4A985AF7F /* registry.c in Sources */,
+				F631E9C139A93859EFFDC0AC96EFB344 /* render.c in Sources */,
+				2CAE76A0BADAFB488DC3823F87DFFF0B /* scanners.c in Sources */,
+				FD724C402AAF4B33923043974E2DF679 /* strikethrough.c in Sources */,
+				DE749A40949DFE3E90F2A974421BEECC /* syntax_extension.c in Sources */,
+				474CD9F028288814FC323127C9446F5A /* table.c in Sources */,
+				C4119CEC423E4F612B870EB79F9C74B7 /* tagfilter.c in Sources */,
+				16907016FA03F7145DDE508F9A426E0A /* utf8.c in Sources */,
+				FEFCD6674BCA0A413682780D9021F59B /* xml.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C1CF6D9396D9C9D6B80C4D38660CADDC /* Sources */ = {
+		39239D382705DDA27B4B5B2BD3972B1E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9F90653BE7D5ACDF27E8C3C807655BD9 /* Pods-EFMarkdown_Tests-dummy.m in Sources */,
+				7E9E7EB052BF46C04CDE1B6D30F85AC7 /* Pods-EFMarkdown_Example-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E67EC385BBDE5635AABE07262E8AAD9E /* Sources */ = {
+		420B0659F0EE5D3ADF075ECD1B044E7D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EC3FBE835AF5F1F8E1D12E681723C743 /* Sources */ = {
+		79218E34B0EA2B2A4BDD328A6AE2A4C1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				573F98DFC48918AD8E95909A8A4FD425 /* arena.c in Sources */,
-				1C8C8EB96CB295F74D461C4F7451C85C /* autolink.c in Sources */,
-				37527F6C9188298BB225E5A4BB047E4B /* blocks.c in Sources */,
-				2B16017B8F40C866CFE4AE24C53AE074 /* buffer.c in Sources */,
-				CC81F0DE7FD2654BF2D326DCB13B4F2E /* cmark.c in Sources */,
-				A20CF72DF9CECACF85A91939FBF1B96A /* cmark_ctype.c in Sources */,
-				E5ADA5DECCD092857B6A6730991C9A0F /* commonmark.c in Sources */,
-				926DB2D5117E4283847F59A79A85FE78 /* core-extensions.c in Sources */,
-				11486C93CF033184C7EFBBC418EB0F55 /* EFCMark-dummy.m in Sources */,
-				19FF1A6D5EFDDB8302F15A31760D69FC /* ext_scanners.c in Sources */,
-				ED7358C6E55228A5799EAB8987344FD9 /* houdini_href_e.c in Sources */,
-				8BAF767F3BCE17A5077DA3074D454B77 /* houdini_html_e.c in Sources */,
-				04BA9E57BAF8F068629FD45D48527D48 /* houdini_html_u.c in Sources */,
-				D5003A2601D4D29FD6EBF6A16D571227 /* html.c in Sources */,
-				302086AF4E7ED947AD56F855028D23F9 /* inlines.c in Sources */,
-				C100F4AA5E7513929238BBC918EF71B9 /* iterator.c in Sources */,
-				527A214BB50EE536E4C03E1E65CF8C01 /* latex.c in Sources */,
-				B490FFAF0D855D63D97B1930DC3E6012 /* linked_list.c in Sources */,
-				3A725F9C2CAD6C32AA7E872047843043 /* man.c in Sources */,
-				D5808B10BD2E901ECEA462B4935B062B /* node.c in Sources */,
-				820C804BA500B946CBA4438B58BE1FFB /* plaintext.c in Sources */,
-				97E94014695863E8BA97DC755930A41D /* plugin.c in Sources */,
-				6AFF14B8345D4A8097534BDDC383F045 /* references.c in Sources */,
-				DD82A2546B9A63A9F6D760B753176B26 /* registry.c in Sources */,
-				4A36E3B33AF5CFDA3D4FD698DF31FA01 /* render.c in Sources */,
-				3CA3D5F4025A6D5A1C92E83556DBBDA7 /* scanners.c in Sources */,
-				02275F953AAB6B143E96D7BF49FFF8B3 /* strikethrough.c in Sources */,
-				A803357C13999851826E7FD6AE043C1B /* syntax_extension.c in Sources */,
-				C18AADC23D699DA421597D1D4F28457E /* table.c in Sources */,
-				3DDFC58CBD3701506B5E03803D6D07C6 /* tagfilter.c in Sources */,
-				2668CD9E33589575B351B526016AB45B /* utf8.c in Sources */,
-				B855ED84C0BD250D9B5AE7DDDF72DA27 /* xml.c in Sources */,
+				A7A3A05A09119CC2A94EF9488F06B901 /* Pods-EFMarkdown_Tests-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		EEDFA4DE1135D9AD65E09D750874DF89 /* Sources */ = {
+		B921718325D6322FACDBBD54F5F1B291 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4FE664807E8C1AC4EF1E5C489D4DE242 /* EFMarkdown+Table.swift in Sources */,
-				D20C3D2161CF713973DDAED3D8A6E0B6 /* EFMarkdown-dummy.m in Sources */,
-				7C60AB9F7981CE7299C128E91208D026 /* EFMarkdown.swift in Sources */,
-				88086076FA87B67F388D227D985FCA05 /* EFMarkdownView.swift in Sources */,
-				9A9BBE1B8A92A686D2AF2E41B4A9ED04 /* Global.swift in Sources */,
-				9A66CCC8874F907274ADD4AB8675586E /* String+.swift in Sources */,
+				F0DE058792077A934CD89FD46FE298AE /* EFMarkdown+Table.swift in Sources */,
+				75FAF8CEA0CB47E3F99D89FC6D3D97CF /* EFMarkdown-dummy.m in Sources */,
+				2DD1C0874B5383587A6BB8061CE2DD81 /* EFMarkdown.swift in Sources */,
+				D711C49E819F6AE41EF430A3F7713903 /* EFMarkdownView.swift in Sources */,
+				3A36891A8A1DF81736803D577C31C7A3 /* Global.swift in Sources */,
+				008B5AB9BCB45A333718331474C12DFF /* String+.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		146EF2F5A7C01EF64944458402F319C0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EFCMark;
-			target = C6C91B54E556D19610FE01641EA04BBF /* EFCMark */;
-			targetProxy = DDF10AD4978DC920C76B4B2DB4A41071 /* PBXContainerItemProxy */;
-		};
-		19562D2AD74D0DA0954F475594202CC0 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = EFCMark;
-			target = C6C91B54E556D19610FE01641EA04BBF /* EFCMark */;
-			targetProxy = 056EE7B8EC4BC53510CF68F2CEA82E05 /* PBXContainerItemProxy */;
-		};
-		2072C814CBB1889B9F991BC9B783E16C /* PBXTargetDependency */ = {
+		6C638A493068E451A567D9BA17DF28D2 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = EFMarkdown;
-			target = 6CA88B3F5E91E1F71810207F801FB476 /* EFMarkdown */;
-			targetProxy = 28B3FE7BEAD71DCE788D75A2D164E19C /* PBXContainerItemProxy */;
+			target = 48FABF783E55028D837026F7669DF047 /* EFMarkdown */;
+			targetProxy = 43F1A7D7441A7D74C2DD3C9C1DCED2D2 /* PBXContainerItemProxy */;
 		};
-		78AFAADDB998AFE21D306C5EEE838AFD /* PBXTargetDependency */ = {
+		705091ADF6B4990145823B6E03304A62 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Pods-EFMarkdown_Example";
-			target = F55494EC5349CB2E5FA48794671A37C2 /* Pods-EFMarkdown_Example */;
-			targetProxy = 05F14779E914BC9BCC33EC677D21FE80 /* PBXContainerItemProxy */;
+			name = EFCMark;
+			target = 56C7C31241203F7913913DF7EB8F6970 /* EFCMark */;
+			targetProxy = 3F427C762A631E26ACD3F7643B7790E4 /* PBXContainerItemProxy */;
 		};
-		D108E23BDF1C7B3955D5763BDBB67A1F /* PBXTargetDependency */ = {
+		84EFBAC47A6F5F8C1D442672D09CE21E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = EFCMark;
+			target = 56C7C31241203F7913913DF7EB8F6970 /* EFCMark */;
+			targetProxy = 25C0BEB66BB2FEEA10619CCA18178E6E /* PBXContainerItemProxy */;
+		};
+		937B7A7463A14C549E40BDCE41929DBD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "EFMarkdown-EFMarkdown";
-			target = 1BC7CC699AE312C5DB6756123BE6C98C /* EFMarkdown-EFMarkdown */;
-			targetProxy = 4BE4A72694EE7D00D214DB544C367A13 /* PBXContainerItemProxy */;
+			target = FD24C4148583707A05F8608772DBAE74 /* EFMarkdown-EFMarkdown */;
+			targetProxy = D8C36FB2B738C30998A46E41A879060B /* PBXContainerItemProxy */;
+		};
+		AF7015602FC13CED89E68F7338DA986E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-EFMarkdown_Example";
+			target = 0ADEB6E7D60B67126073846482152831 /* Pods-EFMarkdown_Example */;
+			targetProxy = 250B57632FEAF748FA9AC9B1BE7439C1 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0D4D6B3B8234812D180248B5FA244827 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E096C46FC713FF3B638C49F0223F018 /* EFCMark.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EFCMark/EFCMark-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFCMark/EFCMark-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFCMark/EFCMark.modulemap";
-				PRODUCT_MODULE_NAME = EFCMark;
-				PRODUCT_NAME = EFCMark;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		1C33EAAC02CA475D12519984D6C3E57A /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0846688D9E63151AF7CCAB142E7A5B5F /* Pods-EFMarkdown_Tests.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		3568677E4D1E88F556ECDC07A6AF5E90 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 39E17074C40DABB694EBD7F4A36FD88E /* Pods-EFMarkdown_Example.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		7CA93CCF3C972ED74819ED332B3F6B0E /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 462ADB20902FABCE8AFD0ACAF453E411 /* Pods-EFMarkdown_Example.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A1D760858F6DF3BA5E5BE35627003A2F /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F2BB2622C889CB3CAA98D9B5524215 /* EFMarkdown.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EFMarkdown/EFMarkdown-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFMarkdown/EFMarkdown-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFMarkdown/EFMarkdown.modulemap";
-				PRODUCT_MODULE_NAME = EFMarkdown;
-				PRODUCT_NAME = EFMarkdown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		A6C8D142BC92EDB93EE092268E902AB3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1E096C46FC713FF3B638C49F0223F018 /* EFCMark.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/EFCMark/EFCMark-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/EFCMark/EFCMark-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/EFCMark/EFCMark.modulemap";
-				PRODUCT_MODULE_NAME = EFCMark;
-				PRODUCT_NAME = EFCMark;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		BAE584AD7CE6AD988A2637DB0A79C106 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F2BB2622C889CB3CAA98D9B5524215 /* EFMarkdown.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EFMarkdown";
-				INFOPLIST_FILE = "Target Support Files/EFMarkdown/ResourceBundle-EFMarkdown-EFMarkdown-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = EFMarkdown;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Debug;
-		};
-		BE01AF5D395AE305A54D518A9B774D2A /* Release */ = {
+		05DF210AC65EBB0E593AAF976B2C2177 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1139,42 +927,9 @@
 			};
 			name = Release;
 		};
-		C1799F67794AE25993AFCD3B09A0EAE8 /* Debug */ = {
+		2254054E65AB3A410C11830D90D7D664 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A36DB3B1B157AE252BFB3B5B6906E204 /* Pods-EFMarkdown_Tests.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		CE3DAD1134E981B3F4F7358AD2CB0506 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F2BB2622C889CB3CAA98D9B5524215 /* EFMarkdown.xcconfig */;
+			baseConfigurationReference = D454AC32950556846335BBA08ECF96B6 /* EFMarkdown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1196,14 +951,15 @@
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_VERSION = 4.2;
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
-		CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */ = {
+		421ECB1396280A8D83853C3DDBED1700 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -1267,9 +1023,188 @@
 			};
 			name = Debug;
 		};
-		F4F583B3E5C507A1246E6EE927FB195B /* Release */ = {
+		49FD59ACDD28335E5CBAE7403E20D076 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 88F2BB2622C889CB3CAA98D9B5524215 /* EFMarkdown.xcconfig */;
+			baseConfigurationReference = C9177AF88A40116A2870FF0503DB8561 /* Pods-EFMarkdown_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		728C66A9FAF7F1B003F718AA28C13281 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5D53FF603D99AC79BC63100FFD50C07 /* Pods-EFMarkdown_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Tests/Pods-EFMarkdown_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7943977C3C6AA6E7222B9473E8C047C5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D454AC32950556846335BBA08ECF96B6 /* EFMarkdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFMarkdown/EFMarkdown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFMarkdown/EFMarkdown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFMarkdown/EFMarkdown.modulemap";
+				PRODUCT_MODULE_NAME = EFMarkdown;
+				PRODUCT_NAME = EFMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7C634861113FF40CD63C842D56A8A439 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D454AC32950556846335BBA08ECF96B6 /* EFMarkdown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EFMarkdown";
+				INFOPLIST_FILE = "Target Support Files/EFMarkdown/ResourceBundle-EFMarkdown-EFMarkdown-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = EFMarkdown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		813C8A97C4DFF211CC21F869285A2A36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 25A8E2E2BFFC1C51E9DC232ACAA82E76 /* Pods-EFMarkdown_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		94A0B842356888ADF02FA029A7F1AE72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F0D051194E5956318730B7C6D25B57 /* EFCMark.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFCMark/EFCMark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFCMark/EFCMark-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFCMark/EFCMark.modulemap";
+				PRODUCT_MODULE_NAME = EFCMark;
+				PRODUCT_NAME = EFCMark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B0E34DEFC428723A762B2A0B88A11A45 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D454AC32950556846335BBA08ECF96B6 /* EFMarkdown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/EFMarkdown";
@@ -1283,64 +1218,129 @@
 			};
 			name = Release;
 		};
+		B5A051AD55184752B2BBD64583D7BE08 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8619DB46906D6E1EBF120E73E4E723A0 /* Pods-EFMarkdown_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-EFMarkdown_Example/Pods-EFMarkdown_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D153561FB5AFACC03B83393A9C6FF583 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 07F0D051194E5956318730B7C6D25B57 /* EFCMark.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/EFCMark/EFCMark-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/EFCMark/EFCMark-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/EFCMark/EFCMark.modulemap";
+				PRODUCT_MODULE_NAME = EFCMark;
+				PRODUCT_NAME = EFCMark;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CFC8DEA7B5326676BA33093221AAE4F4 /* Debug */,
-				BE01AF5D395AE305A54D518A9B774D2A /* Release */,
+				421ECB1396280A8D83853C3DDBED1700 /* Debug */,
+				05DF210AC65EBB0E593AAF976B2C2177 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		B1F9408E0C9B5BE3AF07AA5BD8669E3E /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Example" */ = {
+		5DC3A7E1F6E5265AF16CCF3162234DD9 /* Build configuration list for PBXNativeTarget "EFMarkdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				3568677E4D1E88F556ECDC07A6AF5E90 /* Debug */,
-				7CA93CCF3C972ED74819ED332B3F6B0E /* Release */,
+				7943977C3C6AA6E7222B9473E8C047C5 /* Debug */,
+				2254054E65AB3A410C11830D90D7D664 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D434A72B5B9C39F9D2D82B29BFC47F92 /* Build configuration list for PBXNativeTarget "EFMarkdown-EFMarkdown" */ = {
+		6C3ACE47DD1735D51F45A7B65E67795B /* Build configuration list for PBXNativeTarget "EFCMark" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BAE584AD7CE6AD988A2637DB0A79C106 /* Debug */,
-				F4F583B3E5C507A1246E6EE927FB195B /* Release */,
+				94A0B842356888ADF02FA029A7F1AE72 /* Debug */,
+				D153561FB5AFACC03B83393A9C6FF583 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D5D7578501B0570C1128D453AC1C38F9 /* Build configuration list for PBXNativeTarget "EFCMark" */ = {
+		92C1FBCE017FDF243749294D0A8F3CA5 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Example" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				A6C8D142BC92EDB93EE092268E902AB3 /* Debug */,
-				0D4D6B3B8234812D180248B5FA244827 /* Release */,
+				B5A051AD55184752B2BBD64583D7BE08 /* Debug */,
+				813C8A97C4DFF211CC21F869285A2A36 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		E44772BFC135F2D11E55BAFEFB890035 /* Build configuration list for PBXNativeTarget "EFMarkdown" */ = {
+		9F56C84F95A06617D0EC6B9F31E9CDBF /* Build configuration list for PBXNativeTarget "EFMarkdown-EFMarkdown" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CE3DAD1134E981B3F4F7358AD2CB0506 /* Debug */,
-				A1D760858F6DF3BA5E5BE35627003A2F /* Release */,
+				7C634861113FF40CD63C842D56A8A439 /* Debug */,
+				B0E34DEFC428723A762B2A0B88A11A45 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F841A9151842BA0FAF699F38E7830E77 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Tests" */ = {
+		F25650D9578D7F3EAD481CA1C13687A0 /* Build configuration list for PBXNativeTarget "Pods-EFMarkdown_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				C1799F67794AE25993AFCD3B09A0EAE8 /* Debug */,
-				1C33EAAC02CA475D12519984D6C3E57A /* Release */,
+				49FD59ACDD28335E5CBAE7403E20D076 /* Debug */,
+				728C66A9FAF7F1B003F718AA28C13281 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 }

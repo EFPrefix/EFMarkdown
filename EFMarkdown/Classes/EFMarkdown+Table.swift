@@ -32,7 +32,7 @@ public extension EFMarkdown {
         case right = " style=\"text-align:right\""
     }
 
-    public func formatTable(markdown: String) -> String {
+    func formatTable(markdown: String) -> String {
         if let pre = preTable(markdown: markdown) {
             return pre.0.joined(separator: "\n")
         }
